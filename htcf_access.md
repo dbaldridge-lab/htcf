@@ -67,7 +67,5 @@ If the script created above is called "my_script.sbatch", then you can submit it
 sbatch my_script.sbatch
 ```
 
-** add array jobs
-** add how to use squeue
-** add how to use sacct
+(Credit to Emma Johnson for this writeup)
 
