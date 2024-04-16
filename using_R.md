@@ -1,3 +1,4 @@
+(Credit to Emma Johnson for this writeup)
 ## Configuration
 
 **YOU ONLY NEED TO DO THIS ONCE**
