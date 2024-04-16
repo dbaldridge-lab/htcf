@@ -1,3 +1,5 @@
+(Credit to Emma Johnson for this writeup)
+
 ## Logging in from a Mac or Linux
 HTCF can be logged onto from your local computer on a mac or linux by using the pre-instaled terminal application.
 1. To open a terminal window, you can either search for "terminal" in the search bar or can navigate to the application by opening a finder window and then navigating to Applications > Utilities > Terminal.
@@ -67,5 +69,4 @@ If the script created above is called "my_script.sbatch", then you can submit it
 sbatch my_script.sbatch
 ```
 
-(Credit to Emma Johnson for this writeup)
 
