@@ -60,7 +60,7 @@ runr
 R
 
 ## set primary library to the lab's library (this will make sure all installs go in here)
-.libPaths("/ref/dblab/software/r-envs/aalab_R/4.1.3")
+.libPaths("/ref/dblab/software/r-envs/dblab_R/4.1.3")
 
 ## install package, e.g.:
 install.packages("ggdogs")
@@ -104,7 +104,7 @@ is unavailable you can set INCLUDE_DIR and LIB_DIR manually via:
 R CMD INSTALL --configure-vars='INCLUDE_DIR=... LIB_DIR=...'
 --------------------------------------------------------------------
 ERROR: configuration failed for package ‘xml2’
-* removing ‘/ref/aalab/software/r-envs/aalab_R/4.1.3/xml2’
+* removing ‘/ref/dblab/software/r-envs/dblab_R/4.1.3/xml2’
 ```
 
 **The problem:** libxml software wasn't loaded in the environment
