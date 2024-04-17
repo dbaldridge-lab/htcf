@@ -9,7 +9,7 @@ HTCF can be logged onto from your local computer on a mac or linux by using the 
 ssh username@login.htcf.wustl.edu
 ```
 
-3. When prompted, enter your password. This will be the same password you use with your wustl key.
+3. When prompted, enter ```<your_wustl_password>```. This will be the same password you use with your wustl key.
 
 ## "Hacking" the login process with a bash alias
 Using an alias on your local computer, you can actually make the logon process quicker, by simply typing "logon" instead of having to type out the ssh command everytime you want to login.
