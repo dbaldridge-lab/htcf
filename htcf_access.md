@@ -1,12 +1,17 @@
-(Credit to Emma Johnson for this writeup)
+(Credit to Emma Johnson / Yiming Kang for this writeup)
 
-## Logging in from a Mac or Linux
-HTCF can be logged onto from your local computer on a mac or linux by using the pre-instaled terminal application.
-1. To open a terminal window, you can either search for "terminal" in the search bar or can navigate to the application by opening a finder window and then navigating to Applications > Utilities > Terminal.
-2. Type the ssh command into terminal like so, replacing "username" with your assigned username.
+## VPN
+First things first is to connect to WUSM-secure wifi or ethernet.
+
+If you want to work off campus, you need to use a VPN. Download the Cisco AnyConnect app and install. In the app, type in msvpn.wusm.wustl.edu for connecting address, and use accounts\<your_wustl_id> and <your_wustl_password> for authentication.
+
+## Logging in to the cluster (Mac or Linux)
+HTCF can be logged onto from your local computer on a mac or linux by using the pre-installed terminal application.
+1. To open a terminal window. You can either search for "terminal" in the search bar or can navigate to the application by opening a finder window and then navigating to Applications > Utilities > Terminal.
+2. Type the ssh command in the terminal, using your assigned username.
 
 ```
-ssh username@login.htcf.wustl.edu
+ssh <your_wustl_id>@login.htcf.wustl.edu
 ```
 
 3. When prompted, enter ```<your_wustl_password>```. This will be the same password you use with your wustl key.
