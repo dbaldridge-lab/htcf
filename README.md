@@ -1,8 +1,8 @@
 # Using HTCF
-This repository includes information on accessing and installing software on htcf
+This repository includes information on software and common workflows on the htcf cluster at WashU
 
 # <a name="documentslist"></a>Getting Started
-[How to access and best practices for HTCF (server at WashU)](https://github.com/dbaldridge-lab/htcf/blob/main/htcf_access.md)  
+[Logging on and running jobs](https://github.com/dbaldridge-lab/htcf/blob/main/htcf_access.md)  
 
 [(under construction)How to use R on htcf](https://github.com/dbaldridge-lab/htcf/blob/main/using_R.md)  
 
