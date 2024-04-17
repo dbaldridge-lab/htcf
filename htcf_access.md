@@ -1,6 +1,6 @@
 (Credit to Emma Johnson / Yiming Kang for this writeup)
 
-## VPN
+## Connect to the network
 First things first is to connect to WUSM-secure wifi or ethernet.
 
 If you want to work off campus, you need to use a VPN. Download the Cisco AnyConnect app and install. In the app, type in msvpn.wusm.wustl.edu for connecting address, and use accounts\<your_wustl_id> and <your_wustl_password> for authentication.
