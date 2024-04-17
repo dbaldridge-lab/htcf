@@ -16,6 +16,8 @@ ssh <your_wustl_id>@login.htcf.wustl.edu
 
 3. When prompted, enter ```<your_wustl_password>```. This will be the same password you use with your wustl key.
 
+You are now in a HTCF login shell. **Do NOT execute any heavy computation in the login shell.** Instead, there are two ways to execute your computation jobs listed below.
+
 ## "Hacking" the login process with a bash alias
 Using an alias on your local computer, you can actually make the logon process quicker, by simply typing "logon" instead of having to type out the ssh command everytime you want to login.
 
@@ -40,23 +42,24 @@ logon
 
 ## Running a job on the cluster
 
-Heavy computation should not be performed on the login shell, but instead using one of two methods for executing computation:
+Use one of these two methods for executing computation:
 
-1. an interactive session. Interactive sessions are useful for quick tasks, troubleshooting, or developing code. 
-2. a slurm SBATCH job. This is useful when your task needs many resources (e.g. multiple threads, time). More information is provided in the [slurm documentation](https://slurm.schedmd.com/documentation.html).
-
-To start an interactive session on a single node for a job requiring 2G of memory, you would use the code: 
+1. **Interactive session**: Interactive sessions are useful for quick tasks, troubleshooting, or developing code.
+To start an interactive job on a single node for a job requiring 8G of memory, use the following command. You may change the memory quota for heavy computation. 
 ```
-srun --mem=2G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l
+srun --mem=8G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l
 ```
 
-To submit an SBATCH job requiring a single node and 2G of memory that will take less than 6 hours, you must first create a script following this template:
+2. **SBATCH job**: Submit a SBATCH job to the SLURM scheduler. Once your job exits the queue it will run in the background.  This is useful when your task needs many resources (e.g. multiple threads, time). More information is provided in the [documentation](https://slurm.schedmd.com/documentation.html).
+
+
+To submit an SBATCH job requiring a single node and 8G of memory that will take less than 6 hours, you must first create a script following this template:
 ```
 #!/bin/bash
 
 #SBATCH --job-name=my_job ## name job to make identification in the queue easier
 #SBATCH --nodes=1 ## the number of nodes needed to run the job
-#SBATCH --mem=2gb ## the total memory required to complete the job. suffixes specify units (e.g., G = gigabyte). if memory exceeds this the job will be cancelled.
+#SBATCH --mem=8gb ## the total memory required to complete the job. suffixes specify units (e.g., G = gigabyte). if memory exceeds this the job will be cancelled.
 #SBATCH --time=06:00:00 ## the max amount of time your job will run for. if it exceeds this time it will be cancelled.
 #SBATCH --output=my_job.out ## name of file containing standard output streams
 #SBATCH --error=my_job.err ## name of file containing standard error streams
