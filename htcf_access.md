@@ -72,9 +72,14 @@ hostname ## this will print the nodes the job is running on
 date ## this will print the time the job finished 
 ```
 
-If the script created above is called "my_script.sbatch", then you can submit it to the slurm scheduler using the code:
+If the script created above is called "my_script.sbatch", then submit your job script as follows:
 ```
 sbatch my_script.sbatch
 ```
+After submission, check your the job progress.
+```
+squeue -u <your_account_ID>
+```
+For more sophisticated parallelization, check out the [instructions on how to run a job array](https://htcf.wustl.edu/docs/runningjobs/).
 
 
