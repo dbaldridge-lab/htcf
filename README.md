@@ -9,7 +9,7 @@ This repository includes information on software and common workflows on the clu
 [A helpful introduction to git and Github](https://gwcbi.github.io/HPC/github.html)
 
 # <a name="documentslist"></a>Data Organization
-
+[Storage Types](https://htcf.wustl.edu/docs/storage/)
 
 # <a name="documentslist"></a>Common Analyses
 
