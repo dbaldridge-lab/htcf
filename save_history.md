@@ -1,0 +1,1 @@
+[Bash History Control Tutorial](https://opensource.com/article/20/6/bash-history-control)
