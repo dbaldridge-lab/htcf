@@ -1,5 +1,5 @@
 
-What is the use of .bashrc file?
+##What is the use of .bashrc file?
 
 Bash is a shell, a command processor that typically runs in a text window where the user types commands that cause actions.
 
