@@ -3,7 +3,7 @@
 ## Prerequisites
 - Visual Studio Code installed on your local machine
 - WUSTL microsoft account login information
-- Updated ~/.bashrc file to include "code" alias
+- Updated ~/.bashrc file on HTCF to include "code" alias
 
 ## Steps
 
