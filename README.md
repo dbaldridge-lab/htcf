@@ -4,6 +4,8 @@ This repository includes information on software and common workflows on the clu
 # <a name="documentslist"></a>Getting Started
 [Logging on and running jobs](https://github.com/dbaldridge-lab/htcf/blob/main/htcf_access.md)  
 
+[(under construction)Running Jupyter Notebooks on the server using VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md)  
+
 [(under construction)How to use R on htcf](https://github.com/dbaldridge-lab/htcf/blob/main/using_R.md)  
 
 [A helpful introduction to git and Github](https://gwcbi.github.io/HPC/github.html)
