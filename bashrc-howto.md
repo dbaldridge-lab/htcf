@@ -9,4 +9,5 @@ On HTCF this is executed for your login shell and the shells you enter after run
 
 You can use it to set environment variables, define aliases, and define functions.
 
+Note: This file will not be ran for batch jobs submitted to SLURM. It will also not be ran when opening the Terminal app on MacOS where the default shell is zsh.
 
