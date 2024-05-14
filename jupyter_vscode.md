@@ -5,9 +5,8 @@
 - WUSTL microsoft account login information
 - Updated ~/.bashrc file on HTCF to include "code" alias
 
-## Steps
-
-### 1. Install Extensions
+## DO THIS ONCE
+### 1. Install Extensionshttps://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md
 - Open VSCode on your local machine
 - Go to Extensions (Shortcut: `Cmd+Shift+X`)
 - Search and install the following extensions:
@@ -23,6 +22,9 @@
 - Type `Remote-SSH: Open Configuration File` and select it
 - Add your SSH configuration details
 ![alt text](image.png)
+
+## Normal Process
+
 ### 3. Connect to Remote Server
 - Open Command Palette (Shortcut: `Cmd+Shift+P`)
 - Type `Remote-SSH: Connect to Host...` and select it
