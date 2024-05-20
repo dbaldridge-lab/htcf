@@ -50,16 +50,13 @@ ControlPath ~/.ssh/control:%h:%p:%r
 
 ## Normal Process
 
-### 3. Connect to Remote Server
-- Open Command Palette (Shortcut: `Cmd+Shift+P`)
-- Type `Remote-SSH: Connect to Host...` and select it
-- Choose your configured SSH host or Add New SSH Host and type the following in the prompt:
-```
-ssh login.htcf.wustl.edu
-``` 
-- Enter your 
+### 3. Connect to HTCF
+- Click on <img width="30" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/0c830769-0088-42b5-9a32-17689f942d5e"> in the bottom left-hand corner or
+Open Command Palette (Shortcut: `Cmd+Shift+P`) and type `Remote-SSH: Connect to Host...` and select it.
+- Choose your configured SSH host (will be htcf if you followed the instructions above) or Add New SSH Host and type the following in the prompt: `ssh login.htcf.wustl.edu`
+- Enter your password and press enter
 
-### 4. Open Jupyter Notebook on Remote Server
+### 4. Open Jupyter Notebook on HTCF
 - Open Command Palette (Shortcut: `Cmd+Shift+P`)
 - Type `Jupyter: Create New Blank Notebook` and select it
 - Start coding in your Jupyter notebook
