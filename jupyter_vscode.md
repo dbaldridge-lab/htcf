@@ -45,11 +45,6 @@ ControlPath ~/.ssh/control:%h:%p:%r
 - Launch the command palette (`Cmd+Shift+P` or `F1`) and enter "remote-ssh" to show available options. Selecting "Connect to Host" should now show you a list of entries available in ~/.ssh/config. 
 - Select the "htcf" entry, it should now prompt for a password. 
 - Upon first connection, it will install a small vscode server into your home directory. If you do no have enough space the installation will fail at which point you'll need to clean up additional space in your home directory.
-  
-### 2. Configure SSH for Remote Connection
-- Open Command Palette (Shortcut: `Cmd+Shift+P`)
-- Type `Remote-SSH: Open SSH Configuration File` and select it
-- Add your SSH configuration details
 
 ---
 
