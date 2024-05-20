@@ -29,11 +29,11 @@ VS code excludes certain hidden files from the file explorer by default. To show
 
 <img width="227" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/973bf943-5793-4684-bf90-1147b5054d08">
 
- If the ssh folder does not exists on your machine create one by entering the following at the prompt and pressing enter:
+- If the ssh folder does not exists on your machine, create one by entering the following at the prompt and pressing enter:
 
 ```mkdir ~/.ssh & touch ~/.ssh/config & chmod 700 ~/.ssh & chmod 600 ~/.ssh/config```
 
-- Create an SSH config entry for the cluster in ~/.ssh/config. With the home folder open, you can double click on that file to open it. Enter the following in your ~/.ssh/config, substituting your username and save.
+- Create an SSH config entry for the cluster in ~/.ssh/config. You can double click on that file to open it. Enter the following in ~/.ssh/config, substituting your username and save.
 ```
 Host htcf
 Hostname login.htcf.wustl.edu
@@ -41,10 +41,6 @@ User yourusername
 ControlMaster auto
 ControlPath ~/.ssh/control:%h:%p:%r
 ```
-
-
-<img width="412" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/71b35525-cece-466f-b5f4-8bfd7a587f87">
-
 - Test that the above entry works by opening a terminal and running 'ssh htcf'. If things look OK proceed. 
 - Launch the command palette (`Cmd+Shift+P` or `F1`) and enter "remote-ssh" to show available options. Selecting "Connect to Host" should now show you a list of entries available in ~/.ssh/config. 
 - Select the "htcf" entry, it should now prompt for a password. 
