@@ -1,12 +1,12 @@
 # Setting up VSCode to run Jupyter Notebooks on HTCF
 
 ## Prerequisites
-- Visual Studio Code installed on your local machine
+- Visual Studio Code is installed on your local machine
 - WUSTL microsoft account login information
 - Updated ~/.bashrc file on HTCF to include "code" alias
 
 ## DO THIS ONCE
-### 1. Install Extensionshttps://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md
+### 1. Install Extensions
 - Open VSCode on your local machine
 - Go to Extensions (Shortcut: `Cmd+Shift+X`)
 - Search and install the following extensions:
