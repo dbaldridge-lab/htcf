@@ -18,18 +18,22 @@
       
 Note: you will need to repeat this step once you log on to HTCF. A button will appear on these extensions giving you the option to also install on the remote machine. This will install the extension to your home folder on HTCF.
 
-### 2. Connecting to Login/Interactive nodes to edit files directly in VSCode. 
+### 2. Configuring VSCode to connect to HTCF and edit files on the server directly
 VS code excludes certain hidden files from the file explorer by default. To show hidden files, go to settings and type exclude to adjust the patterns shown in the explorer. The shortcut `Cmd+,` can be used to open the settings menu.
 
-Create an SSH config entry for the cluster in ~/.ssh/config . If the ssh folder does not exists on your machine create one by entering the following at the prompt and pressing enter:
+- Select open <img width="86" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/2ec5756e-5918-475e-b713-d0c0d1f41082">
 
-```mkdir ~/.ssh & touch ~/.ssh/config & chmod 700 ~/.ssh & chmod 600 ~/.ssh/config```
+- Select your home folder and press Open <img width="117" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/8409a121-5d79-406e-aa17-4098e159c7c8">
 
-If you open your home folder in VSCode, refresh and you should see something like this:
+- In the left-hand pane, scroll through the files in your home folder and check if you have a config file in .ssh:
 
 <img width="227" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/973bf943-5793-4684-bf90-1147b5054d08">
 
-Enter the following in your ~/.ssh/config, substituting your username and save. (The control path entry allows VSCode to reuse the existing SSH connection to the cluster).
+ If the ssh folder does not exists on your machine create one by entering the following at the prompt and pressing enter:
+
+```mkdir ~/.ssh & touch ~/.ssh/config & chmod 700 ~/.ssh & chmod 600 ~/.ssh/config```
+
+- Create an SSH config entry for the cluster in ~/.ssh/config. With the home folder open, you can double click on that file to open it. Enter the following in your ~/.ssh/config, substituting your username and save.
 ```
 Host htcf
 Hostname login.htcf.wustl.edu
@@ -38,7 +42,7 @@ ControlMaster auto
 ControlPath ~/.ssh/control:%h:%p:%r
 ```
 
-With the home folder open, you can double click on that file you can open it and edit it.
+
 <img width="412" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/71b35525-cece-466f-b5f4-8bfd7a587f87">
 
 - Test that the above entry works by opening a terminal and running 'ssh htcf'. If things look OK proceed. 
