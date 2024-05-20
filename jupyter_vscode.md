@@ -41,9 +41,13 @@ User yourusername
 ControlMaster auto
 ControlPath ~/.ssh/control:%h:%p:%r
 ```
-- Test that the above entry works by opening a terminal and running 'ssh htcf'. If things look OK proceed. 
+- Test that the above entry works by opening a terminal <img width="26" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/4fcc5b5a-3373-424b-8552-a917632a7dbe">
+and running `ssh htcf`. If you are prompted for a password and are able to log on, proceed.
 - Launch the command palette (`Cmd+Shift+P` or `F1`) and enter "remote-ssh" to show available options. Selecting "Connect to Host" should now show you a list of entries available in ~/.ssh/config. 
-- Select the "htcf" entry, it should now prompt for a password. 
+- You should see an htcf entry
+
+<img width="613" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/a9e712ca-c8f5-4bee-974f-7fdb30e7cbd6">
+
 - Upon first connection, it will install a small vscode server into your home directory. If you do no have enough space the installation will fail at which point you'll need to clean up additional space in your home directory.
 
 ---
