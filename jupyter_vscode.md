@@ -19,8 +19,7 @@
 Note: you will need to repeat this step once you log on to HTCF. A button will appear on these extensions giving you the option to also install on the remote machine. This will install the extension to your home folder on HTCF.
 
 ### 2. Configuring VSCode to connect to HTCF and edit files on the server directly
-VS code excludes certain hidden files from the file explorer by default. To show hidden files, go to settings and type exclude to adjust the patterns shown in the explorer. The shortcut `Cmd+,` can be used to open the settings menu.
-
+While still on your local machine: 
 - Select open <img width="86" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/2ec5756e-5918-475e-b713-d0c0d1f41082">
 
 - Select your home folder and press Open <img width="117" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/8409a121-5d79-406e-aa17-4098e159c7c8">
