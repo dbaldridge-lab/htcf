@@ -10,7 +10,7 @@ You can use it to save time and typing by:
 - defining aliases - give a shortened name to a command you enter frequently
 - defining functions - name a sequence of commands that you will reuse and that may take input. (NOTE: If a function is part of a standard analysis, then it doesn't belong here, as this is specific to your user profile.)
 
-On HTCF, .bashrc is sourced by your login shell and the shells you enter after running srun or salloc commands. You can manually source this file by typing ```source ~/.bashrc``` at the prompt, which you will want to do after you make changes.
+On HTCF, .bashrc is sourced by your login shell and the shells you enter after running srun or salloc commands. 
 
 This file will not be sourced for batch jobs submitted to SLURM using ```sbatch yourjobscript.sh```. 
 
@@ -25,6 +25,7 @@ You are welcome to use any shell of your choice, however setup and troubleshooti
 4. press the down arrow key until your cursor is at the end of the file
 5. Press cmd+v to add the text to the bottom of your file
 6. Press ctrl+x to exit, type y to save.
+7. You can manually source this file by typing ```source ~/.bashrc``` at the prompt or close out of your terminal and log back in to see changes reflected.
 
 ```
 ##################################################################################
