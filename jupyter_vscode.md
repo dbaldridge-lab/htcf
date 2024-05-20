@@ -1,4 +1,5 @@
 # Setting up VSCode to run Jupyter Notebooks on HTCF
+[Or skip to normal setup process](https://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md#normal-process)
 
 ## Prerequisites
 - Visual Studio Code is installed on your local machine
