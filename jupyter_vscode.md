@@ -6,7 +6,7 @@
 - WUSTL microsoft account login information
 - Updated ~/.bashrc file on HTCF to include "code" alias. [See instructions here.](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md)
 
-## DO THIS ONCE
+## Do this once
 ### 1. Install Extensions 
 - Open VSCode on your local machine
 - Go to Extensions <img width="33" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/7b07ab0f-e68f-4b33-954b-2ac556c2ddb9">
