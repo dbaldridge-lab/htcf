@@ -8,7 +8,7 @@ The .bashrc file is a configuration file that is executed whenever a new termina
 You can use it to save time and typing by:
 - setting environment variables (e.g. editing the prompt and PATH)
 - defining aliases - give a shortened name to a command you enter frequently
-- defining functions - a sequence of commands that you will reuse that can take input. (NOTE: If a function is part of a standard analysis, then it doesn't belong here, as this is specific to your user profile.)
+- defining functions - name a sequence of commands that you will reuse and that may take input. (NOTE: If a function is part of a standard analysis, then it doesn't belong here, as this is specific to your user profile.)
 
 On HTCF, .bashrc is sourced by your login shell and the shells you enter after running srun or salloc commands. You can manually source this file by typing ```source ~/.bashrc``` at the prompt, which you will want to do after you make changes.
 
