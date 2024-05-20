@@ -12,5 +12,5 @@ You can use it to save time and typing by:
 
 On HTCF, .bashrc is sourced by your login shell and the shells you enter after running srun or salloc commands. You can manually source this file by typing ```source ~/.bashrc``` at the prompt, which you will want to do after you make changes.
 
-This file will not be ran for batch jobs submitted to SLURM. It will also not be ran when opening the Terminal app on MacOS, where the default shell is zsh. You are welcome to use any shell of your choice on HTCF, but setup and troubleshooting of custom configurations are out of the scope of this manual and are left up to the user.
+This file will not be ran for batch jobs submitted to SLURM. It will also not be ran when opening the Terminal app on MacOS, where the default shell is zsh. You are welcome to use any shell of your choice, but setup and troubleshooting of custom configurations are left up to the user.
 
