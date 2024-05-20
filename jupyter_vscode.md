@@ -15,7 +15,7 @@
     - `ms-python.python`
     - `ms-toolsai.jupyter`
       
-**Note: you will need to repeat this step once you log on to HTCF. A button will appear on these extensions giving you the option to also install on the remote machine. This will install the extension to your home folder on HTCF.**
+Note: you will need to repeat this step once you log on to HTCF. A button will appear on these extensions giving you the option to also install on the remote machine. This will install the extension to your home folder on HTCF.
 
 ### 2. Configure SSH for Remote Connection
 - Open Command Palette (Shortcut: `Cmd+Shift+P`)
