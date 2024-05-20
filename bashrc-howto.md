@@ -18,3 +18,4 @@ If working locally, note that this file will also not be sourced when opening th
 
 You are welcome to use any shell of your choice, however setup and troubleshooting of custom configurations are left up to the user.
 
+## example .bashrc (take what you find useful and leave the rest, or copy all)
