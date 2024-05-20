@@ -57,11 +57,5 @@ alias code='/ref/dblab/software/vscode/code'
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
-
-# Makes the prompt more user-friendly.
-export PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ '
-
-# This is required for Entrez Direct to work. Disables strict checking of an encryption page.
-export PERL_LWP_SSL_VERIFY_HOSTNAME=0
 ###################################################################################
 ```
