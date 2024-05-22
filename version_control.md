@@ -50,7 +50,7 @@ and only use .gitignore to catch exceptions.***
   - You will be prompted for your username and password when you try to push, pull, or clone a repository.
     - Use your GitHub username as the username, and your personal access token as the password.
 
-If you want to avoid entering your PAT every time you push, you can store your credentials: 
+If you want to avoid entering your PAT every time you push, you can store your credentials by entering the following command: 
 
 `git config --global credential.helper store`
 
