@@ -61,7 +61,7 @@ git merge
 1. Test creating a new branch locally in an existing project using the command line or your preferred IDE.
 2. Test checking out and making changes on the local branch, pushing those changes to GitHub, and merging those in to the main branch on GitHub.
 
-## What did the code look like on a certain date
+## Looking back
 ```
 git revert
 ```
