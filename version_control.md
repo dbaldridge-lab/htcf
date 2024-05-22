@@ -16,7 +16,7 @@ git status
 git add
 git commit
 ```
-6. Read about .gitignore. Create a .gitignore file that lists files, filetypes, and directories that shouldn't be version controlled in your project. This includes raw data, figures, code output, excel files(use .csv), and word documents(use .md). Best practice is to not place those files in a version controlled directory to begin with, and only use .gitignore to catch exceptions.
+6. Create a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) that lists files, filetypes, and directories that shouldn't be version controlled in your project. This includes raw data, figures, code output, excel files(use .csv), and word documents(use .md). Best practice is to not place those files in a version controlled directory to begin with, and only use .gitignore to catch exceptions.
 7. Add version control to an existing project or create a new project. 
 8. Make changes and test making commits.
 
