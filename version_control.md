@@ -42,9 +42,12 @@ and only use .gitignore to catch exceptions.***
 2. An admin of the group or RIS will add this account to dbaldridge-lab
 3. Create a Personal Access Token (PAT)
   - Go to your GitHub settings (click on your profile picture in the top right corner and select "Settings").
-  - In the left sidebar, click on "Developer settings".
-  - In the left sidebar, click on "Personal access tokens".
-  - Click on "Generate new token".
+  - In the left sidebar, click on "Developer settings". ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/c4a32562-6686-4ed2-b8f4-47fe5d233ead)
+
+  - In the left sidebar, click on "Personal access tokens". ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/1eecf8e5-7d13-4e01-86b7-68353c1b17ec)
+
+  - Click on "Generate new token (classic)". ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/0f57ad98-b16b-4884-a07c-416c15edae2c)
+
   - Give your token a descriptive name, select the scopes (or permissions) you want to grant this token, and click on "Generate token".
     - ***Be sure to copy your new personal access token now. You won’t be able to see it again!***
   - You will be prompted for your username and password when you try to push, pull, or clone a repository.
