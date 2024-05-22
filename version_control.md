@@ -3,7 +3,7 @@ git and GitHub can be daunting at first, but a few commands are all you need to 
 
 
 1. Start here - Read [documentation](https://git-scm.com/docs) or find a tutorial (there are many good ones) to understand what each command is doing and test them out locally.
-Prerequisites: [git download](https://git-scm.com/downloads) on your local machine
+Prerequisites: [download git](https://git-scm.com/downloads) on your local machine
 ```
 git init
 git status
