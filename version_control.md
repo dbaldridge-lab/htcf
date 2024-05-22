@@ -51,6 +51,8 @@ git pull
 
 [VSCode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_open-a-git-repository)
 
+## Git on HTCF
+
 ## Undoing changes
 [How to undo almost anything with git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
 ```
@@ -73,4 +75,3 @@ git branch
 git checkout
 git merge
 ```
-
