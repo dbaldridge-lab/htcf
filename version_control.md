@@ -27,6 +27,7 @@ git clone
 git pull
 ```
 4. Connect local version controlled files with a remote repository on GitHub. [How-to](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
+5. Make changes and make a pull request.
 
 ## Collaborating on a repo OR you have multiple in-progress features/figures/improvements
 [Hello world](https://docs.github.com/en/get-started/start-your-journey/hello-world)
