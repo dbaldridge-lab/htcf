@@ -15,6 +15,7 @@ git add
 git commit
 ```
 6. Add version control to an existing project or create a new project.
+7. Make changes and test making commits.
 
 ## Sharing code on GitHub
 1. Create a GitHub account or add your wustl email to an existing account
