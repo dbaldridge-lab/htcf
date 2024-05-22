@@ -52,10 +52,11 @@ git pull
 [VSCode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_open-a-git-repository)
 
 ## Git on HTCF
-Git is automatically available on HTCF.
+Git comes pre-installed on HTCF.
 
 <img width="137" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/969da79e-01e9-4c68-a9aa-29397c1e4c97">
 
+For the purposes of this tutorial, think of HTCF as a secondary local machine you use.
 
 ## Undoing changes
 [How to undo almost anything with git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
