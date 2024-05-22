@@ -1,4 +1,4 @@
-git and GitHub can be daunting at first, but a few commands and a bit of setup are all you need to get started. 
+git and GitHub can be daunting, but a few commands and a bit of setup are all you need to get started. 
 
 Sections below are listed in order of importance; 
 get comfortable with the information under one heading before moving on to the next. 
