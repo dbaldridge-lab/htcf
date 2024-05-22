@@ -50,6 +50,8 @@ and only use .gitignore to catch exceptions.***
 
   - Give your token a descriptive name, select the scopes (or permissions) you want to grant this token, and click on "Generate token".
     - ***Be sure to copy your new personal access token now. You won’t be able to see it again!***
+    - Never share your access token, it is a password
+    - Expiration is optional, I typically set it to one year from creation date
   - You will be prompted for your username and password when you try to push, pull, or clone a repository.
     - Use your GitHub username as the username, and your personal access token as the password.
 
