@@ -16,8 +16,9 @@ git status
 git add
 git commit
 ```
-6. Add version control to an existing project or create a new project.
-7. Make changes and test making commits.
+6. Read about .gitignore, and exclude files that shouldn't be version controlled (e.g. data, figures, code output)
+7. Add version control to an existing project or create a new project.
+8. Make changes and test making commits.
 
 ## Sharing code on GitHub
 1. Create a GitHub account or add your wustl email to an existing account
@@ -30,7 +31,7 @@ git pull
 ```
 4. Connect local version controlled files with a remote repository on GitHub. [How-to](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
 5. Make changes and make a pull request.
-6. Review code and accept a pull request.
+6. Review changes and accept a pull request.
 
 ## Collaborating on a repo OR you have multiple in-progress features/figures/improvements
 [Managing branches using GitHub interface](https://docs.github.com/en/get-started/start-your-journey/hello-world)
