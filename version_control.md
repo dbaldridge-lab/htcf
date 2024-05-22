@@ -4,7 +4,10 @@ If you're new to version control and wondering why this is important, [this is a
 
 ## Version control your code with git
 1. Start by [downloading git](https://git-scm.com/downloads) on your local machine.
-2. Read [documentation](https://git-scm.com/docs) or find a tutorial (there are many good ones) to understand what each command is doing and test them out locally.
+2. Open a terminal
+3. Set your username: `git config --global user.name "FIRST_NAME LAST_NAME"`
+4. Set your email address: `git config --global user.email "my_wustl_key@wustl.edu"`
+5. Read [documentation](https://git-scm.com/docs) or find a tutorial to understand what each of the commands below is doing and test them out locally.
 ```
 git init
 git status
@@ -12,13 +15,20 @@ git add
 git commit
 ```
 
-## Sharing your code on GitHub
-2. Learn these when you're ready to put something on GitHub.
-    - Prerequisites: GitHub account associated with a wustl email, dbaldridge-lab member with write access, set up 
+## Sharing code on GitHub
+1. Create a GitHub account or add your wustl email to an existing account
+2. admin will add this account to dbaldridge-lab
+4. 
 ```
 git push
 git clone
 git pull
+```
+
+## Other helpful commands
+
+```
+git branch
 ```
 
 
