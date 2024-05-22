@@ -10,7 +10,7 @@ This repository includes information on software and common workflows on the clu
 
 [(under construction)How to use R on htcf](https://github.com/dbaldridge-lab/htcf/blob/main/using_R.md)  
 
-[A helpful introduction to git and Github](https://github.com/dbaldridge-lab/htcf/blob/main/version_control.md)
+[git and Github](https://github.com/dbaldridge-lab/htcf/blob/main/version_control.md)
 
 [Saving your history](https://github.com/dbaldridge-lab/htcf/blob/main/save_history.md)
 
