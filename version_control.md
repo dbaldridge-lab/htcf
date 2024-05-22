@@ -25,7 +25,7 @@ git commit
   
 ***Best practice is to not place those files in a version controlled directory to begin with, and only use .gitignore to catch exceptions.***
 
-7. Add version control to an existing project or create a new project. 
+7. Add version control to an existing project or create a new project. Use one repository per project.
 8. Make changes and test making commits.
 
 ## Sharing code on GitHub
