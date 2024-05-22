@@ -26,7 +26,7 @@ git pull
 ```
 4. https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
 
-## More than one person is making changes or you have updates to multiple features/figures/improvements in progress
+## Collaborating on a repo OR you have multiple in-progress features/figures/improvements
 [Hello world](https://docs.github.com/en/get-started/start-your-journey/hello-world)
 ```
 git branch
