@@ -52,6 +52,10 @@ git pull
 [VSCode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_open-a-git-repository)
 
 ## Git on HTCF
+Git is automatically available on HTCF.
+
+<img width="137" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/969da79e-01e9-4c68-a9aa-29397c1e4c97">
+
 
 ## Undoing changes
 [How to undo almost anything with git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
@@ -65,7 +69,7 @@ git rm
 Workflow is up to the discretion of the project owner. For small teams, a [centralized workflow](https://anything-git.readthedocs.io/en/latest/git_workflow.html) is usually sufficient. 
 
 A more complicated workflow utilizing feature branches can be useful in cases where:
-- many people are making changes to the code
+- several people are making changes to the code
 - the project lead wants to review code before it gets added to the main branch
 - changes to multiple features, figures, or improvements are in-progress and changes will occur over a number of weeks
   - [Using branches](https://www.atlassian.com/git/tutorials/using-branches)
