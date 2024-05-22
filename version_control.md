@@ -7,29 +7,13 @@ If you're new to version control and wondering why this is important,
 [this is a nice overview](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668).
 
 ## Initial git setup
-1. Start by [downloading git](https://git-scm.com/downloads) on your local machine.
-2. Open a terminal
-3. Set your username: `git config --global user.name "FIRST_NAME LAST_NAME"`
-4. Set your email address: `git config --global user.email "my_wustl_key@wustl.edu"`
-To use a Personal Access Token (PAT) with GitHub, follow these steps:
-
-Generate a new Personal Access Token on GitHub:
-
-Go to your GitHub settings (click on your profile picture in the top right corner and select "Settings").
-In the left sidebar, click on "Developer settings".
-In the left sidebar, click on "Personal access tokens".
-Click on "Generate new token".
-Give your token a descriptive name, select the scopes (or permissions) you want to grant this token, and click on "Generate token".
-Important: Be sure to copy your new personal access token now. You won’t be able to see it again!
-Use the token as your password when performing Git operations over HTTPS. If you're using the command line, this typically means you'll be prompted for your username and password when you try to push, pull, or clone a repository. Use your GitHub username as the username, and your personal access token as the password.
-
-If you want to avoid entering your PAT every time you push, you can store your credentials:
-
-On Linux, you can use the git-credential-store:
-Then the next time you git push, provide your username and PAT. The credentials will be stored for future use.
-
-Remember to keep your Personal Access Tokens secret; treat them just like passwords.
-
+1. Open a terminal
+2. Check if you have git installed on your local machine with `git --version`
+  - If you receive an error, [download git](https://git-scm.com/downloads) 
+3. configure git so it knows who is making changes
+  - Set your username: `git config --global user.name "FIRST_NAME LAST_NAME"`
+  - Set your email address: `git config --global user.email "my_wustl_key@wustl.edu"`
+    
 ## Version control your code with git
 
 1. Read the [documentation](https://git-scm.com/docs) or find a tutorial and learn how to use the following commands:
@@ -53,19 +37,39 @@ and only use .gitignore to catch exceptions.***
 3. Add version control to an existing project or create a new project. ***Use one repository per project.***
 4. Make changes and test making commits. ***Make descriptive commit messages (AI can help).***
 
-## Sharing code on GitHub
+## Initial GitHub setup
 1. Create a GitHub account or add your wustl email to an existing account
 2. admin will add this account to dbaldridge-lab
-3. Read the [documentation](https://git-scm.com/docs) or find a tutorial to understand what each of the commands below does.
+To use a Personal Access Token (PAT) with GitHub, follow these steps:
+
+Generate a new Personal Access Token on GitHub:
+
+Go to your GitHub settings (click on your profile picture in the top right corner and select "Settings").
+In the left sidebar, click on "Developer settings".
+In the left sidebar, click on "Personal access tokens".
+Click on "Generate new token".
+Give your token a descriptive name, select the scopes (or permissions) you want to grant this token, and click on "Generate token".
+Important: Be sure to copy your new personal access token now. You won’t be able to see it again!
+Use the token as your password when performing Git operations over HTTPS. If you're using the command line, this typically means you'll be prompted for your username and password when you try to push, pull, or clone a repository. Use your GitHub username as the username, and your personal access token as the password.
+
+If you want to avoid entering your PAT every time you push, you can store your credentials:
+
+On Linux, you can use the git-credential-store:
+Then the next time you git push, provide your username and PAT. The credentials will be stored for future use.
+
+Remember to keep your Personal Access Tokens secret; treat them just like passwords.
+
+## Sharing code on GitHub
+1. Read the [documentation](https://git-scm.com/docs) or find a tutorial to understand what each of the commands below does.
 ```
 git push
 git clone
 git pull
 ```
-4. Connect local version controlled files with a remote repository on GitHub.
+2. Connect local version controlled files with a remote repository on GitHub.
 [How-to](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
-5. Fetch from the remote GitHub main branch (origin) to your local main branch (main) to keep your local copy up to date.
-6. Make changes on main and push them up to origin. ***If multiple people are making edits, repeat this and the previous step frequently.***
+3. Fetch from the remote GitHub main branch (origin) to your local main branch (main) to keep your local copy up to date.
+4. Make changes on main and push them up to origin. ***If multiple people are making edits, repeat this and the previous step frequently.***
 
 ## IDEs and git clients can help
 [RStudio](https://happygitwithr.com/usage-intro)
