@@ -1,5 +1,6 @@
 git and GitHub can be daunting at first, but a few commands are all you need to get started.
-[Introduction to Version Control](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668)
+
+[If you're wondering why this is important, this is a nice overview.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668)
 
 
 1. Start here - Read [documentation](https://git-scm.com/docs) or find a tutorial (there are many good ones) to understand what each command is doing and test them out locally.
