@@ -1,6 +1,7 @@
 git and GitHub can be daunting at first, but a few commands are all you need to get started. 
 
-Sections are listed in order of importance; get comfortable with the information under one heading before moving on to the next. 
+Sections below are listed in order of importance; 
+get comfortable with the information under one heading before moving on to the next. 
 
 If you're new to version control and wondering why this is important, [this is a nice overview](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668).
 
