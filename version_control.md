@@ -70,8 +70,10 @@ git rm
 Workflow is up to the discretion of the project owner. Branching can be useful in cases where:
 - several people are making changes to the code
 - the project lead wants to review code before it gets added to the main branch
-- changes to multiple features, figures, or improvements are in-progress [Using branches](https://www.atlassian.com/git/tutorials/using-branches)
-- the team plans to use GitHub to get feedback or facilitate troubleshooting [Making pull requests on Github](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+- changes to multiple features, figures, or improvements are in-progress
+  - [Using branches](https://www.atlassian.com/git/tutorials/using-branches)
+- the team plans to use GitHub to get feedback or facilitate troubleshooting
+  - [Making pull requests on Github](https://docs.github.com/en/get-started/start-your-journey/hello-world)
   
 ```
 git branch
