@@ -70,6 +70,7 @@ git rm
 Use of branches is completely optional, but can be useful:
 - when there are multiple people making code changes
 - if you are juggling changes for multiple features, figures, or improvements
+- if you want to use GitHub to get feedback about code changes
   
 [Using branches](https://www.atlassian.com/git/tutorials/using-branches)
 ```
