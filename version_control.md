@@ -18,17 +18,19 @@ git status
 git add
 git commit
 ```
-6. Create a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) that lists files, filetypes, and directories that don't want version controlled in your project:
+6. Create a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files)
+that lists files, filetypes, and directories that don't want version controlled in your project:
 - raw data
 - figures
 - code output
 - excel files(use .csv)
 - word documents(use .md)
   
-***Best practice is to not place those files in a version controlled directory to begin with, and only use .gitignore to catch exceptions.***
+***Best practice is to not place those files in a version controlled directory to begin with,
+and only use .gitignore to catch exceptions.***
 
-7. Add version control to an existing project or create a new project. Use one repository per project.
-8. Make changes and test making commits.
+7. Add version control to an existing project or create a new project. ***Use one repository per project.***
+8. Make changes and test making commits. ***Make descriptive commit messages (AI can help).***
 
 ## Sharing code on GitHub
 1. Create a GitHub account or add your wustl email to an existing account
@@ -39,11 +41,12 @@ git push
 git clone
 git pull
 ```
-4. Connect local version controlled files with a remote repository on GitHub. [How-to](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
-5. Make changes and make a pull request.
-6. Review changes and accept a pull request.
+4. Connect local version controlled files with a remote repository on GitHub.
+[How-to](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
+6. Make changes and make a pull request.
+7. Review changes and accept a pull request.
 
-## Collaborating on a repo OR you have multiple in-progress features/figures/improvements
+## Collaborating on a repo OR if you have multiple in-progress features/figures/improvements
 [Managing branches using GitHub interface](https://docs.github.com/en/get-started/start-your-journey/hello-world)
 ```
 git branch
