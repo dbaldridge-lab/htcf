@@ -3,7 +3,8 @@ git and GitHub can be daunting at first, but a few commands are all you need to 
 Sections below are listed in order of importance; 
 get comfortable with the information under one heading before moving on to the next. 
 
-If you're new to version control and wondering why this is important, [this is a nice overview](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668).
+If you're new to version control and wondering why this is important, 
+[this is a nice overview](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668).
 
 ## Version control your code with git
 1. Start by [downloading git](https://git-scm.com/downloads) on your local machine.
@@ -17,7 +18,7 @@ git status
 git add
 git commit
 ```
-6. Create a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) that lists files, filetypes, and directories that shouldn't be version controlled in your project. This includes:
+6. Create a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) that lists files, filetypes, and directories that don't want version controlled in your project:
 - raw data
 - figures
 - code output
