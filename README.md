@@ -4,7 +4,7 @@ This repository includes information on software and common workflows on the clu
 # <a name="documentslist"></a>Getting Started
 [Logging on and running jobs](https://github.com/dbaldridge-lab/htcf/blob/main/htcf_access.md)  
 
-[(under construction)Update your shell environments on HTCF](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md)
+[Configure your shell environment](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md)
 
 [(under construction)Running Jupyter Notebooks on the server using VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md)  
 
