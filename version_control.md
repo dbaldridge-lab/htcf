@@ -61,7 +61,8 @@ git merge
 1. Test creating a new branch locally in an existing project using the command line or your preferred IDE.
 2. Test checking out and making changes on the local branch, pushing those changes to GitHub, and merging those in to the main branch on GitHub.
 
-## Looking back
+## Undo
+[How to undo almost anything with git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
 ```
 git revert
 ```
