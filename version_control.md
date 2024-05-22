@@ -64,7 +64,7 @@ git rm
 ## Git Workflow
 Workflow is up to the discretion of the project owner. For small teams, a [centralized workflow](https://anything-git.readthedocs.io/en/latest/git_workflow.html) is usually sufficient. 
 
-Branching can be useful in cases where:
+A more complicated workflow utilizing feature branches can be useful in cases where:
 - several people are making changes to the code
 - the project lead wants to review code before it gets added to the main branch
 - changes to multiple features, figures, or improvements are in-progress and changes will occur over a number of weeks
