@@ -51,18 +51,29 @@ git pull
 
 [VSCode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_open-a-git-repository)
 
-## Collaborating on a repo OR if you have multiple in-progress features/figures/improvements
-[Managing branches using GitHub interface](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+
+[]
+
+
+1. Test creating a new branch locally in an existing project using the command line or your preferred IDE.
+2. Test checking out and making changes on the local branch, pushing those changes to GitHub, and merging those in to the main branch on GitHub.
+
+## Undoing changes
+[How to undo almost anything with git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
+```
+git revert
+git commit --amend
+git rm
+```
+
+## Git Branch
+Use of branches is completely optional, but can be useful:
+- when there are multiple people making code changes
+- if you are juggling changes to multiple features, figures, or improvements
+[Using branches](https://www.atlassian.com/git/tutorials/using-branches)
 ```
 git branch
 git checkout
 git merge
 ```
-1. Test creating a new branch locally in an existing project using the command line or your preferred IDE.
-2. Test checking out and making changes on the local branch, pushing those changes to GitHub, and merging those in to the main branch on GitHub.
-
-## Undo
-[How to undo almost anything with git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
-```
-git revert
-```
+[Managing branches using GitHub interface](https://docs.github.com/en/get-started/start-your-journey/hello-world)
