@@ -14,6 +14,7 @@ git status
 git add
 git commit
 ```
+6. Add version control to an existing project or create a new project.
 
 ## Sharing code on GitHub
 1. Create a GitHub account or add your wustl email to an existing account
