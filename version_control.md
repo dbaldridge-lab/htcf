@@ -17,7 +17,8 @@ git add
 git commit
 ```
 6. Create a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) that lists files, filetypes, and directories that shouldn't be version controlled in your project. This includes:
-- raw data, figures
+- raw data
+- figures
 - code output
 - excel files(use .csv)
 - word documents(use .md)
