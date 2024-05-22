@@ -23,8 +23,9 @@ git commit
 - word documents(use .md)
   
 Best practice is to not place those files in a version controlled directory to begin with, and only use .gitignore to catch exceptions.
-8. Add version control to an existing project or create a new project. 
-9. Make changes and test making commits.
+
+7. Add version control to an existing project or create a new project. 
+8. Make changes and test making commits.
 
 ## Sharing code on GitHub
 1. Create a GitHub account or add your wustl email to an existing account
