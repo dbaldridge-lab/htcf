@@ -61,4 +61,6 @@ git merge
 git revert
 ```
 
-
+## IDEs and git clients can help
+[RStudio](https://happygitwithr.com/usage-intro)
+[VSCode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_open-a-git-repository)
