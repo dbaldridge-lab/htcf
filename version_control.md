@@ -17,7 +17,7 @@ git add
 git commit
 ```
 6. Read about .gitignore
-7. Add version control to an existing project or create a new project. Make a .gitignore file that lists filetypes that shouldn't be version controlled (e.g. data, figures, code output)
+7. Add version control to an existing project or create a new project. Include a .gitignore file that lists filetypes that shouldn't be version controlled (e.g. data, figures, code output)
 8. Make changes and test making commits.
 
 ## Sharing code on GitHub
