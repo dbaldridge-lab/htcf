@@ -32,6 +32,11 @@ and only use .gitignore to catch exceptions.***
 7. Add version control to an existing project or create a new project. ***Use one repository per project.***
 8. Make changes and test making commits. ***Make descriptive commit messages (AI can help).***
 
+## IDEs and git clients can help
+[RStudio](https://happygitwithr.com/usage-intro)
+
+[VSCode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_open-a-git-repository)
+
 ## Sharing code on GitHub
 1. Create a GitHub account or add your wustl email to an existing account
 2. admin will add this account to dbaldridge-lab
@@ -60,8 +65,3 @@ git merge
 ```
 git revert
 ```
-
-## IDEs and git clients can help
-[RStudio](https://happygitwithr.com/usage-intro)
-
-[VSCode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_open-a-git-repository)
