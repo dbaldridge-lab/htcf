@@ -40,24 +40,19 @@ and only use .gitignore to catch exceptions.***
 ## Initial GitHub setup
 1. Create a GitHub account or add your wustl email to an existing account
 2. admin will add this account to dbaldridge-lab
-To use a Personal Access Token (PAT) with GitHub, follow these steps:
+3. Create a Personal Access Token (PAT)
+  - Go to your GitHub settings (click on your profile picture in the top right corner and select "Settings").
+  - In the left sidebar, click on "Developer settings".
+  - In the left sidebar, click on "Personal access tokens".
+  - Click on "Generate new token".
+  - Give your token a descriptive name, select the scopes (or permissions) you want to grant this token, and click on "Generate token".
+    - ***Be sure to copy your new personal access token now. You won’t be able to see it again!***
+  - You will be prompted for your username and password when you try to push, pull, or clone a repository.
+    - Use your GitHub username as the username, and your personal access token as the password.
 
-Generate a new Personal Access Token on GitHub:
+If you want to avoid entering your PAT every time you push, you can store your credentials: 
 
-Go to your GitHub settings (click on your profile picture in the top right corner and select "Settings").
-In the left sidebar, click on "Developer settings".
-In the left sidebar, click on "Personal access tokens".
-Click on "Generate new token".
-Give your token a descriptive name, select the scopes (or permissions) you want to grant this token, and click on "Generate token".
-Important: Be sure to copy your new personal access token now. You won’t be able to see it again!
-Use the token as your password when performing Git operations over HTTPS. If you're using the command line, this typically means you'll be prompted for your username and password when you try to push, pull, or clone a repository. Use your GitHub username as the username, and your personal access token as the password.
-
-If you want to avoid entering your PAT every time you push, you can store your credentials:
-
-On Linux, you can use the git-credential-store:
-Then the next time you git push, provide your username and PAT. The credentials will be stored for future use.
-
-Remember to keep your Personal Access Tokens secret; treat them just like passwords.
+`git config --global credential.helper store`
 
 ## Sharing code on GitHub
 1. Read the [documentation](https://git-scm.com/docs) or find a tutorial to understand what each of the commands below does.
