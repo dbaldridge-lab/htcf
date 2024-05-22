@@ -11,7 +11,7 @@ If you're new to version control and wondering why this is important,
 2. Open a terminal
 3. Set your username: `git config --global user.name "FIRST_NAME LAST_NAME"`
 4. Set your email address: `git config --global user.email "my_wustl_key@wustl.edu"`
-5. Read [documentation](https://git-scm.com/docs) or find a tutorial to understand the following commands.
+5. Read [documentation](https://git-scm.com/docs) or find a tutorial and learn how to use the following commands:
 ```
 git init
 git status
