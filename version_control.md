@@ -30,7 +30,7 @@ git pull
 5. Make changes and make a pull request.
 
 ## Collaborating on a repo OR you have multiple in-progress features/figures/improvements
-[Managing branches on GitHub](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+[Managing branches using GitHub interface](https://docs.github.com/en/get-started/start-your-journey/hello-world)
 ```
 git branch
 git checkout
