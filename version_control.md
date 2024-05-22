@@ -22,7 +22,7 @@ git commit
 - excel files(use .csv)
 - word documents(use .md)
   
-Best practice is to not place those files in a version controlled directory to begin with, and only use .gitignore to catch exceptions.
+***Best practice is to not place those files in a version controlled directory to begin with, and only use .gitignore to catch exceptions.***
 
 7. Add version control to an existing project or create a new project. 
 8. Make changes and test making commits.
