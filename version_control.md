@@ -76,4 +76,4 @@ git branch
 git checkout
 git merge
 ```
-[Managing branches using GitHub interface](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+[Making pull requests on GitHub](https://docs.github.com/en/get-started/start-your-journey/hello-world)
