@@ -32,11 +32,6 @@ and only use .gitignore to catch exceptions.***
 7. Add version control to an existing project or create a new project. ***Use one repository per project.***
 8. Make changes and test making commits. ***Make descriptive commit messages (AI can help).***
 
-## IDEs and git clients can help
-[RStudio](https://happygitwithr.com/usage-intro)
-
-[VSCode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_open-a-git-repository)
-
 ## Sharing code on GitHub
 1. Create a GitHub account or add your wustl email to an existing account
 2. admin will add this account to dbaldridge-lab
@@ -50,6 +45,11 @@ git pull
 [How-to](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
 6. Make changes and make a pull request.
 7. Review changes and accept a pull request.
+
+## IDEs and git clients can help
+[RStudio](https://happygitwithr.com/usage-intro)
+
+[VSCode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_open-a-git-repository)
 
 ## Collaborating on a repo OR if you have multiple in-progress features/figures/improvements
 [Managing branches using GitHub interface](https://docs.github.com/en/get-started/start-your-journey/hello-world)
