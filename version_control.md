@@ -39,7 +39,7 @@ and only use .gitignore to catch exceptions.***
 
 ## Initial GitHub setup
 1. Create a GitHub account or add your wustl email to an existing account
-2. admin will add this account to dbaldridge-lab
+2. An admin of the group or RIS will add this account to dbaldridge-lab
 3. Create a Personal Access Token (PAT)
   - Go to your GitHub settings (click on your profile picture in the top right corner and select "Settings").
   - In the left sidebar, click on "Developer settings".
