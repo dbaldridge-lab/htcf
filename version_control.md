@@ -4,6 +4,7 @@ If you're new to version control and wondering why this is important, [this is a
 
 
 1. Start here - Read [documentation](https://git-scm.com/docs) or find a tutorial (there are many good ones) to understand what each command is doing and test them out locally.
+
 Prerequisites: [download git](https://git-scm.com/downloads) on your local machine
 ```
 git init
