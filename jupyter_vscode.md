@@ -161,8 +161,6 @@ Per copilot:
 However, if you close the Visual Studio Code window that is connected to the remote server, the server will shut down after a period of inactivity (by default, 3 hours). This is to prevent the server from consuming resources on the remote machine when it's not being used."
 
 "
-Show welcome page on startup
-
 GitHub Copilot
 I see, you want to ensure that the Visual Studio Code server is running on the correct node in your HPC environment.
 
