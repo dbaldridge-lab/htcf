@@ -160,5 +160,32 @@ Per copilot:
 
 However, if you close the Visual Studio Code window that is connected to the remote server, the server will shut down after a period of inactivity (by default, 3 hours). This is to prevent the server from consuming resources on the remote machine when it's not being used."
 
+"
+Show welcome page on startup
+
+GitHub Copilot
+I see, you want to ensure that the Visual Studio Code server is running on the correct node in your HPC environment.
+
+When you establish an SSH tunnel, Visual Studio Code runs the server on the machine you're connected to via SSH. If you're connected to a node named n013, the VS Code server should be running on n013, not on a different node.
+
+To confirm this, you can check the process list on the remote machine. After connecting to the remote machine, open the integrated terminal in VS Code (View -> Terminal or `Ctrl+``) and run the following command:
+
+server
+This command will list all processes related to vscode-server. You should see a process for the VS Code server running on the current machine. If the VS Code server was running on a different machine, it wouldn't show up in this list.
+
+Remember, each SSH tunnel is independent and tied to the machine you're connected to. If you connect to n013 and start an SSH tunnel, VS Code will run the server on n013. If you then connect to n002 and start another SSH tunnel, VS Code will run another server on n002. The two servers are separate and don't interfere with each other.
+
+catchambers
+So why is it called n002 even though I am on n013
+
+GitHub Copilot
+The naming of the SSH tunnel in Visual Studio Code (like n002) is an internal identifier used by VS Code for managing multiple SSH connections. It doesn't necessarily reflect the hostname of the remote machine you're connected to.
+
+The naming scheme used by VS Code for SSH tunnels is not publicly documented and doesn't seem to be customizable. It's likely based on the order in which the connections were established or some other internal logic.
+
+Unfortunately, this means that the name of the SSH tunnel in VS Code might not match the actual hostname of the remote machine (n013 in your case). This can be confusing, but it doesn't affect the functionality of the SSH tunnel or the VS Code server running on the remote machine.
+
+If you need to know the actual hostname of the remote machine, you can use the hostname command in the terminal, as I mentioned in a previous message. This will tell you the hostname of the machine you're currently connected to, regardless of the name of the SSH tunnel in VS Code."
+
 
 
