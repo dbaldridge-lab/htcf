@@ -7,7 +7,27 @@
 - Updated ~/.bashrc file on HTCF to include "code" alias. [See instructions here.](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md)
 
 ## Do this once
-### 1. Install Extensions 
+### 1. Check for code command
+Tip: If you want to run VS Code from the terminal by simply typing 'code', VS Code has a command:
+"Shell Command: Install 'code' command in PATH"
+This will add 'code' to your $PATH variable list.
+
+After installation, launch VS Code. Now open the Command Palette (F1 or ⇧+⌘+P on Mac) and type shell command to find the Shell Command: Install 'code' command in PATH command.
+
+After executing the command, restart the terminal for the new $PATH value to take effect. 
+
+Open Visual Studio Code.
+Press CMD + SHIFT + P to open the Command Palette.
+Type ```Shell Command: Install 'code' command in PATH``` and select the command.
+Restart your terminal.
+After doing this, you should be able to use the code command in your terminal. 
+You can verify this by typing ```code --version``` in your terminal. 
+If it prints out the version of Visual Studio Code, it means the code command is now available.
+
+You'll be able to simply type ```code .``` in any folder to start editing files in that folder.
+You can add an option -r to open a file in a new tab in the current window: ```code -r <filename>```
+
+### 2. Install Extensions 
 - Open VSCode on your local machine
 - Go to Extensions <img width="33" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/7b07ab0f-e68f-4b33-954b-2ac556c2ddb9">
 (Shortcut: `Cmd+Shift+X`)
@@ -18,6 +38,8 @@
     - `ms-toolsai.jupyter`
       
 Note: you will need to repeat this step once you log on to HTCF. A button will appear on these extensions giving you the option to also install on the remote machine. This will install the extension to your home folder on HTCF.
+
+You can list all installed extensions with their versions by running ```code --list-extensions --show-versions```.
 
 ### 2. Configuring VSCode to connect to HTCF and edit files on the server directly
 While still on your local machine: 
