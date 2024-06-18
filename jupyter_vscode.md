@@ -185,5 +185,6 @@ Unfortunately, this means that the name of the SSH tunnel in VS Code might not m
 
 If you need to know the actual hostname of the remote machine, you can use the hostname command in the terminal, as I mentioned in a previous message. This will tell you the hostname of the machine you're currently connected to, regardless of the name of the SSH tunnel in VS Code."
 
+TODO: Test this - if I create another tunnel will it be names n004 (another SSH connection + tunnel?)
 
 
