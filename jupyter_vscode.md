@@ -153,6 +153,8 @@ Confirm if the VSCode server is running on the current node listed in your promp
 
 You should see something like the first three lines shown above. The fourth line is the grep command itself.
 
+https://code.visualstudio.com/docs/remote/tunnels#_using-the-vs-code-ui
+
 
 
 
