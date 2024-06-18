@@ -188,3 +188,19 @@ If you need to know the actual hostname of the remote machine, you can use the h
 TODO: Test this - if I create another tunnel will it be names n004 (another SSH connection + tunnel?)
 
 
+
+c.chitwood@login ~
+$ ps aux | grep -E 'code-server|vscode-server|server.sh' | awk '{print $1}' | sort | uniq -c
+      7 a.feder+
+     13 c.chitw+
+     10 dlyon
+      7 eorr
+      2 gmark
+      6 hall.l.r
+      8 lloydt
+      7 sakshi
+
+c.chitwood@login ~
+$ pkill -u $USER -f 'code-server|vscode-server|server.sh'
+
+
