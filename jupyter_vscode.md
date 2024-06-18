@@ -80,4 +80,4 @@ Open Command Palette (Shortcut: `Cmd+Shift+P`) and type `Remote-SSH: Connect to 
 - Enter your password and press enter
 
 ### 2. Open Jupyter Notebook on HTCF
-
+https://kb.uconn.edu/space/SH/26626326576/Visual+Studio+Code+(VSCode)+Guide#:~:text=A%20common%20method%20of%20using,standard%20SLURM%20job%20scheduling%20process.
