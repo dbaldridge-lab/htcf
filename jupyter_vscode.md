@@ -19,8 +19,8 @@ d. After executing the command, restart the terminal for the new $PATH value to 
 e. verify setup by typing `code --version` in your terminal. 
 If it prints out the version of Visual Studio Code, proceed.
 
-Now when you are using a terminal, you can simply type `code .` in any folder to start editing files in that folder.
-You can also add an option -r to open a file in a new tab in the current window: `code -r <filename>`.
+Now when you are using a terminal, you can simply type `code .` to start editing files in the current folder.
+You can also add an option -r and provide the path to a file. This will open the file in a new tab in the current window: `code -r <filename>`.
 
 ### 2. Install Extensions 
 - Open VSCode on your local machine
