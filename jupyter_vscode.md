@@ -145,7 +145,7 @@ TODO - troubleshoot why I am not seeing the node I created a tunnel to on the sq
 
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/e047f45d-c9de-4a7d-97ba-9d985c5913ad)
 
-
+![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/28c0885d-bc3b-4429-bf46-ee3e69a69020)
 
 
 
