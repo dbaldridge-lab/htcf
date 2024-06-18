@@ -9,9 +9,13 @@
 ## Do this once
 ### 1. Setup code command
 a. Open Visual Studio Code.
+
 b. Press CMD + SHIFT + P to open the Command Palette.
+
 c. Type shell command to find the `Shell Command: Install 'code' command in PATH` command.
+
 d. After executing the command, restart the terminal for the new $PATH value to take effect. 
+
 e. verify setup by typing `code --version` in your terminal. 
 If it prints out the version of Visual Studio Code, proceed.
 
