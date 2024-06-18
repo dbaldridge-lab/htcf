@@ -155,7 +155,10 @@ You should see something like the first three lines shown above. The fourth line
 
 https://code.visualstudio.com/docs/remote/tunnels#_using-the-vs-code-ui
 
+Per copilot:
+"you do not need to keep the terminal window open where you started the Visual Studio Code server. Once the server is started, it runs in the background on the remote machine. You can close the terminal window or even disconnect from the SSH session, and the server will continue to run.
 
+However, if you close the Visual Studio Code window that is connected to the remote server, the server will shut down after a period of inactivity (by default, 3 hours). This is to prevent the server from consuming resources on the remote machine when it's not being used."
 
 
 
