@@ -8,7 +8,8 @@
 
 ## Do this once
 ### 1. Setup code command
-a. Open Visual Studio Code.
+TODO - code command setup on HTCF
+a. On your local machine, open Visual Studio Code.
 
 b. Press CMD + SHIFT + P to open the Command Palette.
 
