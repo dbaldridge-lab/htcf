@@ -8,24 +8,15 @@
 
 ## Do this once
 ### 1. Setup code command
-If you want to run VS Code from the terminal by simply typing 'code', VS Code has a command:
-```Shell Command: Install 'code' command in PATH```
-This will add 'code' to your $PATH variable list.
+a. Open Visual Studio Code.
+b. Press CMD + SHIFT + P to open the Command Palette.
+c. Type shell command to find the `Shell Command: Install 'code' command in PATH` command.
+d. After executing the command, restart the terminal for the new $PATH value to take effect. 
+e. verify setup by typing `code --version` in your terminal. 
+If it prints out the version of Visual Studio Code, proceed.
 
-After installation, launch VS Code. Now open the Command Palette (F1 or ⇧+⌘+P on Mac) and type shell command to find the Shell Command: Install 'code' command in PATH command.
-
-After executing the command, restart the terminal for the new $PATH value to take effect. 
-
-Open Visual Studio Code.
-Press CMD + SHIFT + P to open the Command Palette.
-Type ```Shell Command: Install 'code' command in PATH``` and select the command.
-Restart your terminal.
-After doing this, you should be able to use the code command in your terminal. 
-You can verify this by typing ```code --version``` in your terminal. 
-If it prints out the version of Visual Studio Code, it means the code command is now available.
-
-You'll be able to simply type ```code .``` in any folder to start editing files in that folder.
-You can add an option -r to open a file in a new tab in the current window: ```code -r <filename>```
+Now when you are using a terminal, you can simply type `code .` in any folder to start editing files in that folder.
+You can also add an option -r to open a file in a new tab in the current window: `code -r <filename>`.
 
 ### 2. Install Extensions 
 - Open VSCode on your local machine
