@@ -212,3 +212,16 @@ c.chitwood@login ~
 $ pkill -u $USER -f 'code-server|vscode-server|server.sh'
 
 
+TODO: Run the VSCode server manually on the interactive node. Do not run on the login node.
+
+If you don't want these processes to start on the login node, you can disable the automatic start of the VS Code server. Here's how you can do it:
+
+Open Visual Studio Code.
+Go to the settings (File > Preferences > Settings or use the shortcut Cmd+, on Mac).
+Search for "Remote.SSH: Remote Server Listen On Socket".
+Uncheck the box or set it to false.
+This will prevent the VS Code server from starting automatically on the login node. However, please note that this might affect your ability to connect to remote servers using VS Code's Remote - SSH extension.
+
+If you still want to use the Remote - SSH extension but don't want the server to start on the login node, you'll need to manually start the server on the desired node each time you want to use it. You can do this by running the code-server command on the desired node.
+
+
