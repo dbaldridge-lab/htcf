@@ -7,8 +7,8 @@
 - Updated ~/.bashrc file on HTCF to include "code" alias. [See instructions here.](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md)
 
 ## Do this once
-### 1. Check for code command
-Tip: If you want to run VS Code from the terminal by simply typing 'code', VS Code has a command:
+### 1. Setup code command
+If you want to run VS Code from the terminal by simply typing 'code', VS Code has a command:
 "Shell Command: Install 'code' command in PATH"
 This will add 'code' to your $PATH variable list.
 
