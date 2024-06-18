@@ -147,6 +147,11 @@ TODO - troubleshoot why I am not seeing the node I created a tunnel to on the sq
 
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/28c0885d-bc3b-4429-bf46-ee3e69a69020)
 
+Confirm if the VSCode server is running on the current node listed in your prompt:
+
+![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/e5a52d4f-edf9-4f6b-83cb-e86303e835e0)
+
+You should see something like the first three lines shown above. The fourth line is the grep command itself.
 
 
 
