@@ -15,9 +15,7 @@ Start an interactive session (assuming you have configured your ~/.bashrc):
 sml
 ```
 
-TODO - make alias for code
-
-Start the tunnel:
+Start a tunnel:
 ```
 /ref/dblab/software/vscode/code tunnel
 ```
@@ -60,6 +58,8 @@ Click on the arrow to open the tunnel in the current window.
 
 
 ### 3. Jupyter Notebook setup
+
+Enter the following commands in the terminal in the new window you opened previously.
 ```
 spack env activate -p jupyter
 python3 -m ensurepip
@@ -67,7 +67,12 @@ python3 -m pip install ipykernel
 python3 -m ipykernel install --user --name=py3.10.4
 ```
 
-https://code.visualstudio.com/docs/remote/tunnels#_using-the-vs-code-ui
+Open a pre-existing Jupyter notebook file.
+
+Select the kernel selector:
+![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
+
+Select the kernel you created.
 
 #### Troubleshooting
 
@@ -91,7 +96,9 @@ TODO: Test this
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/d7fa8eb3-a602-4979-a9ca-177298233a13)
 
 
+TODO - make alias for code
 
+https://code.visualstudio.com/docs/remote/tunnels#_using-the-vs-code-ui
 
 
 
