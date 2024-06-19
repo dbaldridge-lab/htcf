@@ -75,7 +75,7 @@ Select the kernel selector:
 Select the kernel you created.
 
 
-
+   
 
 #### Troubleshooting
 
