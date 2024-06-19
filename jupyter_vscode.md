@@ -74,6 +74,9 @@ Select the kernel selector:
 
 Select the kernel you created.
 
+
+
+
 #### Troubleshooting
 
 TODO: If I create another tunnel will it be named n004 (another SSH connection + tunnel?)
