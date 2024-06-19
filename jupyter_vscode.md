@@ -10,13 +10,7 @@ Open Command Palette (Shortcut: `Cmd+Shift+P`) and type `Remote-SSH: Connect to 
 This process is adapted from this page:
 https://kb.uconn.edu/space/SH/26626326576/Visual+Studio+Code+(VSCode)+Guide#:~:text=A%20common%20method%20of%20using,standard%20SLURM%20job%20scheduling%20process.
 
-TODO: How to ensure VSCode Server isn't running on login node. Maybe check in terminal(outside of VSCode) using the following:
-
-```
-ps aux | grep "vscode-server"
-```
-
-To start an interactive session (assuming you have configured your ~/.bashrc):
+Start an interactive session (assuming you have configured your ~/.bashrc):
 ```
 sml
 ```
@@ -78,8 +72,12 @@ python3 -m ipykernel install --user --name=py3.10.4
 
 https://code.visualstudio.com/docs/remote/tunnels#_using-the-vs-code-ui
 
-TODO: Test this - if I create another tunnel will it be names n004 (another SSH connection + tunnel?)
+#### Troubleshooting
 
+TODO: If I create another tunnel will it be named n004 (another SSH connection + tunnel?)
+
+
+TODO: How to ensure VSCode Server isn't running on login node. Maybe check in terminal(outside of VSCode) using the following:
 c.chitwood@login ~
 $ ps aux | grep -E 'code-server|vscode-server|server.sh' | awk '{print $1}' | sort | uniq -c
 
