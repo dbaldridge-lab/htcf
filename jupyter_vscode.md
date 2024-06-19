@@ -59,7 +59,7 @@ Click on the arrow to open the tunnel in the current window.
 
 ### 3. Jupyter Notebook setup
 
-Enter the following commands in the terminal in the new window you opened previously.
+Enter the following commands in the terminal of the new window you opened previously.
 ```
 spack env activate -p jupyter
 python3 -m ensurepip
