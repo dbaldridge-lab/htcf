@@ -6,7 +6,7 @@ Open Command Palette (Shortcut: `Cmd+Shift+P`) and type `Remote-SSH: Connect to 
 - Choose your configured SSH host (will be htcf if you followed the instructions above) or Add New SSH Host and type the following in the prompt: `ssh login.htcf.wustl.edu`
 - Enter your password and press enter
 
-### 2. Open Jupyter Notebook on HTCF
+### 2. Tunnel to VSCode
 This process is adapted from this page:
 https://kb.uconn.edu/space/SH/26626326576/Visual+Studio+Code+(VSCode)+Guide#:~:text=A%20common%20method%20of%20using,standard%20SLURM%20job%20scheduling%20process.
 
@@ -63,6 +63,7 @@ Confirm if the VSCode server is running on the current node listed in your promp
 
 You should see something like the first three lines shown above. The fourth line is the grep command itself.
 
+### 3. Jupyter Notebook setup
 ```
 spack env activate -p jupyter
 python3 -m ensurepip
