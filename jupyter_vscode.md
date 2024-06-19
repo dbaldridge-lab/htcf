@@ -55,13 +55,9 @@ You should see the tunnel to the node you just created.
 
 Click on the arrow to open the tunnel in the current window.
 
-<img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
+<img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">.
 
-Confirm if the VSCode server is running on the current node listed in your prompt:
 
-![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/e5a52d4f-edf9-4f6b-83cb-e86303e835e0)
-
-You should see something like the first three lines shown above. The fourth line is the grep command itself.
 
 ### 3. Jupyter Notebook setup
 ```
