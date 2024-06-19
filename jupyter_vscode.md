@@ -88,13 +88,11 @@ $ pkill -u $USER -f 'code-server|vscode-server|server.sh'
 
 TODO: Run the VSCode server by submitting sbatch slurm job?
 
-If you don't want these processes to start on the login node, you can disable the automatic start of the VS Code server. Here's how you can do it:
 
 TODO: Test this
+
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/5e07dcf6-3296-44d9-a418-8a9e4db29069)
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/d7fa8eb3-a602-4979-a9ca-177298233a13)
-
-If you still want to use the Remote - SSH extension but don't want the server to start on the login node, you'll need to manually start the server on the desired node each time you want to use it. You can do this by running the code-server command on the desired node.
 
 
 
