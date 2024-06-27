@@ -90,13 +90,6 @@ $ pkill -u $USER -f 'code-server|vscode-server|server.sh'
 
 TODO: Run the VSCode server by submitting sbatch slurm job?
 
-TODO: Test this
-
-![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/5e07dcf6-3296-44d9-a418-8a9e4db29069)
-![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/d7fa8eb3-a602-4979-a9ca-177298233a13)
-
-TODO - make alias for code in bashrc
-
 https://code.visualstudio.com/docs/remote/tunnels#_using-the-vs-code-ui
 
 
