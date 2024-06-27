@@ -7,6 +7,8 @@ Open Command Palette (Shortcut: `Cmd+Shift+P`) and type `Remote-SSH: Connect to 
 - Enter your password and press enter
 
 ### 2. Tunnel to VSCode
+NOTE: if `code` command setup has not been setup but you would like to proceed, use `/ref/dblab/software/vscode/code` in place of `code`
+
 This process is adapted from this page:
 https://kb.uconn.edu/space/SH/26626326576/Visual+Studio+Code+(VSCode)+Guide#:~:text=A%20common%20method%20of%20using,standard%20SLURM%20job%20scheduling%20process.
 
@@ -17,7 +19,7 @@ sml
 
 Start a tunnel:
 ```
-/ref/dblab/software/vscode/code tunnel
+code tunnel
 ```
 
 You should see the following prompt:
