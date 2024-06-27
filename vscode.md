@@ -8,7 +8,7 @@
 
 ## Do this once
 ### 1. Setup code command
-TODO - code command setup on HTCF
+TODO - code command setup on HTCF, use `/ref/dblab/software/vscode/code` for now
 
 a. On your local machine, open Visual Studio Code.
 
