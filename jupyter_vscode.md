@@ -105,7 +105,10 @@ Select the tab "Remote [n###]".
 Paste the path here.
 ![image](https://github.com/user-attachments/assets/e04aa94b-2e82-4dd1-ad2f-bef40bd88ee0)
 
-Press `Ctrl-C` and exit to close the tunnel.
+Press `Ctrl-C` and exit in the window you opened the tunnel to close the tunnel.
+![image](https://github.com/user-attachments/assets/64184a69-178f-4897-8da0-2457a10c39ca)
+
+Start a new tunnel. The kernel should now be available in the kernel selection menu.
 
 **Creating a kernel for a new environments**
 
