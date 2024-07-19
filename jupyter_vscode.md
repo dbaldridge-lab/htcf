@@ -19,8 +19,6 @@ code tunnel
 ```
 If the `code` command is not found, use `/ref/dblab/software/vscode/code`.
 
-You should see the following prompt:
-
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/030b9235-2420-4d48-ad5f-2ce31d95c252)
 
  - Use the arrow keys to make a selection and press `ENTER`
@@ -31,7 +29,6 @@ You should see the following prompt:
 
  - Copy the code
  - Press CMD and click on the link to open the page in a browser
-
    
  ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/85ca0ab3-72c7-45db-aa22-f1e5ca4678ff)
  - Paste the code and click next
