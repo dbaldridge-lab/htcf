@@ -17,7 +17,7 @@ Start a tunnel:
 ```
 code tunnel
 ```
-NOTE: If the `code` command is not found, use `/ref/dblab/software/vscode/code`.
+If the `code` command is not found, use `/ref/dblab/software/vscode/code`.
 
 You should see the following prompt:
 
