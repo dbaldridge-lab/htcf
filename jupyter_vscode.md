@@ -15,9 +15,8 @@ sml
 
 Start a tunnel:
 ```
-code tunnel
+code tunnel  # If the `code` command is not found, use `/ref/dblab/software/vscode/code`
 ```
-If the `code` command is not found, use `/ref/dblab/software/vscode/code`.
 
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/030b9235-2420-4d48-ad5f-2ce31d95c252)
 
