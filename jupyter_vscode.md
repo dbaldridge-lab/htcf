@@ -7,7 +7,7 @@ Adapted from [this page](https://kb.uconn.edu/space/SH/26626326576/Visual+Studio
 - Enter your password and press enter
 
 ### 2. Tunnel to VSCode
-NOTE: if `code` command is not found, use `/ref/dblab/software/vscode/code`.
+NOTE: If the `code` command is not found, use `/ref/dblab/software/vscode/code`.
 
 Start an interactive session (assuming you have configured your ~/.bashrc):
 ```
