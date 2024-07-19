@@ -23,42 +23,43 @@ You should see the following prompt:
 
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/030b9235-2420-4d48-ad5f-2ce31d95c252)
 
- Use the arrow keys to make a selection and press `ENTER`.
+ - Use the arrow keys to make a selection and press `ENTER`
+   
  A link and code will appear:
 
  ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/169cc694-46b8-480b-9788-86fdfbd6e4b9)
 
- Copy the code. 
- 
- Press CMD and click on the link to open the page in a browser. 
+ - Copy the code
+ - Press CMD and click on the link to open the page in a browser
 
- Paste the code and click next. Enter your wustl key username and password.
-
+   
  ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/85ca0ab3-72c7-45db-aa22-f1e5ca4678ff)
+ - Paste the code and click next
+ - Enter your wustl key username and password
+
 
 The node your tunnel was created on will be listed. 
 
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/c316ddb8-56fb-466f-a112-74ebbad6c647)
 
-Leave the current window open. 
-Open a new VSCode window. The shortcut is `Shift + CMD + n`.
+- Leave the current window open. 
+- Open a new VSCode window. The shortcut is `Shift + CMD + n`.
 
-Click the icon for the Remote Explorer:
+- Click the icon for the Remote Explorer:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/02779d19-a100-43ad-8e23-26f15c17463a)
 
 You should see the tunnel to the node you just created.
 
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/295da8d0-444b-4a12-8cfa-f5a0a784e3bb)
 
-Click on the arrow to open the tunnel in the current window.
+- Click on the arrow to open the tunnel in the current window.
 
 <img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
 
 
-
 ### 3. Jupyter Notebook setup
 
-Enter the following command in the terminal of the new window you opened previously. This activates a spack environment that has been setup with the software and python packages needed to run the lab's Jupyter notebooks.
+In the new window, activate a spack environment that has been setup with the software and python packages needed to run a Jupyter notebook. 
 ```
 spack env activate -p jupyter
 ```
@@ -68,7 +69,7 @@ Open a pre-existing Jupyter notebook file.
 Click the kernel selector icon:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
 
-Select the kernel you created.
+Select the kernel pointing to the environment's python interpreter.
 
 ---
 ### Troubleshooting
