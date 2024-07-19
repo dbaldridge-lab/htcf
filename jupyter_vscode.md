@@ -123,7 +123,7 @@ python3 -m pip install ipykernel
 python3 -m ipykernel install --user --name=your_env_name --display-name your_env_display_name
 ```
 
-Unfortunatley, VSCode can't easily locate the interpreter in spack environments. For this reason, you may run in to fewer issues using conda or a python virtual environments when working Jupyter notebooks.
+Unfortunatley, VSCode can't easily locate the interpreter in spack environments. For this reason, you may run in to fewer issues using conda or python virtual environments when working Jupyter notebooks.
 
 
 
