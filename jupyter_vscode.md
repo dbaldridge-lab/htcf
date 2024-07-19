@@ -53,7 +53,7 @@ You should see the tunnel to the node you just created.
 
 ### 3. Jupyter Notebook setup
 
-In the new window, activate a spack environment that has been setup with the software and python packages needed to run a Jupyter notebook. 
+In the new window, activate a spack environment containing the software and python packages needed to run a Jupyter notebook. 
 ```
 spack env activate -p jupyter
 ```
