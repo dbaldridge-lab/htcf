@@ -66,7 +66,14 @@ Enter the following command in the terminal of the new window you opened previou
 spack env activate -p jupyter
 ```
 
-### 4. Creating Kernels for new environments
+Open a pre-existing Jupyter notebook file.
+
+Select the kernel selector:
+![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
+
+Select the kernel you created.
+
+### 4. Creating a kernel for a new environments
 Occassionally, you may need to set up a python kernel spec for a new environment. After activating your new environment and installing all required software, enter the commands below: 
 ```
 python3 -m ensurepip
@@ -75,13 +82,6 @@ python3 -m ipykernel install --user --name=your_env_name --display-name your_env
 ```
 
 Unfortunatley, VSCode can't easily locate the interpreter in spack environments. For this reason, you may run in to fewer issues using conda or a python virtual environments when working Jupyter notebooks.
-
-Open a pre-existing Jupyter notebook file.
-
-Select the kernel selector:
-![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
-
-Select the kernel you created.
 
 
 #### Troubleshooting
