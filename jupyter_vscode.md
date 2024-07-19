@@ -61,19 +61,20 @@ Click on the arrow to open the tunnel in the current window.
 
 ### 3. Jupyter Notebook setup
 
-Enter the following commands in the terminal of the new window you opened previously.
+Enter the following command in the terminal of the new window you opened previously. This activates a spack environment that has been setup with the software and python packages needed to run the lab's Jupyter notebooks.
 ```
 spack env activate -p jupyter
-python3 -m ensurepip
-python3 -m pip install ipykernel
-python3 -m ipykernel install --user --name=py3.10.4 --display-name spack-py3.10.4
 ```
 
-Copy the location the kernelspec was installed in. Save this path, you will need it any time you open a Jupyter notebook.
+### 4. Creating Kernels for new environments
+Occassionally, you may need to set up a python kernel spec for a new environment. After activating your new environment and installing all required software, enter the commands below: 
+```
+python3 -m ensurepip
+python3 -m pip install ipykernel
+python3 -m ipykernel install --user --name=your_env_name --display-name your_env_display_name
+```
 
-Here I have navigated to the location the kernel was installed. Printing this file, you see that the spec points back to the spack environment python interpreter.
-![image](https://github.com/user-attachments/assets/9c7fcfcb-abb3-42c9-bd5e-3032ce5fc289)
-
+Unfortunatley, VSCode can't easily locate the interpreter in spack environments. For this reason, you may run in to fewer issues using conda or a python virtual environments when working Jupyter notebooks.
 
 Open a pre-existing Jupyter notebook file.
 
@@ -83,20 +84,25 @@ Select the kernel selector:
 Select the kernel you created.
 
 
-   
-
 #### Troubleshooting
+**VSCode can't find the kernel in a spack environment**
+Navigate to where the kernel spec was installed, which is typically in a folder in the following location:
+```
+cd $HOME/.local/share/jupyter/kernels
+```
 
-TODO: How to ensure VSCode Server isn't running on login node. Maybe check in terminal(outside of VSCode) using the following:
-c.chitwood@login ~
-$ ps aux | grep -E 'code-server|vscode-server|server.sh' | awk '{print $1}' | sort | uniq -c
+Enter the directory with the name matching the kernel that was installed. You should see a file, `kernel.json`. Print this file:
+```
+cat kernel.json
+```
 
-c.chitwood@login ~
-$ pkill -u $USER -f 'code-server|vscode-server|server.sh'
+Copy the path to the spack environment python interpreter.
+![image](https://github.com/user-attachments/assets/978a628d-a739-43aa-946c-fc383c09b6d8)
 
-TODO: Run the VSCode server by submitting sbatch slurm job?
+Open settings ![image](https://github.com/user-attachments/assets/b2326da5-eb31-4c58-bed1-bc2fa39a28ce)
+ from the menu in the upper right hand corner. 
+![image](https://github.com/user-attachments/assets/a580f78b-43b8-4d46-8f08-cb23aa93e38f)
 
-https://code.visualstudio.com/docs/remote/tunnels#_using-the-vs-code-ui
 
 
 
