@@ -58,12 +58,10 @@ In the new window, activate a spack environment containing the software and pyth
 spack env activate -p jupyter
 ```
 
-Open a pre-existing Jupyter notebook file.
-
-Click the kernel selector icon:
+- Open a pre-existing Jupyter notebook file.
+- Click the kernel selector icon:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
-
-Select the kernel pointing to the environment's python interpreter.
+- Select the kernel pointing to the environment's python interpreter.
 
 ---
 ### Troubleshooting
