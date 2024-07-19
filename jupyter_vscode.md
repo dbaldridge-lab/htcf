@@ -73,8 +73,8 @@ Click the kernel selector icon:
 
 Select the kernel you created.
 
-
-#### Troubleshooting
+---
+### Troubleshooting
 **VSCode can't find the kernel in a spack environment**
 Start a tunnel.
 
