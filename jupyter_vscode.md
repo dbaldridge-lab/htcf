@@ -3,7 +3,7 @@ Adapted from [this page](https://kb.uconn.edu/space/SH/26626326576/Visual+Studio
 
 ### 1. Connect to HTCF
 - Click on <img width="30" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/0c830769-0088-42b5-9a32-17689f942d5e"> in the bottom left-hand corner
-- Choose the configured SSH host ([see this page for details](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)) or select `Add New SSH Host` and type the following in the prompt: `ssh login.htcf.wustl.edu`
+- Choose the configured SSH host ([see this page for details](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)) or select `Add New SSH Host` and type `ssh login.htcf.wustl.edu` at the prompt
 - Enter your password and press enter
 
 ### 2. Tunnel to VSCode
