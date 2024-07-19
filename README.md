@@ -8,7 +8,7 @@ This repository includes information on software and common workflows on the clu
 
 [VSCode Setup](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)  
 
-[(under construction)Running Jupyter Notebooks on the server using VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md)  
+[Running Jupyter Notebooks on the server using VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md)  
 
 [(under construction)How to use R on htcf](https://github.com/dbaldridge-lab/htcf/blob/main/using_R.md)  
 
