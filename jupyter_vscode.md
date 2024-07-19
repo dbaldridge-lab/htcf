@@ -89,7 +89,9 @@ cat kernel.json
 Copy the path to the spack environment's python interpreter.
 ![image](https://github.com/user-attachments/assets/978a628d-a739-43aa-946c-fc383c09b6d8)
 
-Open settings from the menu in the upper right hand corner. ![image](https://github.com/user-attachments/assets/b2326da5-eb31-4c58-bed1-bc2fa39a28ce)
+Open settings from the menu in the upper right hand corner. 
+
+![image](https://github.com/user-attachments/assets/b2326da5-eb31-4c58-bed1-bc2fa39a28ce)
 ![image](https://github.com/user-attachments/assets/a580f78b-43b8-4d46-8f08-cb23aa93e38f)
 
 **Creating a kernel for a new environments**
