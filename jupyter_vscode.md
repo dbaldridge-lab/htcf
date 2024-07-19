@@ -75,7 +75,8 @@ Select the kernel you created.
 
 ---
 ### Troubleshooting
-**VSCode can't find the kernel in a spack environment**
+
+####VSCode can't find the kernel in a spack environment
 Start a tunnel.
 
 Navigate to where the kernel spec was installed, which is typically in the following location:
@@ -110,7 +111,8 @@ Press `Ctrl-C` and exit in the window you opened the tunnel to close the tunnel.
 
 Start a new tunnel. The kernel should now be available in the kernel selection menu.
 
-**Creating a kernel for a new environments**
+
+####Creating a kernel for a new environments
 
 Occassionally, you may need to set up a python kernel spec for a new environment. After activating your new environment and installing all required software, enter the commands below: 
 
