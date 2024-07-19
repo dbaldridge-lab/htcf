@@ -21,8 +21,6 @@ code tunnel
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/030b9235-2420-4d48-ad5f-2ce31d95c252)
 
  - Use the arrow keys to make a selection and press `ENTER`
-   
- A link and code will appear:
 
  ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/169cc694-46b8-480b-9788-86fdfbd6e4b9)
 
