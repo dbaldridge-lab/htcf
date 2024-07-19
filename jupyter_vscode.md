@@ -32,7 +32,7 @@ You should see the following prompt:
  
  Press CMD and click on the link to open the page in a browser. 
 
- Paste the code in the page that pops up and click next. Enter your wustl key username and password.
+ Paste the code and click next. Enter your wustl key username and password.
 
  ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/85ca0ab3-72c7-45db-aa22-f1e5ca4678ff)
 
