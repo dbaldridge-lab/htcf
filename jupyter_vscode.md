@@ -66,8 +66,14 @@ Enter the following commands in the terminal of the new window you opened previo
 spack env activate -p jupyter
 python3 -m ensurepip
 python3 -m pip install ipykernel
-python3 -m ipykernel install --user --name=py3.10.4
+python3 -m ipykernel install --user --name=py3.10.4 --display-name spack-py3.10.4
 ```
+
+Copy the location the kernelspec was installed in. Save this path, you will need it any time you open a Jupyter notebook.
+
+Here I have navigated to the location the kernel was installed. Printing this file, you see that the spec points back to the spack environment python interpreter.
+![image](https://github.com/user-attachments/assets/9c7fcfcb-abb3-42c9-bd5e-3032ce5fc289)
+
 
 Open a pre-existing Jupyter notebook file.
 
