@@ -115,7 +115,7 @@ Start a new tunnel. The kernel should now be available in the kernel selection m
 
 #### Creating a kernel for a new environments:
 
-Occassionally, you may need to set up a python kernel spec for a new environment. After activating your new environment and installing all required software, enter the commands below: 
+After activating your new environment and installing all required software, enter the commands below: 
 
 ```
 python3 -m ensurepip
