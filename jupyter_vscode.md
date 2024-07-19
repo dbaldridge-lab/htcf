@@ -68,7 +68,7 @@ spack env activate -p jupyter
 
 Open a pre-existing Jupyter notebook file.
 
-Select the kernel selector:
+Click the kernel selector icon:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
 
 Select the kernel you created.
