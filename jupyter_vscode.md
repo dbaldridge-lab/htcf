@@ -48,9 +48,6 @@ You should see the tunnel to the node you just created.
 
 - Click on the arrow to open the tunnel in the current window.
 
-<img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
-
-
 ### 3. Jupyter Notebook setup
 
 In the new window, activate a spack environment containing the software and python packages needed to run a Jupyter notebook. 
@@ -62,6 +59,9 @@ spack env activate -p jupyter
 - Click the kernel selector icon:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
 - Select the kernel pointing to the environment's python interpreter.
+
+
+<img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
 
 ---
 ### Troubleshooting
