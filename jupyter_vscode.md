@@ -8,7 +8,7 @@ Adapted from [this page](https://kb.uconn.edu/space/SH/26626326576/Visual+Studio
 
 ### 2. Tunnel to VSCode
 
-Start an interactive session (assuming you have configured your ~/.bashrc):
+Start an interactive session:
 ```
 sml
 ```
