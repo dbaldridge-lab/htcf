@@ -76,7 +76,9 @@ Select the kernel you created.
 
 #### Troubleshooting
 **VSCode can't find the kernel in a spack environment**
-Navigate to where the kernel spec was installed, which is typically in a folder in the following location:
+Start a tunnel.
+
+Navigate to where the kernel spec was installed, which is typically in the following location:
 ```
 cd $HOME/.local/share/jupyter/kernels
 ```
@@ -86,18 +88,29 @@ Enter the directory with the name matching the kernel that was installed. You sh
 cat kernel.json
 ```
 
-Copy the path to the spack environment's python interpreter.
+Confirm the path points to your spack environment's python interpreter.
 ![image](https://github.com/user-attachments/assets/978a628d-a739-43aa-946c-fc383c09b6d8)
+
+Use `pwd` to print the path to the current directory. Copy this path.
 
 Open settings from the menu in the upper right hand corner. 
 
 ![image](https://github.com/user-attachments/assets/b2326da5-eb31-4c58-bed1-bc2fa39a28ce)
 ![image](https://github.com/user-attachments/assets/a580f78b-43b8-4d46-8f08-cb23aa93e38f)
 
+Search for `Python: Default Interpreter Path`. 
+
+Select the tab "Remote [n###]".
+
+Paste the path here.
+![image](https://github.com/user-attachments/assets/e04aa94b-2e82-4dd1-ad2f-bef40bd88ee0)
+
+Press `Ctrl-C` and exit to close the tunnel.
+
 **Creating a kernel for a new environments**
 
-```
 Occassionally, you may need to set up a python kernel spec for a new environment. After activating your new environment and installing all required software, enter the commands below: 
+
 ```
 python3 -m ensurepip
 python3 -m pip install ipykernel
