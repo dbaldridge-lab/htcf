@@ -73,16 +73,6 @@ Click the kernel selector icon:
 
 Select the kernel you created.
 
-### 4. Creating a kernel for a new environments
-Occassionally, you may need to set up a python kernel spec for a new environment. After activating your new environment and installing all required software, enter the commands below: 
-```
-python3 -m ensurepip
-python3 -m pip install ipykernel
-python3 -m ipykernel install --user --name=your_env_name --display-name your_env_display_name
-```
-
-Unfortunatley, VSCode can't easily locate the interpreter in spack environments. For this reason, you may run in to fewer issues using conda or a python virtual environments when working Jupyter notebooks.
-
 
 #### Troubleshooting
 **VSCode can't find the kernel in a spack environment**
@@ -91,18 +81,28 @@ Navigate to where the kernel spec was installed, which is typically in a folder 
 cd $HOME/.local/share/jupyter/kernels
 ```
 
-Enter the directory with the name matching the kernel that was installed. You should see a file, `kernel.json`. Print this file:
+Enter the directory with the name matching the kernel that was installed. You should see a file, `kernel.json`. Print this file to the terminal:
 ```
 cat kernel.json
 ```
 
-Copy the path to the spack environment python interpreter.
+Copy the path to the spack environment's python interpreter.
 ![image](https://github.com/user-attachments/assets/978a628d-a739-43aa-946c-fc383c09b6d8)
 
-Open settings ![image](https://github.com/user-attachments/assets/b2326da5-eb31-4c58-bed1-bc2fa39a28ce)
- from the menu in the upper right hand corner. 
+Open settings from the menu in the upper right hand corner. ![image](https://github.com/user-attachments/assets/b2326da5-eb31-4c58-bed1-bc2fa39a28ce)
 ![image](https://github.com/user-attachments/assets/a580f78b-43b8-4d46-8f08-cb23aa93e38f)
 
+**Creating a kernel for a new environments**
+
+```
+Occassionally, you may need to set up a python kernel spec for a new environment. After activating your new environment and installing all required software, enter the commands below: 
+```
+python3 -m ensurepip
+python3 -m pip install ipykernel
+python3 -m ipykernel install --user --name=your_env_name --display-name your_env_display_name
+```
+
+Unfortunatley, VSCode can't easily locate the interpreter in spack environments. For this reason, you may run in to fewer issues using conda or a python virtual environments when working Jupyter notebooks.
 
 
 
