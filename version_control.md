@@ -18,7 +18,7 @@ If you're new to version control and wondering why this is important,
 
 1. Read the [documentation](https://git-scm.com/docs) or find a tutorial and learn how to use the following commands:
 ```
-git init
+git init 
 git status
 git add
 git commit
@@ -62,9 +62,9 @@ If you want to avoid entering your PAT every time you push, you can store your c
 ## Sharing code on GitHub
 1. Read the [documentation](https://git-scm.com/docs) or find a tutorial to understand what each of the commands below does.
 ```
-git push
-git clone
-git pull
+git push  # push your changes to GitHub
+git clone  # grab all code for a repo from GitHub
+git pull  # grab most recent changes
 ```
 2. Connect local version controlled files with a remote repository on GitHub.
 [How-to](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
