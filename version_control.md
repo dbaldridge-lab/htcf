@@ -1,11 +1,26 @@
 If you're new to version control and wondering why this is important, 
 [this is a nice overview](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668).
 
+# HTCF
+ - [ ] add .gitignore project template
+ - [ ] jupyter notebooks stored (Lab Archives) or converted to .py
+   - [ ] jupytext for .py copy 
+ - [ ] create dblab group permissions to push to GitHub from HTCF - initial?
+ - [ ] check permissions on new folders created by a user in scratch
+   - [ ] make project folders available to all group members
+ - [ ] Describe that only code is stored here
+   - [ ] any csv, tsv, html, txt, etc. should be backed up to RIS manually or placed in data/results
+   - [ ] intermediate files that can be
+      
+   - [ ] Starting a new shared repo on HTCF ![image](https://github.com/user-attachments/assets/5d86ef56-9f36-4c9c-b6e7-5fd6184499ed)
+
+
+# Local Machine
 ## Initial git setup
 1. Open a terminal
-2. Check if you have git installed on your local machine with `git --version`
+2. Check if git is installed by typing `git --version` at the prompt.
   - If you receive an error, [download git](https://git-scm.com/downloads) 
-3. configure git so it knows who is making changes
+3. Configure git so it knows who is making changes
   - Set your username: `git config --global user.name "FIRST_NAME LAST_NAME"`
   - Set your email address: `git config --global user.email "my_wustl_key@wustl.edu"`
     
