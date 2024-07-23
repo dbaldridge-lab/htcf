@@ -9,7 +9,8 @@ If you're new to version control and wondering why this is important,
 - grab the URL
 - Open GitHub Pull Requests tab:
 ![image](https://github.com/user-attachments/assets/262dc9c6-3b57-4a54-96ff-239f6165fd35)
-- select `Add Item`
+- Select `Configure remotes...`
+- Click `Add Item`
 - paste the URL
 
  - [ ] add .gitignore project template
