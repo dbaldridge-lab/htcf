@@ -5,7 +5,7 @@ If you're new to version control and wondering why this is important,
  - [ ] add .gitignore project template
    - [ ] use relative paths starting with directory name ![image](https://github.com/user-attachments/assets/5b57769c-b632-47d4-aed1-cc3f228b43c8)
 
- - [ ] jupyter notebooks stored (Lab Archives) or converted to .py
+ - [ ] [jupyter notebooks stored (Lab Archives)](https://help.labarchives.com/hc/en-us/articles/11780569021972-Jupyter-Integration) or converted to .py
    - [ ] jupytext for .py copy 
  - [ ] create dblab group permissions to push to GitHub from HTCF - initial?
  - [ ] check permissions on new folders created by a user in scratch
