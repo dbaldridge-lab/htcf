@@ -2,6 +2,12 @@ If you're new to version control and wondering why this is important,
 [this is a nice overview](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668).
 
 # HTCF
+ - [ ] setting up git remotes in VSCode
+- Open GitHub Pull Requests tab:
+![image](https://github.com/user-attachments/assets/262dc9c6-3b57-4a54-96ff-239f6165fd35)
+- select `Add Item`
+- 
+
  - [ ] add .gitignore project template
    - [ ] use relative paths starting with directory name ![image](https://github.com/user-attachments/assets/5b57769c-b632-47d4-aed1-cc3f228b43c8)
 
