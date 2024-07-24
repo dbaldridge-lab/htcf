@@ -64,12 +64,12 @@ git add
 git commit
 ```
 2. Create a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files)
-that lists files, filetypes, and directories that don't want version controlled in your project:
+that lists files, filetypes, and directories that you don't want version controlled in your project:
 - raw data
 - figures
 - code output
-- excel files(use .csv)
-- word documents(use .md)
+- excel files (use .csv)
+- word documents (use .md or .txt)
   
 ***Best practice is to not place those files in a version controlled directory to begin with,
 and only use .gitignore to catch exceptions.***
