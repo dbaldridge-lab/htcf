@@ -49,6 +49,10 @@ git config --global user.name "FIRST_NAME LAST_NAME"
 ```
 git config --global user.email "my_wustl_key@wustl.edu"
 ```
+- Check the config
+```
+git config --global --list
+```
     
 ## Version control your code with git
 
