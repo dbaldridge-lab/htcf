@@ -31,7 +31,7 @@ If you're new to version control and wondering why this is important,
  - Type `github`
  - Paste `https://login.wustl.edu/idp/profile/SAML2/Redirect/SSO` into the following field:
 ![image](https://github.com/user-attachments/assets/c15803d2-2be8-4180-b5b0-e566c7485d8a)
-
+- [ ] [Creating a new repository](https://docs.ris.wustl.edu/doc/compute/workshops/ris-software-development.html#creating-a-repository)
  
 
 
@@ -81,7 +81,9 @@ and only use .gitignore to catch exceptions.***
   - Give your token a descriptive name, select the scopes (or permissions) you want to grant this token, and click on "Generate token".
     - ***Be sure to copy your new personal access token now. You won’t be able to see it again!***
     - Never share your access token, it is a password
-    - Expiration is optional, I typically set it to one year from creation date
+    - In VSCode, select 
+    - ![image](https://github.com/user-attachments/assets/226d781d-604e-409f-8f36-1d9b0cb55b9d)
+
   - You will be prompted for your username and password when you try to push, pull, or clone a repository.
     - Use your GitHub username as the username, and your personal access token as the password.
 
