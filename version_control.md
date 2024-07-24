@@ -26,15 +26,8 @@ If you're new to version control and wondering why this is important,
 - [jupyter notebooks stored (Lab Archives)](https://help.labarchives.com/hc/en-us/articles/11780569021972-Jupyter-Integration) or converted to .py
   - export to .py or use jupytext for syncing a .py copy
 - [ ] Starting a new shared repo on HTCF ![image](https://github.com/user-attachments/assets/5d86ef56-9f36-4c9c-b6e7-5fd6184499ed)
-- [ ] Setup GitHub Enterprise account authentication
- - Go to settings ![image](https://github.com/user-attachments/assets/0b1bbd64-baab-4196-8e3b-53c701ff7ec5)
- - Type `github`
- - Paste `https://login.wustl.edu/idp/profile/SAML2/Redirect/SSO` into the following field:
-![image](https://github.com/user-attachments/assets/c15803d2-2be8-4180-b5b0-e566c7485d8a)
 - [ ] [Creating a new repository](https://docs.ris.wustl.edu/doc/compute/workshops/ris-software-development.html#creating-a-repository)
  
-
-
 # Local Machine
 ## Initial git setup
 1. Open a terminal
