@@ -13,20 +13,20 @@ If you're new to version control and wondering why this is important,
 - Click `Add Item`
 - paste the URL
 
- - [ ] add .gitignore project template
-   - [ ] use relative paths starting with directory name ![image](https://github.com/user-attachments/assets/5b57769c-b632-47d4-aed1-cc3f228b43c8)
+- [ ] add .gitignore project template
+  - [ ] use relative paths starting with directory name ![image](https://github.com/user-attachments/assets/5b57769c-b632-47d4-aed1-cc3f228b43c8)
 
- - [ ] [jupyter notebooks stored (Lab Archives)](https://help.labarchives.com/hc/en-us/articles/11780569021972-Jupyter-Integration) or converted to .py
-   - [ ] jupytext for .py copy 
- - [ ] create dblab group permissions to push to GitHub from HTCF - initial?
- - [ ] check permissions on new folders created by a user in scratch
-   - [ ] make project folders available to all group members
- - [ ] Describe that only code is stored here
-   - [ ] any csv, tsv, html, txt, etc. should be backed up to RIS manually or placed in data/results
-   - [ ] intermediate files that can be
-      
-   - [ ] Starting a new shared repo on HTCF ![image](https://github.com/user-attachments/assets/5d86ef56-9f36-4c9c-b6e7-5fd6184499ed)
- - [ ] Setup GitHub Enterprise account authentication
+
+- [ ] create dblab group permissions to push to GitHub from HTCF - initial?
+- [ ] check permissions on new folders created by a user in scratch
+  - [ ] make project folders available to all group members
+- [ ] Describe usage - only store code and relevant text documents
+- any csv, tsv, html, txt, etc. should be backed up to RIS manually or placed in data/results
+- intermediate files that can be re-generated should not be retained at all
+- [jupyter notebooks stored (Lab Archives)](https://help.labarchives.com/hc/en-us/articles/11780569021972-Jupyter-Integration) or converted to .py
+  - export to .py or use jupytext for syncing a .py copy
+- [ ] Starting a new shared repo on HTCF ![image](https://github.com/user-attachments/assets/5d86ef56-9f36-4c9c-b6e7-5fd6184499ed)
+- [ ] Setup GitHub Enterprise account authentication
  - Go to settings ![image](https://github.com/user-attachments/assets/0b1bbd64-baab-4196-8e3b-53c701ff7ec5)
  - Type `github`
  - Paste `https://login.wustl.edu/idp/profile/SAML2/Redirect/SSO` into the following field:
