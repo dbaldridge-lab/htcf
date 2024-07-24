@@ -26,6 +26,13 @@ If you're new to version control and wondering why this is important,
    - [ ] intermediate files that can be
       
    - [ ] Starting a new shared repo on HTCF ![image](https://github.com/user-attachments/assets/5d86ef56-9f36-4c9c-b6e7-5fd6184499ed)
+ - [ ] Setup GitHub Enterprise account authentication
+ - Go to settings ![image](https://github.com/user-attachments/assets/0b1bbd64-baab-4196-8e3b-53c701ff7ec5)
+ - Type `github`
+ - Paste `https://login.wustl.edu/idp/profile/SAML2/Redirect/SSO` into the following field:
+![image](https://github.com/user-attachments/assets/c15803d2-2be8-4180-b5b0-e566c7485d8a)
+
+ 
 
 
 # Local Machine
