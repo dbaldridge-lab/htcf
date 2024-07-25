@@ -30,16 +30,9 @@ code tunnel
  - Press CMD and click on the link to open the page in a browser
    
  ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/85ca0ab3-72c7-45db-aa22-f1e5ca4678ff)
- - Paste the code and click next
- - Enter your wustl key username and password
-
-
-The node your tunnel was created on will be listed. 
-
-![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/c316ddb8-56fb-466f-a112-74ebbad6c647)
-
-- Leave the current window open. 
-- Open a new VSCode window. The shortcut is `Shift + CMD + n`.
+- Paste the code and click next
+- Enter your wustl key username and password 
+- Leaving the previous VSCode window open, open a new VSCode window. The shortcut is `Shift + CMD + n`.
 
 - Click the icon for the Remote Explorer:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/02779d19-a100-43ad-8e23-26f15c17463a)
