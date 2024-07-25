@@ -46,9 +46,9 @@ alias ...="cd ../.."
 
 # Interactive sessions. Larger sizes have more memory per node.
 alias js='srun --mem=1G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l' #just a shell
-alias sml='srun --mem=2G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l' #use this most of the time
-alias med='srun --mem=8G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l'
-alias lrg='srun --mem=20G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l'
+alias sml='srun --mem=5G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l' #use this most of the time
+alias med='srun --mem=20G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l'
+alias lrg='srun --mem=100G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l'
 
 # lab vscode server location
 alias code='/ref/dblab/software/vscode/code'
