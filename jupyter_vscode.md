@@ -8,9 +8,11 @@ Adapted from [this page](https://kb.uconn.edu/space/SH/26626326576/Visual+Studio
 
 ### 2. Tunnel to VSCode
 
-If your `~./bashrc` was [configured as suggested](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md), type the following in the terminal to start an interactive session:
+If your `~./bashrc` was [configured as suggested](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md), type **one** of the following in the terminal and press `ENTER` to start an interactive session:
 ```
-sml
+sml # 5G of memory
+med # 20G of memory
+lrg # 100G of memory
 ```
 
 Start a tunnel:
