@@ -72,7 +72,7 @@ spack env activate -p jupyter
 
 ---
 
-#### Creating a kernel for a new environments:
+#### Creating a kernel (only required when creating new spack environments):
 
 After activating your new environment and installing all required software, enter the commands below: 
 
