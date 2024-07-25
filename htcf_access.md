@@ -1,7 +1,9 @@
 ## Connect to the network
 First things first is to connect to WUSM-secure wifi or ethernet.
 
-If you want to work off campus, you need to use a VPN. Download the Cisco AnyConnect app and install. In the app, type in msvpn.wusm.wustl.edu for connecting address, and use accounts\<your_wustl_id> and <your_wustl_password> for authentication.
+If you want to work off campus, you need to use a VPN. Download and install the Cisco AnyConnect app. 
+
+Connecting address is `msvpn.wusm.wustl.edu`. Use your wustl key and password for authentication.
 
 ## Logging in to the cluster (Mac or Linux)
 HTCF can be logged onto from your local computer on a mac or linux by using the pre-installed terminal application.
