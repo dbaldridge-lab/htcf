@@ -50,7 +50,7 @@ alias sml='srun --mem=5G --cpus-per-task=1 -J interactive -p interactive --pty /
 alias med='srun --mem=20G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l'
 alias lrg='srun --mem=100G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l'
 
-# lab vscode server location
+# lab vscode software location
 alias code='/ref/dblab/software/vscode/code'
 
 # Safe versions of the default commands. Will ask permission before overwriting files.
