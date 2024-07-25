@@ -19,12 +19,12 @@ If working locally, note that this file will also not be sourced when opening th
 You are welcome to use any shell of your choice, however setup and troubleshooting of custom configurations are left up to the user.
 
 ## suggested .bashrc additions
-1. Copy what you find useful from the ### quoted text ### on this page by highlighting and pressing cmd+C
+1. Copy what you find useful from the ### quoted text below ###
 2. open a terminal and connect to HTCF using ssh (review [these instructions](https://github.com/dbaldridge-lab/htcf/blob/main/htcf_access.md))
-3. open the .bashrc file by typing ```nano ~/.bashrc``` and pressing enter
+3. open the .bashrc file by typing ```nano ~/.bashrc``` and pressing `enter`
 4. press the down arrow key until your cursor is at the end of the file
-5. Press cmd+v to add the text to the bottom of your file
-6. Press ctrl+x to exit, type y to save.
+5. Press `cmd+v` to add the text to the bottom of your file
+6. Press `ctrl+x` to exit, type `y` to save.
 7. To see changes reflected, manually source this file by typing ```source ~/.bashrc``` at the prompt and pressing enter, or close out of your terminal and log back in.
 
 ```
