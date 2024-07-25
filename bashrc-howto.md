@@ -25,7 +25,7 @@ You are welcome to use any shell of your choice, however setup and troubleshooti
 4. press the down arrow key until your cursor is at the end of the file
 5. Press `cmd+v` to add the text to the bottom of your file
 6. Press `ctrl+x` to exit, type `y` to save.
-7. To see changes reflected, manually source this file by typing ```source ~/.bashrc``` at the prompt and pressing enter, or close out of your terminal and log back in.
+7. To see changes reflected, manually source this file by typing ```source ~/.bashrc``` at the prompt and pressing `enter`, or close out of your terminal and log back in.
 
 ```
 ##################################################################################
