@@ -62,7 +62,7 @@ spack env activate -p jupyter
 ```
 /ref/dblab/software/spack-0.21.0/var/spack/environments/jupyter/.spack-env/view/bin/python
 ```
-- Refresh
+- Refresh under `Jupyter Kernels` if needed
 - Under `Python Environments` Select `Python 3.10.4`
 - Select the kernel pointing to the environment's python interpreter for this spack environment, `py3.10.4spack`
 - You may get an error about an invalid interpreter. Ignore this and run a block to test if the kernel works.
