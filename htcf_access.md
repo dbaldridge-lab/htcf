@@ -1,5 +1,3 @@
-(Adapted from HTCF documentation by Emma Johnson and Yiming Kang)
-
 ## Connect to the network
 First things first is to connect to WUSM-secure wifi or ethernet.
 
@@ -81,5 +79,8 @@ After submission, check your the job progress.
 squeue -u <your_account_ID>
 ```
 For more sophisticated parallelization, check out the [instructions on how to run a job array](https://htcf.wustl.edu/docs/runningjobs/).
+
+
+(Adapted from HTCF documentation by Emma Johnson and Yiming Kang)
 
 
