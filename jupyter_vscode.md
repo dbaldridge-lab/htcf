@@ -100,7 +100,7 @@ Continue with the instructions in step 3 above, pasting in this path instead.
 ---
 ### Troubleshooting
 
-### Kernel is crashing
+#### Kernel is crashing
 
 - Try allocating more memory
 
