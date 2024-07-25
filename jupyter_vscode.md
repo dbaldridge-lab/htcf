@@ -64,8 +64,6 @@ spack env activate -p jupyter
 ```
 - Refresh under `Jupyter Kernels` if needed
 - Under `Python Environments` Select `Python 3.10.4`
-- Select the kernel pointing to the environment's python interpreter for this spack environment, `py3.10.4spack`
-- You may get an error about an invalid interpreter. Ignore this and run a block to test if the kernel works.
 
 <img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
 
