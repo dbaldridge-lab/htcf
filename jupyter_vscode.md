@@ -69,43 +69,6 @@ spack env activate -p jupyter
 
 <img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
 
----
-### Troubleshooting
-
-#### VSCode can't find the kernel in a new spack environment:
-Start a tunnel.
-
-Navigate to where the kernel spec was installed, which is typically in the following location:
-```
-cd $HOME/.local/share/jupyter/kernels
-```
-
-Enter the directory with the name matching the kernel that was installed. You should see a file, `kernel.json`. Print this file to the terminal:
-```
-cat kernel.json
-```
-
-Confirm the path points to your spack environment's python interpreter.
-![image](https://github.com/user-attachments/assets/978a628d-a739-43aa-946c-fc383c09b6d8)
-
-Use `pwd` to print the path to the current directory. Copy this path.
-
-Open settings from the menu in the upper right hand corner. 
-
-![image](https://github.com/user-attachments/assets/b2326da5-eb31-4c58-bed1-bc2fa39a28ce)
-![image](https://github.com/user-attachments/assets/a580f78b-43b8-4d46-8f08-cb23aa93e38f)
-
-Search for `Python: Default Interpreter Path`. 
-
-Select the tab "Remote [n###]".
-
-Paste the path here.
-![image](https://github.com/user-attachments/assets/e04aa94b-2e82-4dd1-ad2f-bef40bd88ee0)
-
-Enter `Ctrl-C` and exit in the terminal you used to open the tunnel to close the tunnel.
-![image](https://github.com/user-attachments/assets/64184a69-178f-4897-8da0-2457a10c39ca)
-
-Start a new tunnel. The kernel should now be available in the kernel selection menu.
 
 ---
 
@@ -119,7 +82,27 @@ python3 -m pip install ipykernel
 python3 -m ipykernel install --user --name=your_env_name --display-name your_env_display_name
 ```
 
-Unfortunatley, VSCode can't easily locate the interpreter in spack environments. For this reason, you may run in to fewer issues using conda or python virtual environments when working Jupyter notebooks.
+Start a tunnel.
+
+Navigate to where the kernel spec was installed, which is typically in the following location:
+```
+cd $HOME/.local/share/jupyter/kernels
+```
+
+Enter the directory with the name matching the kernel that was installed. Assuming you were the user that created this kernel using ipykernel, you should see a file, `kernel.json`. Print this file to the terminal:
+```
+cat kernel.json
+```
+Grab the path listed in this file.
+
+Continue with the instructions in step 3 above, pasting in this path instead.
+
+---
+### Troubleshooting
+
+### Kernel is crashing
+
+- Try allocating more memory
 
 
 
