@@ -48,7 +48,7 @@ You should see the tunnel to the node you just created.
 
 - Click on the arrow to open the tunnel in the current window.
 
-### 3. Jupyter Notebook setup (Repeat this step for each interactive session)
+### 3. Jupyter Notebook setup
 
 In the new window, activate a spack environment containing the software and python packages needed to run a Jupyter notebook. 
 ```
