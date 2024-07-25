@@ -1,4 +1,4 @@
-(Credit to Emma Johnson / Yiming Kang for this writeup)
+(Adapted from HTCF documentation by Emma Johnson and Yiming Kang)
 
 ## Connect to the network
 First things first is to connect to WUSM-secure wifi or ethernet.
