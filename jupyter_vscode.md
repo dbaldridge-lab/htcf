@@ -58,6 +58,10 @@ spack env activate -p jupyter
 - Open a pre-existing Jupyter notebook file.
 - Click the kernel selector icon:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
+- At the "type to choose a kernel source" prompt, paste
+```
+/ref/dblab/software/spack-0.21.0/var/spack/environments/jupyter/.spack-env/view/bin/python
+```
 - Select the kernel pointing to the environment's python interpreter.
 
 
@@ -66,7 +70,7 @@ spack env activate -p jupyter
 ---
 ### Troubleshooting
 
-#### VSCode can't find the kernel in a spack environment:
+#### VSCode can't find the kernel in a new spack environment:
 Start a tunnel.
 
 Navigate to where the kernel spec was installed, which is typically in the following location:
