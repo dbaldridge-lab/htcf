@@ -1,8 +1,33 @@
 If you're new to version control and wondering why this is important, 
 [this is a nice overview](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668).
 
-# HTCF
- - [ ] setting up git remotes in VSCode
+## Which files should I track using version control?
+
+Track code and relevant flat files (.txt, .csv, etc.) on GitHub.
+
+**Data should not be synced with GitHub**, but instead backed up to RIS using Globus.
+
+Try to store notebooks alongside other experimental documentation on Lab Archives.
+
+Code in Jupyter notebooks can additionally be tracked on GitHub using Jupytext:
+```
+# Activate an environment with Jupytext installed
+spack env activate -p jupyter
+
+# Create a copy of the notebook file converted to .py
+jupytext --to py example.ipynb
+
+# Pair the files
+jupytext --set-formats ipynb,py:percent example.ipynb
+
+# Sync the files
+jupytext --sync example.py
+```
+
+## HTCF
+
+
+### Setting up git remotes using VSCode
 - Create a new repository on GitHub
 ![image](https://github.com/user-attachments/assets/c3717bd2-1ce8-45de-a099-bfb4065bbabe)
 ![image](https://github.com/user-attachments/assets/8bbb2eee-5611-4ed8-9906-36196552882a)
@@ -13,14 +38,11 @@ If you're new to version control and wondering why this is important,
 - Click `Add Item`
 - paste the URL
 
+
 - [ ] add .gitignore project template
   - [ ] use relative paths starting with directory name ![image](https://github.com/user-attachments/assets/5b57769c-b632-47d4-aed1-cc3f228b43c8)
 
-
-- [ ] create dblab group permissions to push to GitHub from HTCF - initial?
-- [ ] check permissions on new folders created by a user in scratch
-  - [ ] make project folders available to all group members
-- [ ] Describe usage - only store code and relevant text documents
+- [ ] Describe usage - 
 - any csv, tsv, html, txt, etc. should be backed up to RIS manually or placed in data/results
 - intermediate files that can be re-generated should not be retained at all
 - [jupyter notebooks stored (Lab Archives)](https://help.labarchives.com/hc/en-us/articles/11780569021972-Jupyter-Integration) or converted to .py
