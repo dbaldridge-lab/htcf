@@ -69,11 +69,8 @@ This is one of many approaches:
 [Here's another approach.](https://docs.ris.wustl.edu/doc/compute/workshops/ris-software-development.html#creating-a-repository) 
 
 2. Create a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) that lists filetypes and directories that you don't want version controlled:
-- raw data
-- figures
-- code output
-- excel files (use .csv)
-- word documents (use .md or .txt)
+
+At the head directory of a new repository, add this [.gitignore template](https://github.com/dbaldridge-lab/htcf/blob/main/.gitignore), editing as needed.
 
 ## Getting comfortable with git
 
