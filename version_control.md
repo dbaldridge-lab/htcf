@@ -110,16 +110,15 @@ git rm
 
 
 ## Suggested Git Workflow
-Workflow is up to the discretion of the project owner. For small teams, a [centralized workflow](https://anything-git.readthedocs.io/en/latest/git_workflow.html) is usually sufficient. 
+A [centralized workflow](https://anything-git.readthedocs.io/en/latest/git_workflow.html) is usually sufficient. 
 
 A more complicated workflow utilizing feature branches can be useful in cases where:
 - several people are making changes simultaneously
 - code is reviewed before being added to the main branch
-- multiple independent features, figures, or improvements are in-progress and changes will occur over a number of weeks
+- multiple independent updates are in-progress and changes will occur over a number of weeks
   - [Using branches](https://www.atlassian.com/git/tutorials/using-branches)
 - the team plans to use pull requests to get feedback or facilitate troubleshooting
   - [Making pull requests on Github](https://docs.github.com/en/get-started/start-your-journey/hello-world)
-  
 ```
 git branch
 git checkout
