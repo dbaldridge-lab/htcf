@@ -8,15 +8,15 @@ Complete the following setup on both your local machine and HTCF:
 2. Check if git is installed by typing `git --version` at the prompt.
     - If you receive an error, [download git](https://git-scm.com/downloads) 
 3. Configure git so it it is clear who is making changes
-    - Set your username. Change only the FIRST_NAME and LAST_NAME fields in the following command:
+Set your username. Change only the FIRST_NAME and LAST_NAME fields in the following command:
 ```
 git config --global user.name "FIRST_NAME LAST_NAME"
 ```
-  - Set your email address:
+Set your email address:
 ```
 git config --global user.email "my_wustl_key@wustl.edu"
 ```
-- Confirm your changes
+Confirm your changes
 ```
 git config --global --list
 ```
