@@ -125,27 +125,4 @@ git checkout
 git merge
 ```
 ### TO DO
-- [ ] add .gitignore project template
 - [ ] Test if two people can push from same repo on HTCF. Will same credentials show for both?
-    - [ ] Starting a new shared repo on HTCF ![image](https://github.com/user-attachments/assets/5d86ef56-9f36-4c9c-b6e7-5fd6184499ed)
-    - [ ] Are PAT required?
-Create a Personal Access Token (PAT)
-  - Go to your GitHub settings (click on your profile picture in the top right corner and select "Settings").
-  - In the left sidebar, click on "Developer settings". ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/c4a32562-6686-4ed2-b8f4-47fe5d233ead)
-
-  - In the left sidebar, click on "Personal access tokens". ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/1eecf8e5-7d13-4e01-86b7-68353c1b17ec)
-
-  - Click on "Generate new token (classic)". ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/0f57ad98-b16b-4884-a07c-416c15edae2c)
-
-  - Give your token a descriptive name, select the scopes (or permissions) you want to grant this token, and click on "Generate token".
-    - ***Be sure to copy your new personal access token now. You won’t be able to see it again!***
-    - Never share your access token, it is a password
-    - In VSCode, select 
-    - ![image](https://github.com/user-attachments/assets/226d781d-604e-409f-8f36-1d9b0cb55b9d)
-
-  - You will be prompted for your username and password when you try to push, pull, or clone a repository.
-    - Use your GitHub username as the username, and your personal access token as the password.
-
-If you want to avoid entering your PAT every time you push, you can store your credentials by entering the following command: 
-
-`git config --global credential.helper store` 
