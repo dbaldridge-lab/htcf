@@ -31,7 +31,8 @@ Code and relevant flat files (.txt, .csv, etc.) should be added to git repositor
 - Retain all log files, preferably in the same folder as the finalized results on RIS.
 
 ### Store Jupyter Notebooks with output in Lab Archives... 
-Notebooks can be stored alongside other experimental documentation on Lab Archives. Save the file after executing the code blocks so the results can be previewed.
+Notebooks can be stored alongside other experimental documentation on Lab Archives. 
+Save the file after executing the code blocks so the results can be previewed.
 
 ### ... but also version control a copy of the notebook source code
 Code in Jupyter notebooks can be converted to a format more compatible with version control tools using Jupytext. 
@@ -52,25 +53,29 @@ jupytext --sync example.py
 ```
 
 ## Setting up a new repository using VSCode
-This is one of many approaches for connecting a local repository (e.g. HTCF or local machine) to a remote repository on GitHub:
+***Use one repository per project.***
+1. Connect a local repository (e.g. on HTCF or local machine) to a remote repository on GitHub:
+This is one of many approaches:
 - Create a new repository on GitHub
 ![image](https://github.com/user-attachments/assets/c3717bd2-1ce8-45de-a099-bfb4065bbabe)
 ![image](https://github.com/user-attachments/assets/8bbb2eee-5611-4ed8-9906-36196552882a)
 - grab the URL
-- Open GitHub Pull Requests tab:
+- Open the GitHub Pull Requests tab in VSCode:
 ![image](https://github.com/user-attachments/assets/262dc9c6-3b57-4a54-96ff-239f6165fd35)
 - Select `Configure remotes...`
 - Click `Add Item`
 - paste the URL
 
+[Here's another approach.](https://docs.ris.wustl.edu/doc/compute/workshops/ris-software-development.html#creating-a-repository) 
 
-- [ ] add .gitignore project template
-- [ ] Starting a new shared repo on HTCF ![image](https://github.com/user-attachments/assets/5d86ef56-9f36-4c9c-b6e7-5fd6184499ed)
-- [ ] [Creating a new repository](https://docs.ris.wustl.edu/doc/compute/workshops/ris-software-development.html#creating-a-repository)
- 
+2. Create a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) that lists filetypes and directories that you don't want version controlled:
+- raw data
+- figures
+- code output
+- excel files (use .csv)
+- word documents (use .md or .txt)
 
-    
-## Version control your code with git
+## Getting comfortable with git
 
 1. Read the [documentation](https://git-scm.com/docs) or find a tutorial and learn how to use the following commands:
 ```
@@ -79,18 +84,9 @@ git status
 git add
 git commit
 ```
-2. Create a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files)
-that lists files, filetypes, and directories that you don't want version controlled in your project:
-- raw data
-- figures
-- code output
-- excel files (use .csv)
-- word documents (use .md or .txt)
-  
-***Best practice is to not place those files in a version controlled directory to begin with,
-and only use .gitignore to catch exceptions.***
+2. 
 
-3. Add version control to an existing project or create a new project. ***Use one repository per project.***
+3. Add version control to an existing project or create a new project. 
 4. Make changes and test making commits. ***Make descriptive commit messages (AI can help).***
 
 ## Initial GitHub setup
@@ -120,13 +116,13 @@ If you want to avoid entering your PAT every time you push, you can store your c
 ## Sharing code on GitHub
 1. Read the [documentation](https://git-scm.com/docs) or find a tutorial to understand what each of the commands below does.
 ```
-git push  # push your changes to GitHub
-git clone  # grab all code for a repo from GitHub
-git pull  # grab most recent changes
+git push  # (local -> remote) puts your changes on GitHub
+git clone  # copy all code for a repo from GitHub
+git pull  # (remote -> local) grabs most recent changes from GitHub
 ```
 2. Connect local version controlled files with a remote repository on GitHub.
 [How-to](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
-3. Fetch from the remote GitHub main branch (origin) to your local main branch (main) to keep your local copy up to date.
+3. Pull changes from the remote GitHub main branch (origin) to your local main branch (main) to keep your local copy of the codebase up to date.
 4. Make changes on main and push them up to origin. ***If multiple people are making edits, repeat this and the previous step frequently.***
 
 ## IDEs and git clients can help
@@ -165,3 +161,7 @@ git branch
 git checkout
 git merge
 ```
+### TO DO
+- [ ] add .gitignore project template
+- [ ] Test if two people can push from same repo on HTCF. Will same credentials show for both?
+    - [ ] Starting a new shared repo on HTCF ![image](https://github.com/user-attachments/assets/5d86ef56-9f36-4c9c-b6e7-5fd6184499ed)
