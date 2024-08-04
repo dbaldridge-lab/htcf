@@ -23,14 +23,20 @@ git config --global --list
 
 ## Which files should I track using version control?
 
-Track code and relevant flat files (.txt, .csv, etc.) on GitHub.
+Code and relevant flat files (.txt, .csv, etc.) should be added to git repositories and synced with GitHub.
 
-**Data should not be synced with GitHub**, but instead backed up to RIS using Globus.
-Large intermediate files that can be re-generated should not be retained. Do keep the log files that produced these results.
+### Do not track data files
+- Move raw and processed data files to RIS using Globus. 
+- Once all data processing is completed, consider deleting large intermediate files that can be re-generated.
+- Retain all log files, preferably in the same folder as the finalized results on RIS.
 
-Try to store notebooks alongside other experimental documentation on Lab Archives.
+### Store Jupyter Notebooks with output in Lab Archives... 
+Notebooks can be stored alongside other experimental documentation on Lab Archives. Save the file after executing the code blocks so the results can be previewed.
 
-Code in Jupyter notebooks can additionally be tracked on GitHub using Jupytext:
+### ... but also version control a copy of the notebook source code
+Code in Jupyter notebooks can be converted to a format more compatible with version control tools using Jupytext. 
+
+Jupytext will generate an equivalent .py file synced with changes to a paired notebook:
 ```
 # Activate an environment with Jupytext installed
 spack env activate -p jupyter
@@ -45,8 +51,8 @@ jupytext --set-formats ipynb,py:percent example.ipynb
 jupytext --sync example.py
 ```
 
-
-### Setting up git remotes using VSCode
+## Setting up a new repository using VSCode
+This is one of many approaches for connecting a local repository (e.g. HTCF or local machine) to a remote repository on GitHub:
 - Create a new repository on GitHub
 ![image](https://github.com/user-attachments/assets/c3717bd2-1ce8-45de-a099-bfb4065bbabe)
 ![image](https://github.com/user-attachments/assets/8bbb2eee-5611-4ed8-9906-36196552882a)
