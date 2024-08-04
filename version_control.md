@@ -1,6 +1,26 @@
 If you're new to version control and wondering why this is important, 
 [this is a nice overview](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668).
 
+## Initial git setup
+Complete the following setup on both your local machine and HTCF:
+
+1. Open a terminal
+2. Check if git is installed by typing `git --version` at the prompt.
+    - If you receive an error, [download git](https://git-scm.com/downloads) 
+3. Configure git so it it is clear who is making changes
+    - Set your username. Change only the FIRST_NAME and LAST_NAME fields in the following command:
+```
+git config --global user.name "FIRST_NAME LAST_NAME"
+```
+  - Set your email address:
+```
+git config --global user.email "my_wustl_key@wustl.edu"
+```
+- Confirm your changes
+```
+git config --global --list
+```
+
 ## Which files should I track using version control?
 
 Track code and relevant flat files (.txt, .csv, etc.) on GitHub.
@@ -25,8 +45,6 @@ jupytext --set-formats ipynb,py:percent example.ipynb
 jupytext --sync example.py
 ```
 
-## HTCF
-
 
 ### Setting up git remotes using VSCode
 - Create a new repository on GitHub
@@ -44,24 +62,7 @@ jupytext --sync example.py
 - [ ] Starting a new shared repo on HTCF ![image](https://github.com/user-attachments/assets/5d86ef56-9f36-4c9c-b6e7-5fd6184499ed)
 - [ ] [Creating a new repository](https://docs.ris.wustl.edu/doc/compute/workshops/ris-software-development.html#creating-a-repository)
  
-# Local Machine
-## Initial git setup
-1. Open a terminal
-2. Check if git is installed by typing `git --version` at the prompt.
-  - If you receive an error, [download git](https://git-scm.com/downloads) 
-3. Configure git so it it is clear who is making changes
-  - Set your username. Change only the FIRST_NAME and LAST_NAME fields in the following command:
-```
-git config --global user.name "FIRST_NAME LAST_NAME"
-```
-  - Set your email address:
-```
-git config --global user.email "my_wustl_key@wustl.edu"
-```
-- Check the config to confirm your changes
-```
-git config --global --list
-```
+
     
 ## Version control your code with git
 
