@@ -6,6 +6,7 @@ If you're new to version control and wondering why this is important,
 Track code and relevant flat files (.txt, .csv, etc.) on GitHub.
 
 **Data should not be synced with GitHub**, but instead backed up to RIS using Globus.
+Large intermediate files that can be re-generated should not be retained. Do keep the log files that produced these results.
 
 Try to store notebooks alongside other experimental documentation on Lab Archives.
 
@@ -40,13 +41,6 @@ jupytext --sync example.py
 
 
 - [ ] add .gitignore project template
-  - [ ] use relative paths starting with directory name ![image](https://github.com/user-attachments/assets/5b57769c-b632-47d4-aed1-cc3f228b43c8)
-
-- [ ] Describe usage - 
-- any csv, tsv, html, txt, etc. should be backed up to RIS manually or placed in data/results
-- intermediate files that can be re-generated should not be retained at all
-- [jupyter notebooks stored (Lab Archives)](https://help.labarchives.com/hc/en-us/articles/11780569021972-Jupyter-Integration) or converted to .py
-  - export to .py or use jupytext for syncing a .py copy
 - [ ] Starting a new shared repo on HTCF ![image](https://github.com/user-attachments/assets/5d86ef56-9f36-4c9c-b6e7-5fd6184499ed)
 - [ ] [Creating a new repository](https://docs.ris.wustl.edu/doc/compute/workshops/ris-software-development.html#creating-a-repository)
  
@@ -64,7 +58,7 @@ git config --global user.name "FIRST_NAME LAST_NAME"
 ```
 git config --global user.email "my_wustl_key@wustl.edu"
 ```
-- Check the config
+- Check the config to confirm your changes
 ```
 git config --global --list
 ```
