@@ -1,0 +1,47 @@
+# Ignore data files (store on RIS)
+*.csv
+*.tsv
+*.html
+*.json
+
+# Ignore genetic data (store on RIS)
+data/*
+*.fasta
+*.fastq*
+*fastqc*
+*.vcf
+*.bam
+*.bed
+*.wig
+*.gff
+*.gtf
+*.fa
+
+# Ignore jupyter notebooks (Store on RIS or Lab Archives. Can be exported to .py to be stored in the repository.)
+*.ipynb
+
+# Ignore log files (store on RIS)
+*.out
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+*~
+
+# Ignore IDE and editor specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+
+# Ignore other Mac dot files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
