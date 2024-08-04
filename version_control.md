@@ -1,6 +1,10 @@
 If you're new to version control and wondering why this is important, 
 [this is a nice overview](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668).
 
+## Initial GitHub setup
+1. Create a GitHub account or add your wustl email to an existing account
+2. An admin of the group or RIS will add this account to dbaldridge-lab
+
 ## Initial git setup
 Complete the following setup on both your local machine and HTCF:
 
@@ -52,9 +56,9 @@ jupytext --set-formats ipynb,py:percent example.ipynb
 jupytext --sync example.py
 ```
 
-## Setting up a new repository using VSCode
+## Setting up a new repository
 ***Use one repository per project.***
-1. Connect a local repository (e.g. on HTCF or local machine) to a remote repository on GitHub:
+1. Connect a local repository (e.g. on HTCF or local machine) to a remote repository on GitHub.
 This is one of many approaches:
 - Create a new repository on GitHub
 ![image](https://github.com/user-attachments/assets/c3717bd2-1ce8-45de-a099-bfb4065bbabe)
@@ -68,59 +72,30 @@ This is one of many approaches:
 
 [Here's another approach.](https://docs.ris.wustl.edu/doc/compute/workshops/ris-software-development.html#creating-a-repository) 
 
+[And another.](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
+
 2. Create a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) that lists filetypes and directories that you don't want version controlled:
 
 At the head directory of a new repository, add this [.gitignore template](https://github.com/dbaldridge-lab/htcf/blob/main/.gitignore), editing as needed.
 
 ## Getting comfortable with git
 
-1. Read the [documentation](https://git-scm.com/docs) or find a tutorial and learn how to use the following commands:
+1. Read the [documentation](https://git-scm.com/docs) or find a tutorial and learn how to use the following commands to version control code in a local branch:
 ```
 git init 
 git status
 git add
 git commit
 ```
-2. 
-
-3. Add version control to an existing project or create a new project. 
-4. Make changes and test making commits. ***Make descriptive commit messages (AI can help).***
-
-## Initial GitHub setup
-1. Create a GitHub account or add your wustl email to an existing account
-2. An admin of the group or RIS will add this account to dbaldridge-lab
-3. Create a Personal Access Token (PAT)
-  - Go to your GitHub settings (click on your profile picture in the top right corner and select "Settings").
-  - In the left sidebar, click on "Developer settings". ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/c4a32562-6686-4ed2-b8f4-47fe5d233ead)
-
-  - In the left sidebar, click on "Personal access tokens". ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/1eecf8e5-7d13-4e01-86b7-68353c1b17ec)
-
-  - Click on "Generate new token (classic)". ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/0f57ad98-b16b-4884-a07c-416c15edae2c)
-
-  - Give your token a descriptive name, select the scopes (or permissions) you want to grant this token, and click on "Generate token".
-    - ***Be sure to copy your new personal access token now. You won’t be able to see it again!***
-    - Never share your access token, it is a password
-    - In VSCode, select 
-    - ![image](https://github.com/user-attachments/assets/226d781d-604e-409f-8f36-1d9b0cb55b9d)
-
-  - You will be prompted for your username and password when you try to push, pull, or clone a repository.
-    - Use your GitHub username as the username, and your personal access token as the password.
-
-If you want to avoid entering your PAT every time you push, you can store your credentials by entering the following command: 
-
-`git config --global credential.helper store`
-
-## Sharing code on GitHub
-1. Read the [documentation](https://git-scm.com/docs) or find a tutorial to understand what each of the commands below does.
+2. Make descriptive commit messages (AI can help).
+3. Learn how to use the following commands to sync changes with a remote branch:
 ```
 git push  # (local -> remote) puts your changes on GitHub
 git clone  # copy all code for a repo from GitHub
 git pull  # (remote -> local) grabs most recent changes from GitHub
 ```
-2. Connect local version controlled files with a remote repository on GitHub.
-[How-to](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
-3. Pull changes from the remote GitHub main branch (origin) to your local main branch (main) to keep your local copy of the codebase up to date.
-4. Make changes on main and push them up to origin. ***If multiple people are making edits, repeat this and the previous step frequently.***
+- Pull changes from the remote GitHub main branch (origin) to your local main branch (main) to keep your local copy of the codebase up to date.
+- Make changes on main and push them up to origin. ***If multiple people are making edits, repeat this and the previous step frequently.***
 
 ## IDEs and git clients can help
 [RStudio](https://happygitwithr.com/usage-intro)
@@ -162,3 +137,24 @@ git merge
 - [ ] add .gitignore project template
 - [ ] Test if two people can push from same repo on HTCF. Will same credentials show for both?
     - [ ] Starting a new shared repo on HTCF ![image](https://github.com/user-attachments/assets/5d86ef56-9f36-4c9c-b6e7-5fd6184499ed)
+    - [ ] Are PAT required?
+Create a Personal Access Token (PAT)
+  - Go to your GitHub settings (click on your profile picture in the top right corner and select "Settings").
+  - In the left sidebar, click on "Developer settings". ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/c4a32562-6686-4ed2-b8f4-47fe5d233ead)
+
+  - In the left sidebar, click on "Personal access tokens". ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/1eecf8e5-7d13-4e01-86b7-68353c1b17ec)
+
+  - Click on "Generate new token (classic)". ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/0f57ad98-b16b-4884-a07c-416c15edae2c)
+
+  - Give your token a descriptive name, select the scopes (or permissions) you want to grant this token, and click on "Generate token".
+    - ***Be sure to copy your new personal access token now. You won’t be able to see it again!***
+    - Never share your access token, it is a password
+    - In VSCode, select 
+    - ![image](https://github.com/user-attachments/assets/226d781d-604e-409f-8f36-1d9b0cb55b9d)
+
+  - You will be prompted for your username and password when you try to push, pull, or clone a repository.
+    - Use your GitHub username as the username, and your personal access token as the password.
+
+If you want to avoid entering your PAT every time you push, you can store your credentials by entering the following command: 
+
+`git config --global credential.helper store` 
