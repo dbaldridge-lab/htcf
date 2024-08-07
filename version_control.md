@@ -41,7 +41,7 @@ Save the file after executing the code blocks so the results can be previewed.
 Code in Jupyter notebooks can be converted to a format more compatible with version control tools using Jupytext. 
 
 Jupytext will generate an equivalent .py file synced with changes to a paired notebook:
-```
+
 Activate an environment with Jupytext installed
 ```
 spack env activate -p jupyter
