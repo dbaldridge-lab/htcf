@@ -42,16 +42,20 @@ Code in Jupyter notebooks can be converted to a format more compatible with vers
 
 Jupytext will generate an equivalent .py file synced with changes to a paired notebook:
 ```
-# Activate an environment with Jupytext installed
+Activate an environment with Jupytext installed
+```
 spack env activate -p jupyter
-
-# Create a copy of the notebook file converted to .py
+```
+Create a copy of the notebook file converted to .py
+```
 jupytext --to py example.ipynb
-
-# Pair the files
+```
+Pair the files
+```
 jupytext --set-formats ipynb,py:percent example.ipynb
-
-# Sync the files
+```
+Sync the files
+```
 jupytext --sync example.py
 ```
 
