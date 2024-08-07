@@ -16,13 +16,13 @@ Next, consult the documentation for suggested installation steps and dependancie
 
 Not all software can be installed using spack. To see if the software exists as a spack package:
 ```
-spack list yourSoftware
+spack list yourKeyword
 ```
 Available packages are also searchable [here.](https://packages.spack.io/)
 
 Install the package to the lab spack instance:
 ```
-spack install yourSpec
+spack install yourSpackPackage
 ```
 
 The package can now be added to a spack environment.
@@ -42,7 +42,7 @@ The x flag is used to omit dependancies.
 spack find -x
 ```
 Add spack packages, seperating each with a space. 
-Use @ to denote version of a spack spec:
+Use @ to denote version:
 ```
 spack add samtools python@3.10.4  # add spack packages
 ```
