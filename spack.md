@@ -1,4 +1,4 @@
-## Installing new software using spack
+## Installing new software
 Start an interactive session prior to beginning installation. 
 If the install is expected to take a significant amount of time, consider submitting a bash script using sbatch. 
 
