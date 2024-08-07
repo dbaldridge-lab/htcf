@@ -22,6 +22,3 @@ This repository includes information on software and common workflows on the clu
 [Storage Types](https://htcf.wustl.edu/docs/storage/)
 
 [(under construction)Backing up data](https://github.com/dbaldridge-lab/htcf/blob/main/backups.md)  
-
-# <a name="documentslist"></a>Common Analyses
-
