@@ -3,8 +3,11 @@ Start an interactive session prior to beginning installation.
 If the install is expected to take a significant amount of time, consider submitting a bash script using sbatch. 
 
 First, confirm that the software has not already been installed:
-1. Check the /ref/dblab/software folder
-2. Check the spack lab instance:
+1. Check the lab software folder
+   ```
+   cd /ref/dblab/software
+   ```
+3. Check the spack lab instance:
    ```
    spack find -x
    ```
