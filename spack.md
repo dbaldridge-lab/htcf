@@ -70,6 +70,19 @@ Load new python modules using the pip installer:
 python3 -m ensurepip
 python3 -m pip install yourModule yourModule2
 ```
+To confirm that a module was loaded:
+1. Invoke the python interpreter
+   ```
+   python3
+   ```
+2. Run a test command
+   ```
+   yourModule
+   ```
+3. Exit
+   ```
+   exit
+   ```
 
 Adding spack packages to an environment will wipe out existing python modules.
 Prior to adding new spack packages, back up your pip environment:
