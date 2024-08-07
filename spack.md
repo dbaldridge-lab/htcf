@@ -79,7 +79,7 @@ To confirm that a module was loaded:
    ```
    yourModule
    ```
-3. Exit
+3. Exit python interactive mode
    ```
    exit
    ```
