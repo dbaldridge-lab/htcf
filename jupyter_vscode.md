@@ -62,7 +62,7 @@ spack env activate -p jupyter
 
 <img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
 
-On mac, use `CMD + backtick` to cycle between VSCode windows:
+On mac, use `CMD + backtick` to cycle between VSCode windows.
 
 ---
 
