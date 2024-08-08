@@ -28,7 +28,7 @@ You can also add an option -r and provide the path to a file. This will open the
 - Go to Extensions <img width="33" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/7b07ab0f-e68f-4b33-954b-2ac556c2ddb9">
 (Shortcut: `Cmd+Shift+X`)
 - Search and install the following extensions:
-    - `ms-vscode-remote.remote-ssh`
+    - `remote-ssh`
     - `ms-vscode.remote-server`
     - `ms-python.python`
     - `ms-toolsai.jupyter`
