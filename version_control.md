@@ -134,5 +134,3 @@ git branch
 git checkout
 git merge
 ```
-### TO DO
-- [ ] Test if two people can push from same repo on HTCF. Will same credentials show for both?
