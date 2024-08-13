@@ -1,4 +1,3 @@
-(Credit to Emma Johnson for this writeup)
 ## Configuration
 
 **YOU ONLY NEED TO DO THIS ONCE**
@@ -113,3 +112,5 @@ ERROR: configuration failed for package ‘xml2’
 ```
 eval `spack load --sh   libxml2`
 ```
+
+Note: Instructions shared by Emma Johnson, I haven't tested them
