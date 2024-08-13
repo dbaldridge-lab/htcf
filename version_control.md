@@ -115,7 +115,7 @@ Note: When using the source control tab and tunneling to VSCode on HTCF:
 1. Connect to HTCF using SSH in the first window
 2. Split the terminal in this window
    - first terminal: start interactive session and start tunnel
-   - second terminal: no actions required, but will keep VSCode from disrupting the tunnel
+   - second terminal: no actions required, but will keep the tunnel open when you add a working directory
 4. open the folder with a git repo
 5. Commit and push from this window
 
