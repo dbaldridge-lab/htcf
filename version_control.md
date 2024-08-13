@@ -34,8 +34,8 @@ Code and relevant flat files (.txt, .csv, etc.) should be added to git repositor
 - Retain all log files, preferably in the same folder as the finalized results on RIS.
 
 ### Store Jupyter Notebooks with output in Lab Archives... 
-Notebooks can be stored alongside other experimental documentation on Lab Archives. 
-Save the file after executing the code blocks so the results can be previewed.
+It can be convenient to store notebooks alongside other experimental documentation on Lab Archives. 
+Save the file after executing the code blocks. Add as an attachment to a Lab Archives page so the results can be previewed and the code can be downloaded as needed.
 
 ### ... but also version control a copy of the notebook source code
 Code in Jupyter notebooks can be converted to a format more compatible with version control tools using Jupytext. 
