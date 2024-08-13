@@ -83,7 +83,7 @@ This is one of many approaches:
 
 ## Getting comfortable with git and GitHub
 
-1. Read the [documentation](https://git-scm.com/docs) or find a tutorial and learn how to use the following commands to version control code in a local branch:
+1. Read the [documentation](https://git-scm.com/docs) or find a tutorial and learn how to use the following commands to version control code in a git repository:
 ```
 git init 
 git status
@@ -91,7 +91,7 @@ git add
 git commit
 ```
 2. Commit frequently (daily is a good target when starting out). Summarize the changes made with a short, descriptive message.
-3. Learn how to sync changes made locally with a remote branch:
+3. Learn how to sync changes made locally with a remote repository:
 ```
 git push  # (local -> remote) puts your changes on GitHub
 git clone  # copy all code for a repo from GitHub
