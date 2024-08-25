@@ -62,21 +62,18 @@ While still on your local machine:
 mkdir ~/.ssh & touch ~/.ssh/config & chmod 700 ~/.ssh & chmod 600 ~/.ssh/config
 ```
 
-- Create an SSH config entry for the cluster in ~/.ssh/config. You can double click on that file to open it. Enter the following in ~/.ssh/config, substituting your username and save.
+- Open the file. Double click on the file in the explorer or enter `code ~/.ssh/config` at the terminal prompt.
+- Enter the following in ~/.ssh/config, substituting your username and save. 
 ```
 Host htcf
 Hostname login.htcf.wustl.edu
-User yourusername
+User yourusername # change this
 ControlMaster auto
 ControlPath ~/.ssh/control:%h:%p:%r
 ```
-- Test that the above entry works by opening a terminal <img width="26" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/4fcc5b5a-3373-424b-8552-a917632a7dbe">
-and running `ssh htcf`. If you are prompted for a password and are able to log on, proceed.
-- An additional way to login is to launch the command palette (`Cmd+Shift+P` or `F1`) and enter "remote-ssh" to show available options. Selecting "Connect to Host" should now show you a list of entries available in ~/.ssh/config. 
-- You should see an htcf entry
+- Test by entering `ssh htcf` at the terminal prompt and pressing `ENTER`. If you are prompted for a password and are able to log on, proceed.
+- An additional way to login is to launch the command palette (`Cmd+Shift+P` or `F1`) and enter "remote-ssh" to show available options. You should see an htcf option.
 
 <img width="613" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/a9e712ca-c8f5-4bee-974f-7fdb30e7cbd6">
-
-- Upon first connection, it will install a small vscode server into your home directory. If you do no have enough space the installation will fail at which point you'll need to clean up additional space in your home directory.
 
 ---
