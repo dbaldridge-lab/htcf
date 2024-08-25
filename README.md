@@ -22,7 +22,7 @@ This repository includes information about software, data organization, and comm
 # <a name="documentslist"></a>Data Storage
 [Storage Types on HTCF](https://htcf.wustl.edu/docs/storage/)
 
-[(under construction)Saving your history](https://github.com/dbaldridge-lab/htcf/blob/main/save_history.md)
+[(under construction)Saving your Bash history](https://github.com/dbaldridge-lab/htcf/blob/main/save_history.md)
 
 [(under construction)Backing up data](https://github.com/dbaldridge-lab/htcf/blob/main/backups.md)  
 
