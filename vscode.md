@@ -73,8 +73,6 @@ ControlMaster auto
 ControlPath ~/.ssh/control:%h:%p:%r
 ```
 - Test the configuration by entering `ssh htcf` at the terminal prompt. If you are prompted for a password and are able to log on, proceed.
-- An additional way to login is to launch the command palette (`Cmd+Shift+P` or `F1`) and enter "remote-ssh" to show available options. You should see an htcf option.
-
-<img width="613" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/a9e712ca-c8f5-4bee-974f-7fdb30e7cbd6">
+- An additional way to login is to select the "Open a remote window" button in the bottom-left corner of the window. ![image](https://github.com/user-attachments/assets/1cae2779-9992-4844-b5f0-4a0f8bcccee0)
 
 ---
