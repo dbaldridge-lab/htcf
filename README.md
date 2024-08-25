@@ -20,7 +20,7 @@ This repository includes information about software, data organization, and comm
 
 
 # <a name="documentslist"></a>Data Storage
-[Storage Types](https://htcf.wustl.edu/docs/storage/)
+[Storage Types on HTCF](https://htcf.wustl.edu/docs/storage/)
 
 [(under construction)Saving your history](https://github.com/dbaldridge-lab/htcf/blob/main/save_history.md)
 
