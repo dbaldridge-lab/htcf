@@ -28,10 +28,21 @@ You can also add an option -r and provide the path to a file. This will open the
 - Go to Extensions <img width="33" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/7b07ab0f-e68f-4b33-954b-2ac556c2ddb9">
 (Shortcut: `Cmd+Shift+X`)
 - Search and install the following extensions:
-    - `remote-ssh`
+    - `ms-vscode-remote.remote-ssh`
+    - `ms-vscode-remote.remote-ssh-edit`
     - `ms-vscode.remote-server`
+    - `ms-vscode.remote-explorer`
+    - `ms-vscode.remote-repositories`
     - `ms-python.python`
     - `ms-toolsai.jupyter`
+    - `ms-toolsai.vscode-jupyter-cell-tags`
+    - `ms-toolsai.jupyter-keymap`
+    - `ms-toolsai.jupyter-renderers`
+    - `GitHub.remotehub`
+    - `mhutchie.git-graph`
+    - `ms-toolsai.datawrangler`
+    - `GitHub.copilot`
+    - `GitHub.copilot-chat`
       
 Note: you will need to repeat this step once you log on to HTCF. A button will appear on these extensions giving you the option to also install on the remote machine. This will install the extension to your home folder on HTCF.
 
