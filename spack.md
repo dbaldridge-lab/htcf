@@ -12,7 +12,9 @@ First, confirm that the software has not already been installed:
    spack find -x
    ```
 
-Next, consult the documentation of the software you are interested in using for suggested installation steps and dependancies.
+Next, consult the software's documentation. 
+1. Ensure dependancies are met.
+2. Look for suggested installation steps.
 
 Not all software can be installed using spack. To see if the software exists as a spack package:
 ```
