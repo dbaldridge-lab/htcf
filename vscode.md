@@ -5,6 +5,8 @@
 - [Visual Studio Code](https://code.visualstudio.com/) is installed on your local machine
 - WUSTL microsoft account login information
 - Updated ~/.bashrc file on HTCF to include "code" alias. [See instructions here.](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md)
+- Basic understanding of how to navigate [VSCode GUI](https://code.visualstudio.com/docs/getstarted/userinterface#_views)
+- Can open and execute commands in the [integrated terminal](https://code.visualstudio.com/docs/terminal/getting-started)
 
 ## Do this once
 ### 1. Setup code command
