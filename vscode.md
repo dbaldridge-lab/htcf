@@ -38,9 +38,9 @@ You can also add an option -r and provide the path to a file. This will open the
     - `ms-toolsai.vscode-jupyter-cell-tags`
     - `ms-toolsai.jupyter-keymap`
     - `ms-toolsai.jupyter-renderers`
-    - `GitHub.remotehub`
-    - `mhutchie.git-graph`
     - `ms-toolsai.datawrangler`
+    - `mhutchie.git-graph`
+    - `GitHub.remotehub`
     - `GitHub.copilot`
     - `GitHub.copilot-chat`
       
