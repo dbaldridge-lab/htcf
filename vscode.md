@@ -56,7 +56,7 @@ While still on your local machine:
   
 <img width="227" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/973bf943-5793-4684-bf90-1147b5054d08">
 
-- If the ssh folder does not exists on your machine, create one by entering the following at the prompt and pressing enter:
+- If the ssh folder does not exist, create one by entering the following at the terminal prompt:
 
 ```mkdir ~/.ssh & touch ~/.ssh/config & chmod 700 ~/.ssh & chmod 600 ~/.ssh/config```
 
