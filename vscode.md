@@ -51,7 +51,7 @@ You can list all installed extensions with their versions by running `code --lis
 
 ### 4. Configuring SSH
 While still on your local machine: 
-- Open your home folder from within VSCode `File -> Open Folder`
+- Open your home folder from within VSCode `File -> Open Folder`. Type `~` and press `ENTER`.
 - Scroll through the files in your home folder and check if you have a config file in .ssh:
   
 <img width="227" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/973bf943-5793-4684-bf90-1147b5054d08">
