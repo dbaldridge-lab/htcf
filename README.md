@@ -18,7 +18,7 @@ This repository includes information on software and common workflows on the clu
 
 [(under construction)Saving your history](https://github.com/dbaldridge-lab/htcf/blob/main/save_history.md)
 
-# <a name="documentslist"></a>Data Organization
+# <a name="documentslist"></a>Data Storage
 [Storage Types](https://htcf.wustl.edu/docs/storage/)
 
 [(under construction)Backing up data](https://github.com/dbaldridge-lab/htcf/blob/main/backups.md)  
