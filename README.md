@@ -1,5 +1,5 @@
 # Using HTCF
-This repository includes information on software and common workflows on the cluster
+This repository includes information about software, data organization, and common workflows on the cluster.
 
 # <a name="documentslist"></a>Getting Started
 [Logging on and running jobs](https://github.com/dbaldridge-lab/htcf/blob/main/htcf_access.md)  
