@@ -23,7 +23,7 @@ If it prints out the version of Visual Studio Code, proceed.
 Now when you are using a terminal, you can simply type `code .` to start editing files in the current folder.
 You can also add an option -r and provide the path to a file. This will open the file in a new tab in the current window: `code -r <filename>`.
 
-### 2. Install Extensions 
+### 2. Install Extensions Locally
 - Open VSCode on your local machine
 - Go to Extensions <img width="33" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/7b07ab0f-e68f-4b33-954b-2ac556c2ddb9">
 (Shortcut: `Cmd+Shift+X`)
@@ -43,12 +43,13 @@ You can also add an option -r and provide the path to a file. This will open the
     - `GitHub.remotehub`
     - `GitHub.copilot`
     - `GitHub.copilot-chat`
-      
-Note: you will need to repeat this step once you log on to HTCF. A button will appear on these extensions giving you the option to also install on the remote machine. This will install the extension to your home folder on HTCF.
 
-You can list all installed extensions with their versions by running ```code --list-extensions --show-versions```.
+### 3. Install Extension on HTCF
+A button will appear on some extensions giving you the option to also install on the remote machine. This will install the extension to your home folder on HTCF.
 
-### 2. Configuring VSCode to connect to HTCF and edit files on the server directly
+You can list all installed extensions with their versions by running `code --list-extensions --show-versions`.
+
+### 4. Configuring SSH
 While still on your local machine: 
 - Select open <img width="86" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/2ec5756e-5918-475e-b713-d0c0d1f41082">
 
