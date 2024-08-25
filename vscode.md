@@ -72,7 +72,7 @@ User yourusername # change this
 ControlMaster auto
 ControlPath ~/.ssh/control:%h:%p:%r
 ```
-- Test the configuration by entering `ssh htcf` at the terminal prompt. If you are prompted for a password and are able to log on, proceed.
-- An additional way to login is to select the "Open a remote window" button in the bottom-left corner of the window. ![image](https://github.com/user-attachments/assets/1cae2779-9992-4844-b5f0-4a0f8bcccee0)
+- Confirm that you are able to login after entering `ssh htcf` at the terminal prompt.
+- An additional way to login is to select the "Open a remote window" button in the bottom-left corner of the window. ![image](https://github.com/user-attachments/assets/1cae2779-9992-4844-b5f0-4a0f8bcccee0) Select `Connect to a Host` and click `htcf`.
 
 ---
