@@ -23,4 +23,4 @@ This repository includes information on software and common workflows on the clu
 
 [(under construction)Backing up data](https://github.com/dbaldridge-lab/htcf/blob/main/backups.md)  
 
-![image](https://github.com/user-attachments/assets/0946606c-0955-4803-9ae0-140da3cf5bf5)
+![image](https://github.com/user-attachments/assets/2a098d22-7871-4740-827c-3b56dc432f42)
