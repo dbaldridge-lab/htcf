@@ -58,7 +58,7 @@ While still on your local machine:
   
 <img width="227" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/973bf943-5793-4684-bf90-1147b5054d08">
 
-- If the ssh folder does not exist, create one by entering the following at the terminal prompt:
+- If the ssh folder does not exist, create one by entering the following at the terminal prompt and pressing `ENTER`:
 ```
 mkdir ~/.ssh & touch ~/.ssh/config & chmod 700 ~/.ssh & chmod 600 ~/.ssh/config
 ```
@@ -72,7 +72,7 @@ User yourusername # change this
 ControlMaster auto
 ControlPath ~/.ssh/control:%h:%p:%r
 ```
-- Test by entering `ssh htcf` at the terminal prompt and pressing `ENTER`. If you are prompted for a password and are able to log on, proceed.
+- Test by entering `ssh htcf` at the terminal prompt. If you are prompted for a password and are able to log on, proceed.
 - An additional way to login is to launch the command palette (`Cmd+Shift+P` or `F1`) and enter "remote-ssh" to show available options. You should see an htcf option.
 
 <img width="613" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/a9e712ca-c8f5-4bee-974f-7fdb30e7cbd6">
