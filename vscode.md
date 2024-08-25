@@ -58,7 +58,9 @@ While still on your local machine:
 
 - If the ssh folder does not exist, create one by entering the following at the terminal prompt:
 
-```mkdir ~/.ssh & touch ~/.ssh/config & chmod 700 ~/.ssh & chmod 600 ~/.ssh/config```
+```
+mkdir ~/.ssh & touch ~/.ssh/config & chmod 700 ~/.ssh & chmod 600 ~/.ssh/config
+```
 
 - Create an SSH config entry for the cluster in ~/.ssh/config. You can double click on that file to open it. Enter the following in ~/.ssh/config, substituting your username and save.
 ```
