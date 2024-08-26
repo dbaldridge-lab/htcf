@@ -66,10 +66,20 @@ Activate one of the pre-existing environments:
 ```
 spack env activate -p yourEnvironment
 ```
-
+Check if pip is installed.
+```
+python3 -m pip --version
+```
+If pip is not working, try to install it. 
+``` 
+python3 -m ensurepip
+```
+If that doesn't work, upgrade pip to the latest version.
+```
+python -m pip install --upgrade pip
+```
 Load new python modules using the pip installer:
 ```
-python3 -m ensurepip
 python3 -m pip install yourModule yourModule2
 ```
 To confirm that a module was loaded:
