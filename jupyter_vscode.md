@@ -80,7 +80,6 @@ spack env activate -p jupyter
 /ref/dblab/software/spack-0.21.0/var/spack/environments/jupyter/.spack-env/view/bin/python
 ```
 - Refresh under `Jupyter Kernels` if needed
-- Under `Python Environments` Select `Python 3.10.4`
 
 <img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
 
