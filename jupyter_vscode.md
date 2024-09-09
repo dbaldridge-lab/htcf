@@ -7,7 +7,7 @@ Adapted from [this page](https://kb.uconn.edu/space/SH/26626326576/Visual+Studio
 - Enter your password and press `ENTER`
 
 ### 2. Tunnel to VSCode
-
+### (Tunneling Option 1)
 If your `~/.bashrc` was [configured as suggested](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md), type **one** of the following in the terminal and press `ENTER` to start an interactive session:
 ```
 sml # 5G of memory
@@ -42,6 +42,24 @@ You should see the tunnel to the node you just created.
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/295da8d0-444b-4a12-8cfa-f5a0a784e3bb)
 
 - Click on the arrow to open the tunnel in the current window.
+### (Tunneling Option 2 - Recommended)
+### Persisting an Interactive Node
+In the SSH:htcf window, on the login node, enter the following:
+```
+sbatch /scratch/dblab/opool/code/job/tmux/persist_interactive.sh
+```
+```
+cd ~
+```
+```
+cat persist_interactive.log
+```
+Follow the prompts.
+
+Note: Now even if your session is disconnected, you will be able to reconnect. This job runs 8 hours.
+
+Navigate to the n002 window. `Shift + CMD + P` and type and select `Remote Tunnels: Connect to Tunnel`. Select the logon method used. Wait for the connection to load. Select n002 to reconnect.
+![image](https://github.com/user-attachments/assets/99c3bc07-c303-4864-9160-63a3a10e77df)
 
 ### 3. Jupyter Notebook setup
 
@@ -98,23 +116,6 @@ Continue with the instructions in step 3 above, pasting in this path instead.
 
 - Try allocating more memory
 
-### Persisting an Interactive Node
-In the SSH:htcf window, on the login node, enter the following:
-```
-sbatch /scratch/dblab/opool/code/job/tmux/persist_interactive.sh
-```
-```
-cd ~
-```
-```
-cat persist_interactive.log
-```
-Follow the prompts.
-
-Note: Now even if your session is disconnected, you will be able to reconnect. This job runs 8 hours.
-
-Navigate to the n002 window. `Shift + CMD + P` and type and select `Remote Tunnels: Connect to Tunnel`. Select the logon method used. Wait for the connection to load. Select n002 to reconnect.
-![image](https://github.com/user-attachments/assets/99c3bc07-c303-4864-9160-63a3a10e77df)
 
 
 
