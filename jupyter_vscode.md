@@ -88,7 +88,7 @@ On mac, use `CMD + backtick` to cycle between VSCode windows.
 
 ---
 
-#### Creating a kernel (only required when creating new spack environments):
+#### Creating a kernel (only required when creating new environments):
 
 After activating your new environment and installing all required software, enter the commands below: 
 
