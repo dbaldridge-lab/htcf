@@ -56,7 +56,7 @@ sbatch my_script.sbatch
 ```
 After submission, check your the job progress.
 ```
-squeue -u <your_account_ID>
+squeue -u $USER
 ```
 For more sophisticated parallelization, check out the [instructions on how to run a job array](https://htcf.wustl.edu/docs/runningjobs/).
 
