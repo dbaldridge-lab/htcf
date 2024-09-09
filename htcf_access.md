@@ -18,28 +18,6 @@ ssh <your_wustl_id>@login.htcf.wustl.edu
 
 You are now in a HTCF login shell. **Do NOT execute any heavy computation in the login shell.** Instead, there are two ways to execute your computation jobs listed below.
 
-## "Hacking" the login process (using default Mac shell)
-Using an alias on your local computer, you can make the logon process quicker, by simply typing "logon" instead of the full ssh command everytime you want to login.
-
-1. Start up Terminal
-2. Type cd ~/ to go to your home folder
-3. edit your bash profile using:
-```
-vi .zshrc
-```
-and then add this line (once again replacing username):
-```
-alias logon="ssh username@login.htcf.wustl.edu"
-```
-4. run command to initialize (you only need to do this once):
-```
-source ~/.zshrc
-```
-5. Try it out! Open a new terminal window and run the "logon" command:
-```
-logon
-```
-
 ## Running a job on the cluster
 
 Use one of these two methods for executing computation:
