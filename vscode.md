@@ -1,5 +1,4 @@
 # Setting up VSCode
-[Skip to normal setup process](https://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md#normal-process)
 
 ## Prerequisites
 - [Visual Studio Code](https://code.visualstudio.com/) is installed on your local machine
