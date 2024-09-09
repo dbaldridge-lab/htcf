@@ -56,10 +56,13 @@ cat persist_interactive.log
 ```
 Follow the prompts.
 
+Open a new VSCode window. `CMD + Shift + N`
+
+`Shift + CMD + P` and type and select `Remote Tunnels: Connect to Tunnel`. Select the logon method used. Wait for the connection to load. Select n002 to connect.
+![image](https://github.com/user-attachments/assets/99c3bc07-c303-4864-9160-63a3a10e77df)
+
 Note: Now even if your session is disconnected, you will be able to reconnect. This job runs 8 hours.
 
-Navigate to the n002 window. `Shift + CMD + P` and type and select `Remote Tunnels: Connect to Tunnel`. Select the logon method used. Wait for the connection to load. Select n002 to reconnect.
-![image](https://github.com/user-attachments/assets/99c3bc07-c303-4864-9160-63a3a10e77df)
 
 ### 3. Jupyter Notebook setup
 
