@@ -48,6 +48,7 @@ You can list all installed extensions with their versions by running `code --lis
 
 ### 4. Configuring SSH
 While still on your local machine: 
+
 a. Enter the following at the terminal prompt to create the ssh config file and folder if they do not already exist:
 ```
 mkdir -p ~/.ssh && chmod 700 ~/.ssh
