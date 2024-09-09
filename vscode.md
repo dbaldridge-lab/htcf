@@ -70,4 +70,25 @@ ControlPath ~/.ssh/control:%h:%p:%r
 d. Confirm that you are able to login after entering `ssh htcf` at the terminal prompt.
 
 Note: Now to login you can select the "Open a remote window" button in the bottom-left corner of the window. ![image](https://github.com/user-attachments/assets/1cae2779-9992-4844-b5f0-4a0f8bcccee0) Select `Connect to a Host` and click `htcf`.
+
+### 5. Configure SSH Keys
+By setting up SSH keys you won't have to enter your credentials every time you log on to HTCF.
+
+In a local terminal enter the following at the prompt of a local terminal:
+```
+ssh-keygen -t ed25519
+```
+```
+chmod 400 ~/.ssh/id_ed25519
+```
+```
+export PUBKEYPATH="$HOME/.ssh/id_ed25519.pub"
+```
+With your username:
+```
+export USER_AT_HOST="wustlUsername@login.htcf.wustl.edu"
+```
+```
+ssh-copy-id -i "$PUBKEYPATH" "$USER_AT_HOST"
+```
 ---
