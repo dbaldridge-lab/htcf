@@ -32,7 +32,7 @@ code tunnel
  ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/85ca0ab3-72c7-45db-aa22-f1e5ca4678ff)
 - Paste the code and click next
 - Enter your wustl key username and password 
-- Leaving the previous VSCode window open, open a new VSCode window. The shortcut is `Shift + CMD + n`.
+- Leaving the previous VSCode window open, open a new VSCode window. The shortcut is `CMD + Shift + N`.
 
 - Click the icon for the Remote Explorer:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/02779d19-a100-43ad-8e23-26f15c17463a)
@@ -97,6 +97,27 @@ Continue with the instructions in step 3 above, pasting in this path instead.
 #### Kernel is crashing
 
 - Try allocating more memory
+
+### Persisting an SSH Session
+```
+sbatch /scratch/dblab/opool/code/job/tmux/persist_interactive.sh
+```
+```
+cd ~
+```
+```
+cat persist_interactive.log
+```
+Follow the prompts.
+
+Note: Now even if your session is disconnected, you will be able to reconnect. This job runs 8 hours.
+
+Navigate to the n002 window. `Shift + CMD + P` and type and select `Remote Tunnels: Connect to Tunnel`. Select the logon method used. Wait for the connection to load. Select n002 to reconnect.
+![image](https://github.com/user-attachments/assets/99c3bc07-c303-4864-9160-63a3a10e77df)
+
+
+
+
 
 
 
