@@ -48,18 +48,17 @@ You can list all installed extensions with their versions by running `code --lis
 
 ### 4. Configuring SSH
 While still on your local machine: 
-- Open your home folder from within VSCode `File -> Open Folder`. Type `~` and press `ENTER`.
-- Scroll through the files in your home folder and check if you have a config file in .ssh:
-  
-<img width="227" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/973bf943-5793-4684-bf90-1147b5054d08">
-
-- If the ssh folder does not exist, create one. Enter the following at the terminal prompt:
+a. Enter the following at the terminal prompt to create the ssh config file and folder if they do not already exist:
 ```
-mkdir ~/.ssh & touch ~/.ssh/config & chmod 700 ~/.ssh & chmod 600 ~/.ssh/config
+mkdir -p ~/.ssh && chmod 700 ~/.ssh
+```
+```
+[ ! -f ~/.ssh/config ] && touch ~/.ssh/config && chmod 600 ~/.ssh/config
 ```
 
-- Open the file. Double click on the file in the explorer or enter `code ~/.ssh/config`.
-- Paste the following in ~/.ssh/config, substituting your username and save. 
+b. Press CMD + SHIFT + P to open the Command Palette. Begin typing and select `Remote-SSH: Open SSH Configuration File`. Open the configuration file in your home directory.
+
+c. Paste the following in ~/.ssh/config, substituting your username. Save and close the file. 
 ```
 Host htcf
 Hostname login.htcf.wustl.edu
@@ -67,7 +66,7 @@ User yourusername # change this
 ControlMaster auto
 ControlPath ~/.ssh/control:%h:%p:%r
 ```
-- Confirm that you are able to login after entering `ssh htcf` at the terminal prompt.
-- An additional way to login is to select the "Open a remote window" button in the bottom-left corner of the window. ![image](https://github.com/user-attachments/assets/1cae2779-9992-4844-b5f0-4a0f8bcccee0) Select `Connect to a Host` and click `htcf`.
+d. Confirm that you are able to login after entering `ssh htcf` at the terminal prompt.
 
+Note: Now to login you can select the "Open a remote window" button in the bottom-left corner of the window. ![image](https://github.com/user-attachments/assets/1cae2779-9992-4844-b5f0-4a0f8bcccee0) Select `Connect to a Host` and click `htcf`.
 ---
