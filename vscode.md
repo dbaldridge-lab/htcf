@@ -74,7 +74,7 @@ Note: Now to login you can select the "Open a remote window" button in the botto
 ### 5. Configure SSH Keys
 By setting up SSH keys you won't have to enter your credentials every time you log on to HTCF.
 
-In a local terminal enter the following at the prompt of a local terminal:
+Enter the following at the prompt of a local terminal:
 ```
 ssh-keygen -t ed25519
 ```
