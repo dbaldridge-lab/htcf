@@ -98,7 +98,7 @@ Continue with the instructions in step 3 above, pasting in this path instead.
 
 - Try allocating more memory
 
-### Persisting an SSH Session
+### Persisting an Interactive Node
 In the SSH:htcf window, on the login node, enter the following:
 ```
 sbatch /scratch/dblab/opool/code/job/tmux/persist_interactive.sh
