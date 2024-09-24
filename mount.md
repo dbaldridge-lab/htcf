@@ -1,4 +1,5 @@
 # Mounting LTS to MacOS
+This will allow you to access a CephFS (e.g. /LTS or /ref) on your macOS system using the FUSE client.
 
 ## Download macFUSE
 Go to [https://osxfuse.github.io/](https://osxfuse.github.io/).
@@ -32,3 +33,4 @@ Check that the filesystem is mounted:
 ```
 df -h /path/to/mount/point
 ```
+
