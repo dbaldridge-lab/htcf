@@ -1,4 +1,4 @@
-# Mounting remote filesystems locally (MacOS) - *Testing failed, need permissions for ceph.client.admin.keyring*
+# Mounting remote filesystems locally (MacOS) - *Testing failed, need permissions for ceph.client.admin.keyring. Ask to setuid bit?*
 Access a wider variety of filesystems locally by using a FUSE client. This includes CephFS (e.g. /LTS, /ref) and S3 (e.g. LTOS).
 
 ## Download macFUSE
