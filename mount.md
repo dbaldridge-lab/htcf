@@ -1,5 +1,5 @@
-# Mounting LTS to MacOS
-This will allow you to access a CephFS (e.g. /LTS or /ref) on your macOS system using the FUSE client.
+# Mounting remote filesystems locally (MacOS)
+Access a wider variety of filesystems locally by using a FUSE client. This includes CephFS (e.g. /LTS, /ref) and S3FS (e.g. LTOS).
 
 ## Download macFUSE
 Go to [https://osxfuse.github.io/](https://osxfuse.github.io/).
