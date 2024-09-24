@@ -1,5 +1,5 @@
 # Mounting remote filesystems locally (MacOS)
-Access a wider variety of filesystems locally by using a FUSE client. This includes CephFS (e.g. /LTS, /ref) and S3FS (e.g. LTOS).
+Access a wider variety of filesystems locally by using a FUSE client. This includes CephFS (e.g. /LTS, /ref) and S3 (e.g. LTOS).
 
 ## Download macFUSE
 Go to [https://osxfuse.github.io/](https://osxfuse.github.io/).
@@ -18,8 +18,21 @@ Enable System Extensions as needed:
 ## Create a mount point
 Create a directory where you want to mount the filesystem locally.
 ```
-mkdir -p /path/to/mount/point
+mkdir -p /path/to/mount/point # e.g. ~/lts
 ```
+
+# Copy files from the remote host to your local machine
+```
+scp username@mon_host:/etc/ceph/ceph.client.admin.keyring /path/to/mount/point/ceph.client.admin.keyring
+scp username@mon_host:/etc/ceph/ceph.conf /path/to/mount/point/ceph.conf
+```
+
+# Set the environment variable
+export CEPH_CONF=/path/to/mount/point/ceph.conf
+
+# Run the ceph command
+ceph --keyring /path/to/mount/point/ceph.client.admin.keyring mon dump
+
 
 ## Mount using ceph-fuse
 Use the ceph-fuse command to mount the CephFS:
