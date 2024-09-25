@@ -10,6 +10,3 @@
 - After processing, delete large intermediate files that can be re-generated.
 - Retain log files in the same folder as the finalized results.
 - Regularly backup results using scheduled Globus transfers.
-
-### Project Directory Structure
-![image](https://github.com/user-attachments/assets/fda2830c-db6f-45c0-81a0-d241854be846)
