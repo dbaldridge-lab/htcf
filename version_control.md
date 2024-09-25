@@ -35,26 +35,6 @@ It can be convenient to store notebooks alongside other experimental documentati
 Save the file after executing the code blocks. Add as an attachment to a Lab Archives page so the results can be previewed and the code can be downloaded as needed.
 
 ### ... but also version control a copy of the notebook source code
-Code in Jupyter notebooks can be converted to a format more compatible with version control tools using Jupytext. 
-
-Jupytext will generate an equivalent .py file synced with changes to a paired notebook:
-
-Activate an environment with Jupytext installed
-```
-spack env activate -p jupyter
-```
-Create a copy of the notebook file converted to .py
-```
-jupytext --to py example.ipynb
-```
-Pair the files
-```
-jupytext --set-formats ipynb,py:percent example.ipynb
-```
-Sync the files
-```
-jupytext --sync example.py
-```
 
 ## Setting up a new repository
 ***Use one repository per project.***
