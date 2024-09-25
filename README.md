@@ -22,6 +22,8 @@ This repository includes information about software, data organization, and comm
 # <a name="documentslist"></a>Data Storage
 [Storage Types on HTCF](https://htcf.wustl.edu/docs/storage/)
 
+[Storing raw and processed data files](https://github.com/dbaldridge-lab/htcf/blob/main/data_storage.md))
+
 [(reach out to admin for permissions)Mounting LTS locally](https://github.com/dbaldridge-lab/htcf/blob/main/mount.md)
 
 [(under construction)Saving your Bash history](https://github.com/dbaldridge-lab/htcf/blob/main/save_history.md)
