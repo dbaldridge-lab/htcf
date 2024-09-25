@@ -1,3 +1,5 @@
+#GitHub Copilot and Copilot Chat
+
 WashU employees can request GitHub Copilot Enterprise accounts for any users with a wustl email in your GitHub organization.
 
 There is no process to bill labs for this service, though that could change in the future. The full cost is $45/month/user.
