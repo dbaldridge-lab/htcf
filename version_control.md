@@ -68,7 +68,7 @@ git status
 git add
 git commit
 ```
-2. Commit frequently (daily is a good target when starting out). Summarize the changes made with a short, descriptive message.
+2. Commit frequently. Summarize the changes made with a short, descriptive message.
 3. Learn how to sync changes made locally with a remote repository:
 ```
 git push  # (local -> remote) puts your changes on GitHub
