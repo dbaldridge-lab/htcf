@@ -4,7 +4,7 @@ This repository includes information about software, data organization, and comm
 # <a name="documentslist"></a>Getting Started
 [Logging on and running jobs](https://github.com/dbaldridge-lab/htcf/blob/main/htcf_access.md)  
 
-[Configure your shell environment](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc_how-to.md)
+[Configure your shell environment](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md)
 
 [VSCode Setup](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)  
 
