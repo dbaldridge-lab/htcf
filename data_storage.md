@@ -9,6 +9,7 @@
 ### Processed Data
 - After processing, delete large intermediate files that can be re-generated.
 - Retain log files in the same folder as the finalized results.
+- Regularly backup results using scheduled Globus transfers.
 
 ### Project Directory Structure
 ![image](https://github.com/user-attachments/assets/4fd5cbe9-41bb-4496-bc35-f4ed1be819ee)
