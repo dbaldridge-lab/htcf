@@ -12,5 +12,5 @@
 - Regularly backup results to long-term storage using scheduled Globus transfers.
 - If you need to keep files on scratch longer than 30 days, use the following command periodically. This will keep files from being deleted by the auto-cleanup policy:
 ```
-find /scratch/path/to/save -type f -mtime +1 -exec touch {} \; # update this to use the path to your files
+find /scratch/path/to/save -type f -mtime +1 -exec touch {} \;
 ```
