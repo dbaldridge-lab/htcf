@@ -10,7 +10,7 @@
 - After processing, delete large intermediate files that can be re-generated.
 - Retain log files in the same folder as the finalized results.
 - Regularly backup results to long-term storage using scheduled Globus transfers.
-- If you need to keep files on scratch longer than 30 days, use the following command periodically. Update `/scratch/path` to relect the path to the directory containing the files you want to retain. This will update the timestamp to keep files from being deleted by the auto-cleanup policy:
+- If you need to keep files on scratch for longer than 30 days, use the following command periodically. Update `/scratch/path` to relect the path to the directory containing the files you want to retain. This will update the timestamp to keep files from being deleted by the auto-cleanup policy:
 ```
 find /scratch/path -type f -mtime +1 -exec touch {} \;
 ```
