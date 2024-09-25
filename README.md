@@ -29,8 +29,7 @@ This repository includes information about software, data organization, and comm
 
 [(under construction)Backing up data](https://github.com/dbaldridge-lab/htcf/blob/main/backups.md)  
 
-![image](https://github.com/user-attachments/assets/541e320b-140f-4ae4-b90c-7c3061f9ede6)
-
+![image](https://github.com/user-attachments/assets/645ac451-77ab-4b3e-b6bc-2a109215e255)
 
 
 
