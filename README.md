@@ -22,7 +22,7 @@ This repository includes information about software, data organization, and comm
 # <a name="documentslist"></a>Data Storage
 [Storage Types on HTCF](https://htcf.wustl.edu/docs/storage/)
 
-[Storing raw and processed data files](https://github.com/dbaldridge-lab/htcf/blob/main/data_storage.md))
+[Storing raw and processed data files](https://github.com/dbaldridge-lab/htcf/blob/main/data_storage.md)
 
 [(reach out to admin for permissions)Mounting LTS locally](https://github.com/dbaldridge-lab/htcf/blob/main/mount.md)
 
@@ -30,6 +30,5 @@ This repository includes information about software, data organization, and comm
 
 [(under construction)Backing up data](https://github.com/dbaldridge-lab/htcf/blob/main/backups.md)  
 
-![image](https://github.com/user-attachments/assets/4fd5cbe9-41bb-4496-bc35-f4ed1be819ee)
 
 
