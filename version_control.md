@@ -89,10 +89,12 @@ git rm
 [RStudio](https://happygitwithr.com/usage-intro)
 
 [VSCode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_staging-and-committing-code-changes)
-Note: When using the source control tab and tunneling to VSCode on HTCF:
+
+Note: When using the source control GUI and tunneling to VSCode on HTCF:
 1. Connect to HTCF using SSH in the first window
 2. Open the folder containing a git repo
-3. Commit and push from this window
+3. Connect to the tunnel in a second window
+5. Edit files in the second window and commit and push from the first window
 
 ## Suggested Git Workflow
 A [centralized workflow](https://anything-git.readthedocs.io/en/latest/git_workflow.html) is usually sufficient. 
