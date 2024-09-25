@@ -88,7 +88,7 @@ git rm
 ## IDEs and git clients can help
 [RStudio](https://happygitwithr.com/usage-intro)
 
-[VSCode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_open-a-git-repository)
+[VSCode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_staging-and-committing-code-changes)
 Note: When using the source control tab and tunneling to VSCode on HTCF:
 1. Connect to HTCF using SSH in the first window
 2. Open the folder containing a git repo
