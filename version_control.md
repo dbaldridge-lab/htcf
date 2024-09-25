@@ -28,10 +28,7 @@ git config --global --list
 
 Code and relevant flat files (.txt, .csv, etc.) should be added to git repositories and synced with GitHub.
 
-### Do not track data files
-- Move raw and processed data files to RIS using Globus. 
-- Once all data processing is completed, consider deleting large intermediate files that can be re-generated.
-- Retain all log files, preferably in the same folder as the finalized results on RIS.
+*Do not track data files. These belong in long term storage.*
 
 ### Store Jupyter Notebooks with output in Lab Archives... 
 It can be convenient to store notebooks alongside other experimental documentation on Lab Archives. 
