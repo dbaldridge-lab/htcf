@@ -1,6 +1,6 @@
 ### Data Storage Documentation
-[HTCF Storage](https://htcf.wustl.edu/docs/storage/)
-[RIS Storage](https://docs.ris.wustl.edu/doc/storage/03_storage.html#designing-a-storage-layout)
+- [HTCF Storage](https://htcf.wustl.edu/docs/storage/)
+- [RIS Storage](https://docs.ris.wustl.edu/doc/storage/03_storage.html#designing-a-storage-layout)
 
 ### 
 - Backup raw and processed data files to LTS. 
