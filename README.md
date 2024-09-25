@@ -18,6 +18,8 @@ This repository includes information about software, data organization, and comm
 
 [(under construction)How to use R on htcf](https://github.com/dbaldridge-lab/htcf/blob/main/using_R.md)  
 
+[How do I access VS Code Copilot?](https://github.com/dbaldridge-lab/htcf/blob/main/copilot.md)
+
 
 # <a name="documentslist"></a>Data Storage
 
