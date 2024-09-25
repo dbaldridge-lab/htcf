@@ -16,7 +16,7 @@ On HTCF, .bashrc is sourced by your login shell and the shells you enter after r
 This file will not be sourced for batch jobs submitted to SLURM using ```sbatch yourjobscript.sh```. 
 
 ## suggested .bashrc additions
-1. Copy what you find useful from the ### quoted text below ###
+1. Copy what you find useful from the code block below
 2. open a terminal and connect to HTCF using ssh (review [these instructions](https://github.com/dbaldridge-lab/htcf/blob/main/htcf_access.md))
 3. open the .bashrc file by typing ```nano ~/.bashrc``` and pressing `enter`
 4. press the down arrow key until your cursor is at the end of the file
