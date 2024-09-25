@@ -12,4 +12,4 @@
 - Regularly backup results using scheduled Globus transfers.
 
 ### Project Directory Structure
-![image](https://github.com/user-attachments/assets/4fd5cbe9-41bb-4496-bc35-f4ed1be819ee)
+![image](https://github.com/user-attachments/assets/fda2830c-db6f-45c0-81a0-d241854be846)
