@@ -45,6 +45,7 @@ Add the following blocks between the [ ] brackets:
   "when": "editorTextFocus",
 }
 ```
+Finally, in Settings, type `send keybindings` and check `Send Keybindings to Shell`.
 9. Restart VSCode
 
 ## Daily Use
