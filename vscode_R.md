@@ -28,22 +28,22 @@ Press `Cmd+Shift+P` to open the Command Palette.
 Type `Preferences: Open Keyboard Shortcuts (JSON)` and select it.
 Add the following blocks between the [ ] brackets:
 ```
-// Insert pipe-operator
-{
-  "description": "R Pipe Operator",
-  "key": "ctrl+shift+m",
-  "command": "type",
-  "args": {"text": " |> "},
-  "when": "editorTextFocus",
-},
-// Insert <- assignment
-{
-  "description": "R Assignment Arrow",
-  "key": "alt+-",
-  "command": "type",
-  "args": {"text": " <- "},
-  "when": "editorTextFocus",
-}
+    // Insert pipe-operator
+    {
+        "description": "R Pipe Operator",
+        "key": "ctrl+shift+m",
+        "command": "type",
+        "args": {"text": " |> "},
+        "when": "editorTextFocus || terminalFocus",
+    },
+    // Insert <- assignment
+    {
+        "description": "R Assignment Arrow",
+        "key": "alt+-",
+        "command": "type",
+        "args": {"text": " <- "},
+        "when": "editorTextFocus || terminalFocus",
+    }
 ```
 Finally, in Settings, type `send keybindings` and check `Send Keybindings to Shell`.
 9. Restart VSCode
