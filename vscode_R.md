@@ -18,7 +18,12 @@ install.packages("languageserver)
 ```
 /usr/local/bin/R
 ```
-7. Restart VSCode
+7. If you plan to use R Markdown documents, install [Pandoc](https://github.com/jgm/pandoc/blob/main/INSTALL.md) and install the following packages:
+```
+install.packages("rmarkdown")
+install.packages("knitr")
+```
+9. Restart VSCode
 
 ## Daily Use
 
