@@ -26,7 +26,7 @@ install.packages("knitr")
 8. Add keybindings for arrow(<-) and pipe(|> or %>%) to your keybindings.json file.
 Press `Cmd+Shift+P` to open the Command Palette. 
 Type `Preferences: Open Keyboard Shortcuts (JSON)` and select it.
-Add the following blocks:
+Add the following blocks between the [ ] brackets:
 ```
 // Insert pipe-operator
 {
