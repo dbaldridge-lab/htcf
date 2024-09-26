@@ -23,7 +23,29 @@ install.packages("languageserver)
 install.packages("rmarkdown")
 install.packages("knitr")
 ```
-8. Restart VSCode
+8. Add keybindings for arrow(<-) and pipe(|> or %>%) to your keybindings.json file.
+Press `Cmd+Shift+P` to open the Command Palette. 
+Type Preferences: Open Keyboard Shortcuts (JSON) and select it.
+Add the following blocks:
+```
+    // Insert pipe-operator
+    {
+      "description": "R Pipe Operator",
+      "key": "ctrl+shift+m",
+      "command": "type",
+      "args": {"text": " |> "},
+      "when": "editorTextFocus",
+    },
+    // Insert <- assignment
+    {
+      "description": "R Assignment Arrow",
+      "key": "alt+-",
+      "command": "type",
+      "args": {"text": " <- "},
+      "when": "editorTextFocus",
+    }
+```
+9. Restart VSCode
 
 ## Daily Use
 
