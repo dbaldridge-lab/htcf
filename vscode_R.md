@@ -34,7 +34,7 @@ Add the following blocks between the [ ] brackets:
         "key": "ctrl+shift+m",
         "command": "type",
         "args": {"text": " |> "},
-        "when": "editorTextFocus || terminalFocus",
+        "when": "editorTextFocus",
     },
     // Insert <- assignment
     {
@@ -42,7 +42,7 @@ Add the following blocks between the [ ] brackets:
         "key": "alt+-",
         "command": "type",
         "args": {"text": " <- "},
-        "when": "editorTextFocus || terminalFocus",
+        "when": "editorTextFocus",
     }
 ```
 Finally, in Settings, type `send keybindings` and check `Send Keybindings to Shell`.
