@@ -3,3 +3,11 @@
 
 ### MacOS Setup Details
 Install [XQuartz](https://www.xquartz.org) prior to installing the httpgd package.
+
+### R Terminal
+![image](https://github.com/user-attachments/assets/57eee28e-3976-40be-a18c-5a4bf3e63ceb)
+
+
+```
+install.packages("httpgd")
+```
