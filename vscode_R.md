@@ -28,22 +28,22 @@ Press `Cmd+Shift+P` to open the Command Palette.
 Type `Preferences: Open Keyboard Shortcuts (JSON)` and select it.
 Add the following blocks:
 ```
-    // Insert pipe-operator
-    {
-      "description": "R Pipe Operator",
-      "key": "ctrl+shift+m",
-      "command": "type",
-      "args": {"text": " |> "},
-      "when": "editorTextFocus",
-    },
-    // Insert <- assignment
-    {
-      "description": "R Assignment Arrow",
-      "key": "alt+-",
-      "command": "type",
-      "args": {"text": " <- "},
-      "when": "editorTextFocus",
-    }
+// Insert pipe-operator
+{
+  "description": "R Pipe Operator",
+  "key": "ctrl+shift+m",
+  "command": "type",
+  "args": {"text": " |> "},
+  "when": "editorTextFocus",
+},
+// Insert <- assignment
+{
+  "description": "R Assignment Arrow",
+  "key": "alt+-",
+  "command": "type",
+  "args": {"text": " <- "},
+  "when": "editorTextFocus",
+}
 ```
 9. Restart VSCode
 
