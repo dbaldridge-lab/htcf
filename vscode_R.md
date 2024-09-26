@@ -18,6 +18,7 @@ install.packages("languageserver)
 ```
 /usr/local/bin/R
 ```
+7. Restart VSCode
 
 ## Daily Use
 
