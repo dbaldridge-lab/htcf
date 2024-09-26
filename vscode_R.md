@@ -14,6 +14,10 @@ install.packages("httpgd")
 install.packages("languageserver)
 ```
 5. Type `CMD + ,` to open Settings. Type `httpgd`. Check the option to use httpgd for R plot viewing: ![image](https://github.com/user-attachments/assets/9debf4c1-f7f1-4795-8d64-ad76bf28e081)
+6. Also in Settings, type `rpath`. Enter the following for macOS:
+```
+/usr/local/bin/R
+```
 
 ## Daily Use
 
