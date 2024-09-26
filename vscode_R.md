@@ -1,3 +1,4 @@
+## Initial Setup
 ### Documentation
 [R in Visual Studio Code](https://code.visualstudio.com/docs/languages/r#:~:text=To%20enhance%20the%20experience%20of,syntax%20highlighting%20and%20auto%2Dcompletion.)
 
@@ -14,10 +15,14 @@ install.packages("languageserver)
 ```
 5. Type `CMD + ,` to open Settings. Type `httpgd`. Check the option to use httpgd for R plot viewing: ![image](https://github.com/user-attachments/assets/9debf4c1-f7f1-4795-8d64-ad76bf28e081)
 
+## Daily Use
 
 ### How to open an R terminal
 ![image](https://github.com/user-attachments/assets/9f59d75a-cc22-46f2-8abc-59085dd1c8b5)
 
+```
+library("httpgd")
+```
 
-
+Run a line by using `CMD + ENTER`.
 
