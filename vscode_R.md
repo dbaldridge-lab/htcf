@@ -23,7 +23,7 @@ install.packages("languageserver)
 install.packages("rmarkdown")
 install.packages("knitr")
 ```
-9. Restart VSCode
+8. Restart VSCode
 
 ## Daily Use
 
