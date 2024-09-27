@@ -54,8 +54,15 @@ Add the following blocks between the [ ] brackets:
 ![image](https://github.com/user-attachments/assets/9f59d75a-cc22-46f2-8abc-59085dd1c8b5)
 
 ```
-library("httpgd")
+# Load the httpgd library
+library(httpgd)
+
+# Start the httpgd graphics device
+hgd()
 ```
 
-Run a line by using `CMD + ENTER`.
+Open the Command Palette (Cmd+Shift+P).
+Type `R: Show Plot Viewer` and select it to open the httpgd viewer.
+
+Run a line by or selection using `CMD + ENTER`.
 
