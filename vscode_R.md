@@ -9,9 +9,8 @@
 4. Install the following packages:
 ```
 install.packages("httpgd")
-```
-```
 install.packages("languageserver)
+install.packages("lintr")
 ```
 5. Type `CMD + ,` to open Settings. Type `httpgd`. Check the option to use httpgd for R plot viewing: ![image](https://github.com/user-attachments/assets/9debf4c1-f7f1-4795-8d64-ad76bf28e081)
 6. Also in Settings, type `rpath`. Enter the following for macOS:
@@ -60,6 +59,8 @@ library(httpgd)
 # Start the httpgd graphics device
 hgd()
 ```
+
+Copy the URL. Type `R Plot: Open Httpgd URL` and select it. Paste in the URL and press enter.
 
 Open the Command Palette (Cmd+Shift+P).
 Type `R: Show Plot Viewer` and select it to open the httpgd viewer.
