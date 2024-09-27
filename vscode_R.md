@@ -47,6 +47,13 @@ Add the following blocks between the [ ] brackets:
 [See here](https://gist.github.com/strengejacke/a84caf94095f498fb552988edf4ee23a) for other useful keybindings.
 9. Restart VSCode
 
+### HTCF Seput
+1. Install the R extension here as well.
+2. In Settings, type `rpath`. Enter the path to the lab R installation:
+```
+
+```
+
 ## Daily Use
 
 ### How to open an R terminal
