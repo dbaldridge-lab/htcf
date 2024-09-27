@@ -54,6 +54,10 @@ Add the following blocks between the [ ] brackets:
 
 ```
 
+Add R to spack:
+```
+spack install r@4.4.0 X=True
+```
 ## Daily Use
 
 ### How to open an R terminal
