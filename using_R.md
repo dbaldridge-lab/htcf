@@ -8,8 +8,7 @@ Edit your bash alias file to include aliases to more easily load the lab's R lib
 
 ```
 echo "alias labr='export R_LIBS_SITE=/ref/dblab/software/r-envs/4.3.0'" >> ~/.bash_aliases
-# load spec with X=True
-echo "alias runr='eval \`spack load --sh /3ggwaqr`'" >> ~/.bash_aliases
+echo "alias runr='eval \`spack load --sh /3ggwaqr`'" >> ~/.bash_aliases # load spec with X=True
 ```
 Add this line to your ~/.bashrc file if you do not have it already:
 ```
