@@ -50,31 +50,21 @@ Add the following blocks between the [ ] brackets:
 
 ### HTCF Seput
 1. Install the R extension here as well.
-2. Install R using spack (it has already been installed in the lab spack instance using the following commands):
-```
-spack create env r_430
-spack install r@4.3.0 X=True
-spack env activate r_430
-spack add r@4.3.0 X=True
-```
-3. In Settings, type `rpath`. Enter the path to the lab R installation for linux:
+2. In Settings, type `rpath`. Enter the path to the lab R installation for linux:
 ```
 /ref/dblab/software/spack-0.21.0/opt/spack/linux-rocky8-x86_64/gcc-8.5.0/r-4.3.0-3ggwaqrtfpe2t627qhwaknvsifz6dk5n/rlib/R/bin/R
 ```
-For other installations of r, use the following commands to find this path, replacing r@4.3.0 with your spec name:
-```
-spack location -i r@4.3.0
-```
-Add `/rlib/R/bin/R` to the path that is returned to get the path to the R executable.
 ## Daily Use
-## Activate the spack environment
+### Load R
 ```
-spack env -p activate r_430
+labr
+runr
 ```
 
-### How to open an R terminal
+### Open an R terminal
 ![image](https://github.com/user-attachments/assets/9f59d75a-cc22-46f2-8abc-59085dd1c8b5)
 
+### Start the plot viewer
 ```
 # Load the httpgd library
 library(httpgd)
@@ -90,3 +80,17 @@ Type `R: Show Plot Viewer` and select it to open the httpgd viewer.
 
 Run a line by or selection using `CMD + ENTER`.
 
+## Troubleshooting
+### How do I make this work with a different r installation? 
+1. Install R using spack (it has already been installed in the lab spack instance using the following commands):
+```
+spack create env r_430
+spack install r@4.3.0 X=True
+spack env activate r_430
+spack add r@4.3.0 X=True
+```
+2. Use the following commands to find this path, replacing r@4.3.0 with your spec name:
+```
+spack location -i r@4.3.0
+```
+Add `/rlib/R/bin/R` to the path that is returned to get the path to the R executable. Update rpath linux settings with this path.
