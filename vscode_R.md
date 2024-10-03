@@ -8,6 +8,10 @@
 3. Install [XQuartz](https://www.xquartz.org) prior to installing the httpgd package.
 4. Install the following packages:
 ```
+## start R
+R
+
+## Install packages to allow plot viewing
 install.packages("httpgd")
 install.packages("languageserver)
 install.packages("lintr")
