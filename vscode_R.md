@@ -17,6 +17,14 @@ install.packages("lintr")
 ```
 /usr/local/bin/R
 ```
+Enter the following for linux:
+```
+/ref/dblab/software/spack-0.21.0/opt/spack/linux-rocky8-x86_64/gcc-8.5.0/r-4.3.0-3ggwaqrtfpe2t627qhwaknvsifz6dk5n
+```
+For other installations of r, use the following commands to find this path, replacing r@4.3.0 with your spec name:
+```
+spack location -i r@4.3.0
+```
 7. If you plan to use R Markdown documents, install [Pandoc](https://github.com/jgm/pandoc/blob/main/INSTALL.md) and install the following packages:
 ```
 install.packages("rmarkdown")
