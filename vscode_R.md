@@ -81,7 +81,7 @@ Type `R: Show Plot Viewer` and select it to open the httpgd viewer.
 Run a line by or selection using `CMD + ENTER`.
 
 ## Troubleshooting
-### How do I make this work with a different r installation? 
+### How do I make this work with a different R installation? 
 1. Install R using spack (it has already been installed in the lab spack instance using the following commands):
 ```
 spack create env r_430
@@ -93,4 +93,4 @@ spack add r@4.3.0 X=True
 ```
 spack location -i r@4.3.0
 ```
-Add `/rlib/R/bin/R` to the path that is returned to get the path to the R executable. Update rpath linux settings with this path.
+Add `/rlib/R/bin/R` to the path that is returned to get the path to the R executable. Update the rpath Linux setting with this path.
