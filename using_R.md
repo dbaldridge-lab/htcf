@@ -15,6 +15,7 @@ Add this line to your ~/.bashrc file if you do not have it already:
 ```
 [ -f ~/.bash_aliases ] && . ~/.bash_aliases
 ```
+Source these files or start a new terminal session.
 
 Once you have completed the initial configuration, you're ready to start using R!
 
