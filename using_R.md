@@ -119,7 +119,7 @@ ERROR: configuration failed for package ‘xml2’
 eval `spack load --sh   libxml2`
 ```
 
-### Getting external Lapack working
+### Getting external Lapack working (unresolved)
 ```
 # load spec with external-lapack
 #echo "alias runr='eval \`spack load --sh   r+external-lapack\`'" >> ~/.bash_aliases
