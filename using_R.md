@@ -1,5 +1,6 @@
 ## Configuration
 
+(Instructions shared by Dr.Emma Johnson)
 **YOU ONLY NEED TO DO THIS ONCE**
 
 Edit your bash alias file to include aliases to more easily load the lab's R library and load R from spack:
@@ -59,7 +60,7 @@ runr
 R
 
 ## set primary library to the lab's library (this will make sure all installs go in here)
-.libPaths("/ref/dblab/software/r-envs/dblab_R/4.1.3")
+.libPaths("/ref/dblab/software/r-envs/4.3.0")
 
 ## install package, e.g.:
 install.packages("ggdogs")
@@ -112,5 +113,3 @@ ERROR: configuration failed for package ‘xml2’
 ```
 eval `spack load --sh   libxml2`
 ```
-
-Note: Instructions shared by Emma Johnson, I haven't tested them
