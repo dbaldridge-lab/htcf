@@ -10,10 +10,6 @@ Edit your bash alias file to include aliases to more easily load the lab's R lib
 echo "alias labr='export R_LIBS_SITE=/ref/dblab/software/r-envs/4.3.0'" >> ~/.bash_aliases
 # load spec with X=True
 echo "alias runr='eval \`spack load --sh /3ggwaqr`'" >> ~/.bash_aliases
-# load spec with external-lapack
-#echo "alias runr='eval \`spack load --sh   r+external-lapack\`'" >> ~/.bash_aliases
-#echo "alias runr='eval \`spack load --sh /me7fcwi`'" >> ~/.bash_aliases
-
 ```
 Add this line to your ~/.bashrc file if you do not have it already:
 ```
@@ -121,4 +117,11 @@ ERROR: configuration failed for package ‘xml2’
 **The solution:** use spack to load libxml-2.0 IN THE SHELL, then can open R and install xml2 pkg
 ```
 eval `spack load --sh   libxml2`
+```
+
+------------------------Getting external Lapack working--------------
+```
+# load spec with external-lapack
+#echo "alias runr='eval \`spack load --sh   r+external-lapack\`'" >> ~/.bash_aliases
+#echo "alias runr='eval \`spack load --sh /me7fcwi`'" >> ~/.bash_aliases
 ```
