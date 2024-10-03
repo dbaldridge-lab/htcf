@@ -45,6 +45,7 @@ Add the following blocks between the [ ] brackets:
     }
 ```
 [See here](https://gist.github.com/strengejacke/a84caf94095f498fb552988edf4ee23a) for other useful keybindings.
+
 9. Restart VSCode
 
 ### HTCF Seput
