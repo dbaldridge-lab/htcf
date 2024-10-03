@@ -11,7 +11,6 @@ echo "alias labr='export R_LIBS_SITE=/ref/dblab/software/r-envs/4.3.0'" >> ~/.ba
 # load spec with X=True
 echo "alias runr='eval \`spack load --sh /me7fcwi`'" >> ~/.bash_aliases
 # load spec with external-lapack
-echo "alias runr='eval \`spack load --sh /3ggwaqr`'" >> ~/.bash_aliases
 #echo "alias runr='eval \`spack load --sh   r+external-lapack\`'" >> ~/.bash_aliases
 
 ```
