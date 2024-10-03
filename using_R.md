@@ -1,6 +1,7 @@
 ## Configuration
 
 (Instructions shared by Dr.Emma Johnson)
+
 **YOU ONLY NEED TO DO THIS ONCE**
 
 Edit your bash alias file to include aliases to more easily load the lab's R library and load R from spack:
