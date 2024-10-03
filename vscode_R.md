@@ -65,6 +65,7 @@ For other installations of r, use the following commands to find this path, repl
 ```
 spack location -i r@4.3.0
 ```
+Add `/rlib/R/bin/R` to the path that is returned to get the path to the R executable.
 ## Daily Use
 ## Activate the spack environment
 ```
