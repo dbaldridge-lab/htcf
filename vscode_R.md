@@ -89,7 +89,7 @@ spack install r@4.3.0 X=True
 spack env activate r_430
 spack add r@4.3.0 X=True
 ```
-2. Use the following commands to find this path, replacing r@4.3.0 with your spec name:
+2. Enter the following commands, replacing r@4.3.0 with your spec name:
 ```
 spack location -i r@4.3.0
 ```
