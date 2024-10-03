@@ -59,7 +59,7 @@ spack add r@4.3.0 X=True
 ```
 3. In Settings, type `rpath`. Enter the path to the lab R installation for linux:
 ```
-/ref/dblab/software/spack-0.21.0/opt/spack/linux-rocky8-x86_64/gcc-8.5.0/r-4.3.0-3ggwaqrtfpe2t627qhwaknvsifz6dk5n
+/ref/dblab/software/spack-0.21.0/opt/spack/linux-rocky8-x86_64/gcc-8.5.0/r-4.3.0-3ggwaqrtfpe2t627qhwaknvsifz6dk5n/rlib/R/bin/R
 ```
 For other installations of r, use the following commands to find this path, replacing r@4.3.0 with your spec name:
 ```
