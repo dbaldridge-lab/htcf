@@ -12,6 +12,10 @@ echo "alias runr='eval \`spack load --sh r+X`'" >> ~/.bash_aliases
 #echo "alias runr='eval \`spack load --sh   r+external-lapack\`'" >> ~/.bash_aliases
 
 ```
+Add this line to your ~/.bashrc file if you do not have it already:
+```
+[ -f ~/.bash_aliases ] && . ~/.bash_aliases
+```
 
 Once you have completed the initial configuration, you're ready to start using R!
 
