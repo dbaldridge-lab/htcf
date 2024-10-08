@@ -71,7 +71,7 @@ Type `Terminal integrated profiles` and update the settings.json for Linux. Add 
     "terminal.integrated.profiles.linux": {
         "R": {
             "path": "/bin/bash",
-            "args": ["-c", "eval `spack load --sh /3ggwaqr` && R"]
+            "args": ["-c", "eval `spack load --sh /3ggwaqr"]
         }
     }
 }
