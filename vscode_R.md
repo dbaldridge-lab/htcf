@@ -58,6 +58,7 @@ Add the following blocks between the [ ] brackets:
 ```
 /ref/dblab/software/spack-0.21.0/opt/spack/linux-rocky8-x86_64/gcc-8.5.0/r-4.3.0-3ggwaqrtfpe2t627qhwaknvsifz6dk5n/rlib/R/bin/R
 ```
+Type `R: Lib Paths` and enter `/ref/dblab/software/r-envs/4.1.3`. Check the `Use Renv Lib Path` checkbox.
 3. Install XQuartz prior to installing the httpgd package.
 4. Install the following packages:
 ```
