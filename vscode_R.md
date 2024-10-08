@@ -53,8 +53,13 @@ Add the following blocks between the [ ] brackets:
 9. Restart VSCode
 
 ### HTCF Seput
-1. Install the VSCode R extension here as well.
-2. In Settings, type `rpath`. Enter the path to the lab R installation for linux:
+1. Connect via SSH
+2. Start an interactive session
+```
+sml
+```
+4. Install the VSCode R extension here as well.
+5. In Settings, type `rpath`. Enter the path to the lab R installation for linux:
 ```
 /ref/dblab/software/spack-0.21.0/opt/spack/linux-rocky8-x86_64/gcc-8.5.0/r-4.3.0-3ggwaqrtfpe2t627qhwaknvsifz6dk5n/rlib/R/bin/R
 ```
