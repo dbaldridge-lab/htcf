@@ -64,6 +64,19 @@ sml
 /ref/dblab/software/spack-0.21.0/opt/spack/linux-rocky8-x86_64/gcc-8.5.0/r-4.3.0-3ggwaqrtfpe2t627qhwaknvsifz6dk5n/rlib/R/bin/R
 ```
 Type `R: Lib Paths` and enter `/ref/dblab/software/r-envs/4.1.3`. Check the `Use Renv Lib Path` checkbox.
+
+Type `Terminal integrated profiles` and update the settings.json for Linux.
+```
+{
+    "terminal.integrated.profiles.linux": {
+        "R": {
+            "path": "/bin/bash",
+            "args": ["-c", "eval `spack load --sh /3ggwaqr` && R"]
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "R"
+}
+```
 3. Install XQuartz prior to installing the httpgd package.
 4. Install the following packages:
 ```
