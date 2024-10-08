@@ -65,7 +65,7 @@ sml
 ```
 Type `R: Lib Paths` and enter `/ref/dblab/software/r-envs/4.1.3`. Check the `Use Renv Lib Path` checkbox.
 
-Type `Terminal integrated profiles` and update the settings.json for Linux.
+Type `Terminal integrated profiles` and update the settings.json for Linux. Add an entry for R.
 ```
 {
     "terminal.integrated.profiles.linux": {
@@ -73,8 +73,7 @@ Type `Terminal integrated profiles` and update the settings.json for Linux.
             "path": "/bin/bash",
             "args": ["-c", "eval `spack load --sh /3ggwaqr` && R"]
         }
-    },
-    "terminal.integrated.defaultProfile.linux": "R"
+    }
 }
 ```
 3. Install XQuartz prior to installing the httpgd package.
