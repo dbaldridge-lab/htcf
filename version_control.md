@@ -28,7 +28,7 @@ git config --global --list
 
 Code and relevant flat files (.txt, .csv, etc.) should be added to git repositories and synced with GitHub.
 
-*Do not track data files. These belong in long term storage.*
+*Do not track large data files. These belong in long term storage.*
 
 ### Store Jupyter Notebooks with output in Lab Archives... 
 It can be convenient to store notebooks alongside other experimental documentation on Lab Archives. 
