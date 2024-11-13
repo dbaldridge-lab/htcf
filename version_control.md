@@ -32,7 +32,7 @@ Code and relevant flat files (.txt, .csv, etc.) should be added to git repositor
 
 ### Store Jupyter Notebooks with output in Lab Archives... 
 It can be convenient to store notebooks alongside other experimental documentation on Lab Archives. 
-Save the file after executing the code blocks. Add as an attachment to a Lab Archives page so the results can be previewed and the code can be downloaded as needed.
+Save the file after executing the code blocks. Add this ipynb file as an attachment to a Lab Archives page so the results can be previewed and the code can be downloaded as needed.
 
 ### ... but also version control a general copy of the notebook source code if it will be reran multiple times for different samples
 Clear outputs and save prior to commiting.
