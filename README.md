@@ -18,7 +18,7 @@ This repository includes information about software, data organization, and comm
 
 [Run R script from command line](https://github.com/dbaldridge-lab/htcf/blob/main/using_R.md)
 
-[Run R in VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/vscode_R.md) 
+[(not recommended) Run R in VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/vscode_R.md) 
 
 [How do I access VS Code Copilot?](https://github.com/dbaldridge-lab/htcf/blob/main/copilot.md)
 
@@ -28,8 +28,6 @@ This repository includes information about software, data organization, and comm
 [Storing raw and processed data files](https://github.com/dbaldridge-lab/htcf/blob/main/data_storage.md)
 
 [(reach out to admin for permissions)Mounting LTS locally](https://github.com/dbaldridge-lab/htcf/blob/main/mount.md)
-
-[(under construction)Saving your Bash history](https://github.com/dbaldridge-lab/htcf/blob/main/save_history.md)
 
 [(under construction)Backing up data](https://github.com/dbaldridge-lab/htcf/blob/main/backups.md)  
 
