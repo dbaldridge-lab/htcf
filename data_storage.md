@@ -7,7 +7,7 @@
 - Add README to raw data folder containing link to relevant Lab Archives pages.
 
 ### Processed Data
-- After processing, delete large intermediate files that can be re-generated.
+- After processing, delete large intermediate files that can be re-generated. Consider outputting intermediate data to a seperate temp folder and backup or touch these files as needed.
 - Retain log files, preferably in the same folder as the finalized results.
 - Regularly backup results to long-term storage using scheduled Globus transfers.
 - If you need to keep files on scratch for longer than 30 days, use the following command periodically. Update `/scratch/path` to relect the path to the directory containing the files you want to retain. This will update the timestamp to keep files from being deleted by the auto-cleanup policy:
@@ -29,5 +29,3 @@ Use automated Globus transfers to regularly backup the results on scratch to lon
 4. end never (note: user setting up the timer will need to reauthenticate at least every 30 days for the timer to remain active)
 
 Note that if you move or rename files in a directory backed up using these options, both copies will be retained at the destination. 
-
-Consider outputting intermediate data to a seperate temp folder and backup or touch these files as needed.
