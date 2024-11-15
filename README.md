@@ -16,7 +16,7 @@ This repository includes information about software, data organization, and comm
 
 # <a name="documentslist"></a>General Use
 
-[Installing software](https://github.com/dbaldridge-lab/htcf/blob/main/spack.md)
+[Managing software with Spack](https://github.com/dbaldridge-lab/htcf/blob/main/spack.md)
 
 [Running Jupyter Notebooks on the server using VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md)  
 
