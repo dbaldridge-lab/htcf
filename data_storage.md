@@ -29,4 +29,5 @@ Use automated Globus transfers to regularly backup the results on scratch to lon
 4. end never (note: user setting up the timer will need to reauthenticate at least every 30 days for the timer to remain active)
 
 Note that if you move or rename files in a directory backed up using these options, both copies will be retained at the destination. 
+
 Consider outputting intermediate data to a seperate temp folder and backup or touch these files as needed.
