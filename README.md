@@ -33,7 +33,7 @@ This repository includes information about software, data organization, and comm
 
 [Storing raw and processed data files](https://github.com/dbaldridge-lab/htcf/blob/main/data_storage.md)
 
-[(under construction)Establishing data provenance]()
+[(under construction)Establishing data provenance](https://github.com/dbaldridge-lab/htcf/blob/main/data_provenance.md)
 
 ![image](https://github.com/user-attachments/assets/7c04b94d-6758-473f-99d2-14447511c76a)
 
