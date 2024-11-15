@@ -18,9 +18,10 @@ Even if the same person is executing protocols and processing the data for a giv
 - interpretation of results
 - when results led to subsequent experiments or changes to experimental methods
 
-Our lab typically captures this information using a template stored in Lab Archives. 
-
-The raw data folder contains a README with a link to this document. A new document is created for each sequencing submission. Relevant communications, equipment printouts, and notebooks(e.g. .ipynb) are attached.
+Our lab has a template stored in Lab Archives that provides a framework for documenting these items. 
+- Relevant communications, equipment printouts, and notebooks(e.g. .ipynb) are attached
+- A README with a link to this document is placed in the relevant raw data directory
+Ideally, a new document should be created for each sequencing submission. It is essential if the data is intended for publication. 
 
 ### Make a data management plan
 Document:
