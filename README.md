@@ -22,6 +22,8 @@ This repository includes information about software, data organization, and comm
 
 [How do I access GitHub Copilot?](https://github.com/dbaldridge-lab/htcf/blob/main/copilot.md)
 
+[(under construction)How do I keep from losing work when I lose my SSH connection?]()
+
 
 # <a name="documentslist"></a>Data Storage
 
