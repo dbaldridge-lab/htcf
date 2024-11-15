@@ -20,7 +20,7 @@ This repository includes information about software, data organization, and comm
 
 [(not recommended) Run R in VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/vscode_R.md) 
 
-[How do I access VS Code Copilot?](https://github.com/dbaldridge-lab/htcf/blob/main/copilot.md)
+[How do I access GitHub Copilot?](https://github.com/dbaldridge-lab/htcf/blob/main/copilot.md)
 
 
 # <a name="documentslist"></a>Data Storage
