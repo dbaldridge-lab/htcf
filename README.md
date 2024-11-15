@@ -42,7 +42,7 @@ This repository includes information about software, data organization, and comm
 # <a name="documentslist"></a>Workflows
 [Nextflow HTCF config](https://nf-co.re/configs/wustl_htcf/)
 
-[(under construction)Processing paired-end fastq to get unique amplicon sequence counts]()
+[(under construction)Processing paired-end read fastq files to get unique amplicon sequence counts]()
 
 
 
