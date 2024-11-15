@@ -1,8 +1,12 @@
 ### Document names and versions of software used to generate data
-Consider outputting the current git commit to logs or capture manually as you process data. 
+Print software versions in logs if the software does not do this by default.
+
+For scripts created by the data analysis team, consider outputting the current git commit to logs or capture manually as you process data. 
 ```
 git log -1 --pretty=format:"%h - %s"
 ```
+
+Keep records of the environment setup and resources used when the code was executed.
 
 ### Capture relevant experimental details
 At the start of a project, agree how data will be handed back and forth from the experimental team to the data analysis team.
