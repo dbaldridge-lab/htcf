@@ -12,5 +12,4 @@ Even if the same person is executing protocols and processing the data for a giv
 - the original data analysis plan
 - how the analysis actually progressed
 - interpretation of results
-- if results necessitated subsequent experiments
-
+- when results led to subsequent experiments or changes to experimental methods
