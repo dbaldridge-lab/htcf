@@ -22,8 +22,6 @@ This repository includes information about software, data organization, and comm
 
 [Run R scripts from the command line](https://github.com/dbaldridge-lab/htcf/blob/main/using_R.md)
 
-[(not recommended) Run R in VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/vscode_R.md) 
-
 [How do I access GitHub Copilot?](https://github.com/dbaldridge-lab/htcf/blob/main/copilot.md)
 
 [(under construction)How do I avoid losing work when I lose my SSH connection?]()
