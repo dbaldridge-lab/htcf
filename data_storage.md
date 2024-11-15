@@ -8,13 +8,14 @@
 
 ### Processed Data
 - Consider outputting intermediate data to a seperate temp folder and backup or touch these files as needed.
-- After processing, delete large intermediate files that can be re-generated. 
-- Retain log files, preferably in the same folder as the finalized results.
-- Regularly backup results to long-term storage using scheduled Globus transfers.
-- If you need to keep files on scratch for longer than 30 days, use the following command periodically. Update `/scratch/path` to relect the path to the directory containing the files you want to retain. This will update the timestamp to keep files from being deleted by the auto-cleanup policy:
+  - If you need to keep files on scratch for longer than 30 days, use the following command periodically. Update `/scratch/path` to relect the path to the directory containing the files you want to retain. This will update the timestamp to keep files from being deleted by the auto-cleanup policy:
 ```
 find /scratch/path -type f -mtime +1 -exec touch {} \;
 ```
+- After processing, delete large intermediate files that can be re-generated. 
+- Retain log files, preferably in the same folder as the finalized results.
+- Regularly backup results to long-term storage using scheduled Globus transfers.
+
 
 ### Globus Timer Options
 
