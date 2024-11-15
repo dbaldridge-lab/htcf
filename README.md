@@ -31,6 +31,8 @@ This repository includes information about software, data organization, and comm
 
 [(reach out to admin for permissions)Mounting LTS locally](https://github.com/dbaldridge-lab/htcf/blob/main/mount.md)
 
+[(under construction)Mounting RIS locally]()
+
 ![image](https://github.com/user-attachments/assets/7c04b94d-6758-473f-99d2-14447511c76a)
 
 
