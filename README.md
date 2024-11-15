@@ -29,7 +29,7 @@ This repository includes information about software, data organization, and comm
 
 [(reach out to admin for permissions)Mounting LTS locally](https://github.com/dbaldridge-lab/htcf/blob/main/mount.md)
 
-![image](https://github.com/user-attachments/assets/f73c633d-f9f5-4eda-87cf-5b9ccd53ad8a)
+![image](https://github.com/user-attachments/assets/17f4be7a-99e1-4d03-a35f-59143efbf71d)
 
 
 # <a name="documentslist"></a>Workflows
