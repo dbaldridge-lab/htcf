@@ -32,8 +32,8 @@ This repository includes information about software, data organization, and comm
 ![image](https://github.com/user-attachments/assets/f73c633d-f9f5-4eda-87cf-5b9ccd53ad8a)
 
 
-
-
+# <a name="documentslist"></a>Workflows
+[Nextflow HTCF pipeline](https://nf-co.re/configs/wustl_htcf/)
 
 
 
