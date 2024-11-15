@@ -14,3 +14,18 @@
 ```
 find /scratch/path -type f -mtime +1 -exec touch {} \;
 ```
+
+### Globus Timer Options
+
+Use automated Globus transfers to regularly backup the results on scratch to long term storage.
+
+1. Select the "Transfer & Timer Options" dropdown.
+2. Check the following options:
+   sync - only transfer new or changed files
+   preserve source file modification times
+   encrypt transfer
+   (optional) Disable success notification to avoid flooding your inbox
+3. Set Repeat to every 1 days
+4. end never (note: user setting up the timer will need to reauthenticate at least every 30 days for the timer to remain active)
+
+
