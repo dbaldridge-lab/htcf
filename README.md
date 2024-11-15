@@ -33,7 +33,7 @@ This repository includes information about software, data organization, and comm
 
 
 # <a name="documentslist"></a>Workflows
-[Nextflow HTCF pipeline](https://nf-co.re/configs/wustl_htcf/)
+[Nextflow HTCF config](https://nf-co.re/configs/wustl_htcf/)
 
 
 
