@@ -42,6 +42,8 @@ This repository includes information about software, data organization, and comm
 
 [Submit batch scripts sequentially using dependancies]()
 
+[Parallelization]() 
+
 [(under construction)Processing paired-end read fastq files to get unique amplicon sequence counts]()
 
 
