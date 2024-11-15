@@ -20,7 +20,7 @@ This repository includes information about software, data organization, and comm
 
 [Running Jupyter Notebooks on the server using VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md)  
 
-[Run R script from command line](https://github.com/dbaldridge-lab/htcf/blob/main/using_R.md)
+[Run R scripts from the command line](https://github.com/dbaldridge-lab/htcf/blob/main/using_R.md)
 
 [(not recommended) Run R in VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/vscode_R.md) 
 
