@@ -33,6 +33,8 @@ This repository includes information about software, data organization, and comm
 
 [(under construction)Mounting RIS locally]()
 
+[(under construction)Storing sequencing files]()
+
 ![image](https://github.com/user-attachments/assets/7c04b94d-6758-473f-99d2-14447511c76a)
 
 
@@ -40,6 +42,7 @@ This repository includes information about software, data organization, and comm
 # <a name="documentslist"></a>Workflows
 [Nextflow HTCF config](https://nf-co.re/configs/wustl_htcf/)
 
+[(under construction)Processing paired-end fastq to get unique amplicon sequence counts]()
 
 
 
