@@ -40,6 +40,9 @@ Note that if you move or rename files in a directory backed up using these optio
 Do not decompress .gz files unless absolutely necessary. Most bioinformatic tools accept gzipped files as input.
 
 Use zcat if you need to view compressed files.
+```
+zcat Sample_Yeast_L005_R1.cat.fastq.gz | head
+```
 
 Be mindful that compressing/decompressing large files is I/O intensive.
 
