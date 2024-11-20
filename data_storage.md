@@ -41,7 +41,7 @@ Do not decompress .gz files unless absolutely necessary. Most bioinformatic tool
 
 Use zcat if you need to view compressed files.
 ```
-zcat Sample_Yeast_L005_R1.cat.fastq.gz | head
+zcat example.fastq.gz | head
 ```
 
 Be mindful that compressing/decompressing large files is I/O intensive.
