@@ -1,5 +1,5 @@
 ### Documentation
-- [HTCF Storage](https://htcf.wustl.edu/docs/storage/)
+- [HTCF Storage](https://htcf.github.io/docs/storage/)
 - [RIS Storage](https://docs.ris.wustl.edu/doc/storage/03_storage.html#designing-a-storage-layout)
 
 ### Raw Data
