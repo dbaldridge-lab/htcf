@@ -3,7 +3,7 @@
 - [RIS Storage](https://docs.ris.wustl.edu/doc/storage/03_storage.html#designing-a-storage-layout)
 
 ### Raw Data
-- Backup raw data files to long-term storage (LTS or RIS).
+- Backup raw data files to long-term storage.
 - Add README to raw data folder containing link to relevant Lab Archives pages.
 
 ### Processed Data
