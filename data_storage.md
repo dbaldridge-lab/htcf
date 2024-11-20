@@ -16,6 +16,10 @@ find /scratch/path -type f -mtime +1 -exec touch {} \;
 - Retain log files, preferably in the same folder as the finalized results.
 - Regularly backup results to long-term storage using scheduled Globus transfers.
 
+### Check size of files
+```
+du -sh /path/to/project_directory/
+```
 
 ### Globus Timer Options
 
@@ -31,3 +35,11 @@ Use automated Globus transfers to regularly backup the results on scratch to lon
 4. end never (note: user setting up the timer will need to reauthenticate at least every 30 days for the timer to remain active)
 
 Note that if you move or rename files in a directory backed up using these options, both copies will be retained at the destination. 
+
+### Data Compression
+Do not decompress .gz files unless absolutely necessary. Most bioinformatic tools accept gzipped files as input.
+
+Use zcat if you need to view compressed files.
+
+Be mindful that compressing/decompressing large files is I/O intensive.
+
