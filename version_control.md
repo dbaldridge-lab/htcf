@@ -32,47 +32,37 @@ Code and relevant flat files (.txt, .csv, etc.) should be added to git repositor
 
 *Do not track large data files. These belong in long term storage.*
 
-## Setting up a new repository
+## Initialize a git repository locally and sync with GitHub
 
 ***Use one repository per project.***
 1. Connect a local repository (e.g. on HTCF or local machine) to a remote repository on GitHub.
-This is one of many approaches:
-- Create a new repository on GitHub
-![image](https://github.com/user-attachments/assets/c3717bd2-1ce8-45de-a099-bfb4065bbabe)
-![image](https://github.com/user-attachments/assets/8bbb2eee-5611-4ed8-9906-36196552882a)
-- grab the URL
-- Open the version control view in VSCode:
-![image](https://github.com/user-attachments/assets/262dc9c6-3b57-4a54-96ff-239f6165fd35)
-- Select `Configure remotes...`
-- Click `Add Item`
-- paste the URL
 
-[Here's another approach.](https://docs.ris.wustl.edu/doc/compute/workshops/ris-software-development.html#creating-a-repository) 
+[Here's one approach.](https://docs.ris.wustl.edu/doc/compute/workshops/ris-software-development.html#creating-a-repository) 
 
 [And another.](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
 
 2. Create a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) that lists filetypes and directories that you don't want version controlled:
-
-    - At the head directory of a new repository, add this [.gitignore template](https://github.com/dbaldridge-lab/htcf/blob/main/.gitignore), editing as needed.
+    - At the head directory of a new repository, add this [.gitignore template](https://github.com/dbaldridge-lab/htcf/blob/main/.gitignore). Edit the file as needed.
 
 ## Getting comfortable with git and GitHub
-
-1. Read the [documentation](https://git-scm.com/docs) or find a tutorial and learn how to use the following commands to version control code in a git repository:
+Read the [documentation]([https://git-scm.com/docs](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)) or find a tutorial and learn how to use the following commands:
+1. Git basics
 ```
-git init 
-git status
-git add
-git commit
+git init # begin tracking changes in the current directory
+git add . # stages all changes
+git commit -m "Your commit msg"
 ```
-2. Commit frequently. Summarize the changes made with a short, descriptive message.
-3. Learn how to sync changes made locally with a remote repository:
+2. Commit frequently. Logically group changes and write a short, descriptive message.
+3. Syncing with GitHub
 ```
 git push  # (local -> remote) puts your changes on GitHub
 git clone  # copy all code for a repo from GitHub
 git pull  # (remote -> local) grabs most recent changes from GitHub
 ```
-- Pull changes from the remote GitHub main branch (origin) to your local main branch (main) to keep your local copy of the codebase up to date.
-- Make changes on main and push them up to origin. ***If multiple people are making edits, repeat this and the previous step frequently.***
+- **Pull** changes from the remote GitHub main branch (origin/main) to your local main branch (main) to keep your local copy of the codebase up to date.
+- Make changes locally and **push** them up to GitHub.
+  
+  ***If multiple people are making edits OR you are working on multiple machines, push and pull frequently.***
 4. Undoing changes
 [How to undo almost anything with git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
 ```
