@@ -2,8 +2,10 @@ If you're new to version control and wondering why this is important,
 [this is a nice overview](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668).
 
 ## Initial GitHub setup
-1. Create a GitHub account or add your wustl email to an existing account
-2. An admin of the group or RIS will add this account to dbaldridge-lab
+1. Create a GitHub account or add your wustl email to an existing account.
+   - Click on user image, click Settings, and click Email.
+   - Add email
+2. An admin of the group or RIS will add this account to dbaldridge-lab.
 
 ## Initial git setup
 1. Open a terminal
