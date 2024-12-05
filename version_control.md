@@ -32,14 +32,8 @@ Code and relevant flat files (.txt, .csv, etc.) should be added to git repositor
 
 *Do not track large data files. These belong in long term storage.*
 
-### Store Jupyter Notebooks with output in Lab Archives... 
-It can be convenient to store notebooks alongside other experimental documentation on Lab Archives. 
-Save the file after executing the code blocks. Add this ipynb file as an attachment to a Lab Archives page so the results can be previewed and the code can be downloaded as needed.
-
-### ... but also version control a general copy of the notebook source code if it will be reran multiple times for different samples
-Clear outputs and save prior to commiting.
-
 ## Setting up a new repository
+
 ***Use one repository per project.***
 1. Connect a local repository (e.g. on HTCF or local machine) to a remote repository on GitHub.
 This is one of many approaches:
@@ -47,7 +41,7 @@ This is one of many approaches:
 ![image](https://github.com/user-attachments/assets/c3717bd2-1ce8-45de-a099-bfb4065bbabe)
 ![image](https://github.com/user-attachments/assets/8bbb2eee-5611-4ed8-9906-36196552882a)
 - grab the URL
-- Open the GitHub Pull Requests tab in VSCode:
+- Open the version control view in VSCode:
 ![image](https://github.com/user-attachments/assets/262dc9c6-3b57-4a54-96ff-239f6165fd35)
 - Select `Configure remotes...`
 - Click `Add Item`
