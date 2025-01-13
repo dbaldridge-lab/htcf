@@ -12,8 +12,6 @@ This repository includes information about software, data organization, and comm
 
 [(reach out to admin for permissions)Mounting LTS locally](https://github.com/dbaldridge-lab/htcf/blob/main/mount.md)
 
-[(under construction)Mounting RIS locally]()
-
 # <a name="documentslist"></a>General Use
 
 [Managing software with Spack](https://github.com/dbaldridge-lab/htcf/blob/main/spack.md)
