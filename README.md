@@ -45,6 +45,8 @@ Parallelization
 
 Processing paired-end read fastq files to get unique amplicon sequence counts
 
+Tmux
+
 
 
 
