@@ -39,11 +39,10 @@ This repository includes information about software, data organization, and comm
 # <a name="documentslist"></a>Workflows
 [Nextflow HTCF config](https://nf-co.re/configs/wustl_htcf/)
 
-[Submit batch scripts sequentially using dependancies]()
+Submit batch scripts sequentially using dependancies
 
-[Parallelization]() 
-
-[(under construction)Processing paired-end read fastq files to get unique amplicon sequence counts]()
+Parallelization
+Processing paired-end read fastq files to get unique amplicon sequence counts
 
 
 
