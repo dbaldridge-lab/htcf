@@ -33,8 +33,7 @@ This repository includes information about software, data organization, and comm
 
 [Establishing data provenance](https://github.com/dbaldridge-lab/htcf/blob/main/data_provenance.md)
 
-![image](https://github.com/user-attachments/assets/36fa6b9d-e063-45e9-92a7-b4cafaa5fc7d)
-
+![image](https://github.com/user-attachments/assets/3ade22b8-d160-41cc-873c-f76585c65635)
 
 
 # <a name="documentslist"></a>Workflows
