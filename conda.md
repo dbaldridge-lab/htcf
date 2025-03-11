@@ -10,6 +10,8 @@ conda init --all
 In a bash terminal:
 ```
 conda install -c r r-base
+```
+```
 conda install -c r r-irkernel
 ```
 
