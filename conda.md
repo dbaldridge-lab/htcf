@@ -1,5 +1,5 @@
 
-## Loading conda in a shell script
+## Loading conda in a shell script (for batch jobs)
 ```
 # Replace with the path to your conda install
 source /ref/dblab/software/c.chitwood/anaconda3/bin/activate
