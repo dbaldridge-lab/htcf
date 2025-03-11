@@ -18,6 +18,8 @@ conda install -c r r-irkernel
 In an R terminal:
 ```
 install.packages('IRkernel')
+```
+```
 IRkernel::installspec()
 ```
 
