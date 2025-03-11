@@ -26,5 +26,7 @@ IRkernel::installspec()
 ## Notebook cells to select kernels
 ```
 #!connect jupyter --kernel-name pythonkernel --conda-env base --kernel-spec python3
+```
+```
 #!connect jupyter --kernel-name Rkernel --conda-env base --kernel-spec ir
 ```
