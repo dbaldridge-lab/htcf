@@ -5,3 +5,8 @@
 source /ref/dblab/software/c.chitwood/anaconda3/bin/activate
 conda init --all
 ```
+
+## Install R using conda
+```
+conda install -c r r-base
+```
