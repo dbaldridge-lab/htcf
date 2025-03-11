@@ -16,6 +16,8 @@ This repository includes information about software, data organization, and comm
 
 [Managing software with Spack](https://github.com/dbaldridge-lab/htcf/blob/main/spack.md)
 
+[Managing software using Conda](https://github.com/dbaldridge-lab/htcf/blob/main/conda.md)
+
 [Running Jupyter Notebooks on the server using VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md)  
 
 [Run R scripts from the command line](https://github.com/dbaldridge-lab/htcf/blob/main/using_R.md)
