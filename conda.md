@@ -1,3 +1,6 @@
+## Install .Net
+Install the .Net Install Tool extension in VSCode.
+Add `:$HOME/dotnet` to the end of PATH in `~/.bashrc`.
 
 ## Loading conda in a shell script (e.g. for batch jobs)
 ```
