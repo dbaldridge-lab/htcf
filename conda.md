@@ -1,10 +1,9 @@
 
-## Loading conda in a shell script (for batch jobs)
+## Loading conda in a shell script (e.g. for batch jobs)
 ```
 # Replace with the path to your conda install
 source /ref/dblab/software/c.chitwood/anaconda3/bin/activate
 conda init --all
-source ~/.bashrc
 ```
 
 ## Install R using conda
