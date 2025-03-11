@@ -23,7 +23,11 @@ install.packages('IRkernel')
 IRkernel::installspec()
 ```
 
-## Notebook cells to select kernels
+## Create a polyglot notebook
+To create a new polyglot notebook, open the Command Palette `Cmd+Shift+P`, and select Polyglot Notebook: Create new blank notebook.
+
+
+Add notebook cells to select kernels:
 ```
 #!connect jupyter --kernel-name pythonkernel --conda-env base --kernel-spec python3
 ```
