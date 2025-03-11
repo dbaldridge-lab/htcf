@@ -103,7 +103,7 @@ python3 -m pip freeze > my-reqs.txt
 ```
 Reinstall after concretization:
 ```
-python3 -m pip install my-reqs.txt
+python3 -m pip install -r my-reqs.txt
 ```
 
 ## Creating a new environment
