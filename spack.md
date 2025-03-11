@@ -50,7 +50,7 @@ spack add samtools python@3.10.4  # add spack packages
 ```
 Exit the environment:
 ```
-despacktivate
+spack env deactivate
 ```
 Reactivate the environment:
 ```
