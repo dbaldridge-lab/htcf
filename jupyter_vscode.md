@@ -67,7 +67,7 @@ spack env activate -p jupyter
 
 ---
 
-### Creating a kernel (only required when creating new environments):
+### Creating a kernel (only required when creating new spack environments):
 
 After [activating the jupyter spack environment and installing all required software](https://github.com/dbaldridge-lab/htcf/blob/main/spack.md#creating-a-new-environment), enter the commands below: 
 
