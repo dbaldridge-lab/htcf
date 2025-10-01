@@ -33,15 +33,6 @@ Activate a spack environment containing the software and python packages needed 
 ```
 spack env activate -p jupyter
 ```
-- Open or create a Jupyter notebook .ipynb file.
-- Click the kernel selector icon:
-![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
-- Paste in the path (edit as needed for your specific Spack instance and environment):
-```
-/ref/dblab/software/spack-0.21.0/var/spack/environments/jupyter/.spack-env/view/bin/python
-```
-- Refresh under `Jupyter Kernels` if needed
-<img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
 
 ## 4. Create VSCode Tunnel to the node
 
@@ -77,7 +68,18 @@ You should see the tunnel to the node you just created.
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/295da8d0-444b-4a12-8cfa-f5a0a784e3bb)
 - Click on the arrow to open the tunnel in the current window.
 
+## 6. Setup Notebook to Execute Code
+- Open or create a Jupyter notebook .ipynb file.
+- Click the kernel selector icon:
+![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
+- Paste in the path (edit as needed for your specific Spack instance and environment):
+```
+/ref/dblab/software/spack-0.21.0/var/spack/environments/jupyter/.spack-env/view/bin/python
+```
+- Refresh under `Jupyter Kernels` if needed
+
 ---
+<img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
 
 
 
