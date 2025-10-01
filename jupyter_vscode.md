@@ -79,7 +79,16 @@ You should see the tunnel to the node you just created.
 
 ---
 
-### Creating a kernel (only required when creating new spack environments):
+
+
+---
+## Troubleshooting
+
+### Kernel is crashing
+- Try allocating more memory
+
+### Can't find the kernel for the spack environment 
+You may need to follow these steps when creating new spack environments.
 
 After [activating the jupyter spack environment and installing all required software](https://github.com/dbaldridge-lab/htcf/blob/main/spack.md#creating-a-new-environment), enter the commands below: 
 
@@ -103,14 +112,6 @@ cat kernel.json
 Grab the path listed in this file.
 
 Continue with the instructions in step 3 above, pasting in this path instead.
-
----
-### Troubleshooting
-
-#### Kernel is crashing
-- Try allocating more memory
-
-
 
 
 
