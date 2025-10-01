@@ -1,6 +1,9 @@
 # Running Jupyter Notebooks on HTCF
 Adapted from [this page](https://kb.uconn.edu/space/SH/26626326576/Visual+Studio+Code+(VSCode)+Guide#:~:text=A%20common%20method%20of%20using,standard%20SLURM%20job%20scheduling%20process).
 
+## Prerequisites
+You have setup VSCode according to [these instructions.](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)
+
 ## 1. Connect to HTCF using SSH
 - Install the Remote Development and Remote - Tunnels Extensions
 - Use the shortcut "CMD + Shift + P", then type and select "Remote-SSH: Connect to Host"
