@@ -78,15 +78,12 @@ spack env activate -p jupyter
 - Open a pre-existing Jupyter notebook file.
 - Click the kernel selector icon:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
-- Paste in the path (edit as needed for your spack instance):
+- Paste in the path (edit as needed for your specific Spack instance and environment):
 ```
 /ref/dblab/software/spack-0.21.0/var/spack/environments/jupyter/.spack-env/view/bin/python
 ```
 - Refresh under `Jupyter Kernels` if needed
-
 <img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
-
-On mac, use `CMD + `` to cycle between VSCode windows.
 
 ---
 
