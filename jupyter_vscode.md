@@ -45,32 +45,10 @@ You should see the tunnel to the node you just created.
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/295da8d0-444b-4a12-8cfa-f5a0a784e3bb)
 
 - Click on the arrow to open the tunnel in the current window.
-### (Tunneling Option 2 - Recommended)
-### Persisting an Interactive Node
-In the SSH:htcf window, on the login node, enter the following:
-```
-sbatch /scratch/dblab/opool/code/job/tmux/persist_interactive.sh
-```
-```
-cd ~
-```
-```
-cat persist_interactive.log
-```
-Follow the prompts.
-
-Open a new VSCode window. `CMD + Shift + N`
-
-`Shift + CMD + P` and type and select `Remote Tunnels: Connect to Tunnel`. Select the logon method used. Wait for the connection to load. Select n002 to connect.
-
-![image](https://github.com/user-attachments/assets/99c3bc07-c303-4864-9160-63a3a10e77df)
-
-Note: Now even if your session is disconnected, you will be able to reconnect. This job runs 8 hours.
-
 
 ## 3. Jupyter Notebook setup
 
-In the new window, activate a spack environment containing the software and python packages needed to run a Jupyter notebook. 
+Activate a spack environment containing the software and python packages needed to run a Jupyter notebook. 
 ```
 spack env activate -p jupyter
 ```
@@ -89,7 +67,7 @@ spack env activate -p jupyter
 
 ### Creating a kernel (only required when creating new environments):
 
-After activating your new environment and installing all required software, enter the commands below: 
+After [activating the jupyter spack environment and installing all required software](https://github.com/dbaldridge-lab/htcf/blob/main/spack.md#creating-a-new-environment), enter the commands below: 
 
 ```
 python3 -m ensurepip
