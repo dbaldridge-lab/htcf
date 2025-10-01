@@ -2,7 +2,7 @@
 Adapted from [this page](https://kb.uconn.edu/space/SH/26626326576/Visual+Studio+Code+(VSCode)+Guide#:~:text=A%20common%20method%20of%20using,standard%20SLURM%20job%20scheduling%20process).
 
 ## Prerequisites
-VSCode was installed and configured according to [these instructions.](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)
+VSCode was installed and configured according to [Steps 1 and 2 in these instructions.](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)
 
 ## 1. Connect to HTCF using SSH
 - Use the shortcut "CMD + Shift + P", then type and select "Remote-SSH: Connect to Host"
