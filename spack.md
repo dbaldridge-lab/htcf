@@ -108,17 +108,18 @@ python3 -m pip install -r my-reqs.txt
 
 ## Creating a new environment
 
-Create a new environment if there is a specific set of software and dependancies that you want to isolate and be able to reload in future sessions.
+Create a new environment if there is a specific set of software and dependancies that you want to isolate and be able to reload in future sessions. This example will create an enviornment with everything needed to run Jupyter notebooks on the server. 
 ```
-spack env create newEnvName
+spack env create jupyter
 ```
 Activate the new environment:
 ```
-spack env activate -p newEnvName
+spack env activate -p jupyter
 ```
 Add spack packages, seperating each with a space. Use @ to denote version of a spack spec:
 ```
-spack add samtools python@3.10.4  # add spack packages
+This assumes we've already installed the spack packages for this version of python and Jupyter lab to the spack instance. 
+spack add python@3.11.0 py-jupyterlab py-nbconvert  # add spack packages
 ```
 
 ## Troubleshooting
@@ -126,6 +127,6 @@ spack add samtools python@3.10.4  # add spack packages
 Make sure you already installed the packages to the spack instance. Check this using `spack find -x`.
 
 ### Namespace issues
-Occasionally, you may run into namespace issues if another user installed the spec to the spack instance. You can install another copy to the same spack instance and reference the spec you installed in this case.
+Occasionally, you may run into namespace issues if another user installed the spec to the lab spack instance. You can install another copy to the same spack instance and reference the spec you installed in this case. Reference specific specs using `#`.
 
 
