@@ -6,7 +6,7 @@ You have setup VSCode according to [these instructions.](https://github.com/dbal
 
 ## 1. Connect to HTCF using SSH
 - Use the shortcut "CMD + Shift + P", then type and select "Remote-SSH: Connect to Host"
-- Choose the SSH host ([configured previously]([https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md#4-configuring-ssh)) or select `Add New SSH Host` and type `ssh login.htcf.wustl.edu` at the prompt
+- Choose the SSH host [configured previously](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md#4-configuring-ssh) or select `Add New SSH Host` and type `ssh login.htcf.wustl.edu` at the prompt
 - Enter your password and press `ENTER`
 
 ## 2. Tunnel to VSCode
