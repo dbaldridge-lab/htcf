@@ -2,6 +2,7 @@
 Adapted from [this page](https://kb.uconn.edu/space/SH/26626326576/Visual+Studio+Code+(VSCode)+Guide#:~:text=A%20common%20method%20of%20using,standard%20SLURM%20job%20scheduling%20process).
 
 ## 1. Connect to HTCF using SSH
+- Install the Remote Development and Remote - Tunnels Extensions
 - Use the shortcut "CMD + Shift + P", then type and select "Remote-SSH: Connect to Host"
 - Choose the configured SSH host ([see this page for details](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)) or select `Add New SSH Host` and type `ssh login.htcf.wustl.edu` at the prompt
 - Enter your password and press `ENTER`
