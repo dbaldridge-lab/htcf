@@ -10,11 +10,16 @@ VSCode was installed and configured according to [Steps 1 and 2 in these instruc
 - Enter your password and press `ENTER`
 
 ## 2. Create VSCode Tunnel to Interactive Node
-Assuming your `~/.bashrc` was [configured as suggested](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md), type **one** of the following in the terminal and press `ENTER` to start an interactive session:
+If your `~/.bashrc` was [configured as suggested](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md), type **one** of the following in the terminal and press `ENTER` to start an interactive session:
 ```
 sml # 5G of memory
 med # 20G of memory
 lrg # 100G of memory
+```
+
+Otherwise, enter this command, adjusting the memory allocated as needed:
+```
+srun --mem=5G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l
 ```
 
 In the same window, start a tunnel by entering this command in the integrated terminal, which can be viewed using the shortcut `CMD + J`:
