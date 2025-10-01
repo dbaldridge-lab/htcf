@@ -113,7 +113,7 @@ cat kernel.json
 ```
 Grab the path listed in this file.
 
-Continue with the instructions in step 3 above, pasting in this path instead.
+Continue with the instructions in step 6 above, pasting in this path instead.
 
 
 
