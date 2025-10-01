@@ -26,16 +26,19 @@ This file will not be sourced for batch jobs submitted to SLURM using ```sbatch 
 
 ```
 ##################################################################################
+# Set lab variable (change to your lab directory name)
+export LAB="dblab"
+
 # Leave back to back duplicates and commands with leading whitespace out of history
 export HISTCONTROL=ignorespace:ignoredups
 
-# spack bash helper setup
-. /ref/dblab/software/spack-0.21.0/share/spack/setup-env.sh
+# spack bash helper setup (change this to reflect version and where the Spack instance was installed)
+. /ref/$LAB/software/spack-0.21.0/share/spack/setup-env.sh
 
 # Navigating the HTCF file system
-alias scratch="cd /scratch/dblab"
-alias lts="cd /lts/dblab"
-alias ref="cd /ref/dblab/software"
+alias scratch="cd /scratch/$LAB"
+alias lts="cd /lts/$LAB"
+alias ref="cd /ref/$LAB/software"
 
 # Navigate to higher level directories quickly
 alias ..="cd .."
@@ -47,8 +50,8 @@ alias sml='srun --mem=5G --cpus-per-task=1 -J interactive -p interactive --pty /
 alias med='srun --mem=20G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l'
 alias lrg='srun --mem=100G --cpus-per-task=1 -J interactive -p interactive --pty /bin/bash -l'
 
-# lab vscode software location
-alias code='/ref/dblab/software/vscode/code'
+# lab vscode software location (confirm you installed VSCode here or edit the path)
+alias code='/ref/$LAB/software/vscode/code'
 
 # Safe versions of the default commands. Will ask permission before overwriting files.
 alias rm='rm -i'
