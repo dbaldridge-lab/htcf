@@ -11,7 +11,7 @@ You have setup VSCode according to [these instructions.](https://github.com/dbal
 
 ## 2. Tunnel to VSCode
 ### (Tunneling Option 1)
-If your `~/.bashrc` was [configured as suggested](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md), type **one** of the following in the terminal and press `ENTER` to start an interactive session:
+Assuming your `~/.bashrc` was [configured as suggested](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md), type **one** of the following in the terminal and press `ENTER` to start an interactive session:
 ```
 sml # 5G of memory
 med # 20G of memory
