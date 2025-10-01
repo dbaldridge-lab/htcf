@@ -1,12 +1,12 @@
 # Running Jupyter Notebooks on HTCF
 Adapted from [this page](https://kb.uconn.edu/space/SH/26626326576/Visual+Studio+Code+(VSCode)+Guide#:~:text=A%20common%20method%20of%20using,standard%20SLURM%20job%20scheduling%20process).
 
-### 1. Connect to HTCF using SSH
+## 1. Connect to HTCF using SSH
 - Use the shortcut "CMD + Shift + P", then type and select "Remote-SSH: Connect to Host"
 - Choose the configured SSH host ([see this page for details](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)) or select `Add New SSH Host` and type `ssh login.htcf.wustl.edu` at the prompt
 - Enter your password and press `ENTER`
 
-### 2. Tunnel to VSCode
+## 2. Tunnel to VSCode
 ### (Tunneling Option 1)
 If your `~/.bashrc` was [configured as suggested](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md), type **one** of the following in the terminal and press `ENTER` to start an interactive session:
 ```
@@ -65,7 +65,7 @@ Open a new VSCode window. `CMD + Shift + N`
 Note: Now even if your session is disconnected, you will be able to reconnect. This job runs 8 hours.
 
 
-### 3. Jupyter Notebook setup
+## 3. Jupyter Notebook setup
 
 In the new window, activate a spack environment containing the software and python packages needed to run a Jupyter notebook. 
 ```
@@ -87,7 +87,7 @@ On mac, use `CMD + backtick` to cycle between VSCode windows.
 
 ---
 
-#### Creating a kernel (only required when creating new environments):
+### Creating a kernel (only required when creating new environments):
 
 After activating your new environment and installing all required software, enter the commands below: 
 
@@ -116,7 +116,6 @@ Continue with the instructions in step 3 above, pasting in this path instead.
 ### Troubleshooting
 
 #### Kernel is crashing
-
 - Try allocating more memory
 
 
