@@ -121,6 +121,9 @@ Add spack packages, seperating each with a space. Use @ to denote version of a s
 spack add samtools python@3.10.4  # add spack packages
 ```
 
-
+## Troubleshooting
+### Can't add a spack package
+Make sure you already installed the packages to the spack instance using `spack find -x`.
+Additionally, you may run into namespace issues if someone else installed it. You can install another copy to the same spack instance and reference the spec you installed in this case.
 
 
