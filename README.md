@@ -10,8 +10,6 @@ This repository includes information about software, data organization, and comm
 
 [git and Github](https://github.com/dbaldridge-lab/htcf/blob/main/version_control.md)
 
-[(reach out to admin for permissions)Mounting LTS locally](https://github.com/dbaldridge-lab/htcf/blob/main/mount.md)
-
 # <a name="documentslist"></a>General Use
 
 [Managing software with Spack](https://github.com/dbaldridge-lab/htcf/blob/main/spack.md)
@@ -23,8 +21,6 @@ This repository includes information about software, data organization, and comm
 [Run R scripts from the command line](https://github.com/dbaldridge-lab/htcf/blob/main/using_R.md)
 
 [How do I access GitHub Copilot?](https://github.com/dbaldridge-lab/htcf/blob/main/copilot.md)
-
-[(under construction)How do I avoid losing work when I lose my SSH connection?]()
 
 
 # <a name="documentslist"></a>Data Storage
@@ -42,8 +38,6 @@ This repository includes information about software, data organization, and comm
 Submit batch scripts sequentially using dependancies
 
 Parallelization
-
-Processing paired-end read fastq files to get unique amplicon sequence counts
 
 
 
