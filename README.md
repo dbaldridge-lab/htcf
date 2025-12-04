@@ -2,7 +2,7 @@
 This repository includes information about software, data organization, and common workflows on the cluster.
 
 > [!TIP]
-> You can share the link to this page with AI agents for personalized help with job scripts. As always, review carefully prior to running generated commands!
+> You can share the link to this page with your preferred LLM to get personalized help with job scripts. As always, review carefully prior to running generated commands!
 
 
 # <a name="documentslist"></a>Getting Started
@@ -39,9 +39,6 @@ This repository includes information about software, data organization, and comm
 # <a name="documentslist"></a>Workflows
 [Nextflow HTCF config](https://nf-co.re/configs/wustl_htcf/)
 
-Submit batch scripts sequentially using dependancies
-
-Parallelization
 
 
 
