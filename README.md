@@ -1,6 +1,10 @@
 # Using HTCF
 This repository includes information about software, data organization, and common workflows on the cluster.
 
+> [!TIP]
+> You can share the link to this page with AI agents for personalized help with job scripts. As always, review carefully prior to running generated commands!
+
+
 # <a name="documentslist"></a>Getting Started
 [Logging on and running jobs](https://github.com/dbaldridge-lab/htcf/blob/main/htcf_access.md)  
 
