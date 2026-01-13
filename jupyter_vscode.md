@@ -30,9 +30,15 @@ squeue -u $USER
 ## 3. Activate Environment with Jupyter Software
 
 Activate a spack environment containing the software and python packages needed to run a Jupyter notebook. 
+
 ```
 spack env activate -p jupyter
 ```
+
+This assumes you have already setup this environment and named it `jupyter` in your spack distribution. [TODO: list spack packages to add]
+
+It also assumes you have sourced the spack bash helper file, which can also be [added to your bashrc file](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md)).
+
 
 ## 4. Create VSCode Tunnel to the node
 
