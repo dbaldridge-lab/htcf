@@ -33,14 +33,13 @@ You can also add an option -r and provide the path to a file. This will open the
 - Go to Extensions <img width="33" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/7b07ab0f-e68f-4b33-954b-2ac556c2ddb9">
 (Shortcut: `Cmd+Shift+X`)
 - Search and install the following extensions:
-    - `ms-vscode-remote.vscode-remote-extensionpack`
-    - `ms-vscode-remote.remote-ssh-edit`
-    - `ms-vscode.remote-explorer`
-    - `ms-vscode.remote-repositories`
-    - `ms-python.python`
-    - `ms-toolsai.jupyter`
-    - `ms-toolsai.datawrangler`
-    - `GitHub.remotehub`
+    - `ms-python.python` - Python language support
+    - `ms-toolsai.jupyter` - run Jupyter notebooks
+    - `ms-toolsai.datawrangler` - view data interactively within VSCode
+    - `ms-vscode-remote.vscode-remote-extensionpack` - for ssh and tunneling to connect to and use IDE features on the server
+    - `ms-vscode.remote-explorer` - see remotes to connect to
+    - `GitHub.remotehub` - navigate github repos without needing to clone
+    - `ms-vscode.remote-repositories` - view and edit remote repositories
     - `GitHub.copilot`
     - `GitHub.copilot-chat`
 
