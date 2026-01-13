@@ -4,7 +4,10 @@
 - [Visual Studio Code](https://code.visualstudio.com/) is installed on your local machine
 - WUSTL microsoft account login information
 - Basic understanding of how to navigate [VSCode GUI](https://code.visualstudio.com/docs/getstarted/userinterface#_views)
-- Know how to open and execute commands in the [integrated terminal](https://code.visualstudio.com/docs/terminal/getting-started)
+- Ability to execute bash commands in the [integrated terminal](https://code.visualstudio.com/docs/terminal/getting-started)
+  - Windows users will need to install [git for Windows](https://git-scm.com/install/mac), then set the default shell in VSCode to Bash.
+  - In the Command Palette, type `Terminal: Select Default Profile` and select the command from the dropdown menu.
+  - A list of detected shells will appear at the top of the screen. Select Git Bash from the list.
 
 ### 1. Setup code command
 
