@@ -1,11 +1,7 @@
 # Moving large files with Globus
 
 ## Installs
-Download Globus software.
-
 [Download Globus personal connector](https://www.globus.org/globus-connect-personal).
-
-Download Box Connector (optional).
 
 ## Logging in to Globus
 Type `app.globus.org` in a browser or open the Globus application (globus.app) if you have it installed locally. 
