@@ -42,8 +42,8 @@ Click the boxes next to the files to move. Select Start to begin the transfer.
 
 ## Recommended bookmarks
 ### HTCF
-Inputs /lts/yourlab/yourproject/data/input/
-Results /lts/yourlab/yourproject/data/results/
+Inputs `/lts/_yourlab/yourproject_/data/input/` 
+Results `/lts/_yourlab/yourproject_/data/results/`
 
 ### Personal Computer
 Downloads (mac) /Users/yourusername/Downloads/
