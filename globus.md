@@ -6,8 +6,10 @@
 ## Logging in to Globus
 Type `app.globus.org` in a browser or open the Globus application (globus.app) if you have it installed locally. 
 
-## Moving Files
 If moving files from your laptop, launch the personal connector (it will run in the background).
+
+## Moving Files
+Select the split pane button.
 
 On one pane, enter the path to the files and/or directories you will move. 
 In the other pane, enter the path to the destination path.
