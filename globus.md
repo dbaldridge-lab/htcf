@@ -19,11 +19,11 @@ Click the boxes next to the files to move. Select Start to begin the transfer.
 
 ## Recommended bookmarks
 ### HTCF
-Inputs /lts/<lab>/<project>/data/input/
-Results /lts/<lab>/<project>/data/results/
+Inputs /lts/yourlab/yourproject/data/input/
+Results /lts/yourlab/yourproject/data/results/
 
 ### Personal Computer
-Downloads (mac) /Users/<username>/Downloads/
+Downloads (mac) /Users/yourusername/Downloads/
 Project folders
 
 ## View Status of Transfer
