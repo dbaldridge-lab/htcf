@@ -16,7 +16,9 @@ Select Collections. You should see your Laptop if the endpoint is setup correctl
 
 ## Adding Additional Endpoints
 Click the following links to access the endpoints for HTCF and RIS.
+
 [HTCF @ CGSSB](https://app.globus.org/console/endpoints/73a4842d-9bd4-41ab-9fe4-1b826bebf43f/overview)
+
 [WashU RIS Research Storage](https://app.globus.org/console/endpoints/6f79e659-fa99-4fdc-aa56-1d7076296b72/overview)
 
 ## Moving Files
