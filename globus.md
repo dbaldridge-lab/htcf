@@ -6,9 +6,16 @@
 ## Logging in to Globus
 Type `app.globus.org` in a browser or open the Globus application (globus.app) if you have it installed locally. 
 
-If moving files from your laptop, launch the personal connector (it will run in the background).
+If moving files from your laptop, you must first launch the personal connector (it will run in the background).
+
+## Confirm your laptop is a Collection
+
+Launch the personal connector if you haven't already.
+
+Select Collections. You should see your Laptop if the endpoint is setup correctly.
 
 ## Moving Files
+
 Select the split pane button.
 
 On one pane, enter the path to the files and/or directories you will move. 
@@ -28,6 +35,9 @@ Results /lts/yourlab/yourproject/data/results/
 ### Personal Computer
 Downloads (mac) /Users/yourusername/Downloads/
 Project folders
+
+### Notes for Windows users
+Use forward slashes for your paths.
 
 ## View Status of Transfer
 Select the activity tab to see a history of transfers, and their status. 
