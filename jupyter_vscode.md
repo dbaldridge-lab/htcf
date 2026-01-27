@@ -11,7 +11,9 @@ to start a tunnel.
 
 ## 2. Start an Interactive Session
 
-## 3. Activate Environment with Jupyter Software
+## 3. Start a tunnel. Navigate to window or browser connected to the tunnel.
+
+## 4. Activate Environment with Jupyter Software
 
 Activate a spack environment containing the software and python packages needed to run a Jupyter notebook. 
 
