@@ -20,6 +20,7 @@ When you enter this command, you will see your interactive job in the queue:
 ```
 squeue -u $USER
 ```
+If you configured your bashrc file to update the prompt, you should see the prompt change to include n##, denoting the node that is running your interactive job.
 
 ## 3. Create VSCode Tunnel to the node
 
