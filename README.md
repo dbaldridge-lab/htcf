@@ -16,7 +16,7 @@ This repository includes information about software, data organization, and comm
 
 # <a name="documentslist"></a>General Use
 
-[Tunneling to an interactive node to use the full set of VSCode features on the server](https://github.com/dbaldridge-lab/htcf/blob/main/tunnel.md)
+[Tunneling to an interactive node to use the full set of VSCode features on the server](https://github.com/dbaldridge-lab/htcf/blob/main/tunneling.md)
 
 [Running Jupyter Notebooks on the server using VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md)  
 
