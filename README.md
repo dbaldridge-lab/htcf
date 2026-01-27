@@ -20,11 +20,11 @@ This repository includes information about software, data organization, and comm
 
 [Managing software using Conda](https://github.com/dbaldridge-lab/htcf/blob/main/conda.md)
 
+[Tunneling to an interactive node to use the full set of VSCode features on the server](https://github.com/dbaldridge-lab/htcf/blob/main/tunnel.md)
+
 [Running Jupyter Notebooks on the server using VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md)  
 
 [Run R scripts from the command line](https://github.com/dbaldridge-lab/htcf/blob/main/using_R.md)
-
-[How do I access GitHub Copilot?](https://github.com/dbaldridge-lab/htcf/blob/main/copilot.md)
 
 
 # <a name="documentslist"></a>Data Storage
@@ -41,6 +41,8 @@ This repository includes information about software, data organization, and comm
 # <a name="documentslist"></a>Workflows
 [Nextflow HTCF config](https://nf-co.re/configs/wustl_htcf/)
 
+# <a name="documentslist"></a>Miscellaneous
+[How do I access GitHub Copilot?](https://github.com/dbaldridge-lab/htcf/blob/main/copilot.md)
 
 
 
