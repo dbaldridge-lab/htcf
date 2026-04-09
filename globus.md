@@ -34,8 +34,7 @@ Select Collections. You should see your Laptop if the collection is setup correc
 
 [HTCF@WUSTL](https://app.globus.org/file-manager/collections/d5e72d9a-ef3e-4253-a010-36f223db254a/overview#:~:text=Endpoint-,HTCF%20%40%20CGSSB,-Domain)
 
-### Notes for Windows users
-Use forward slashes for your paths.
+Note: Windows users should use forward slashes for paths.
 
 ## View Status of Transfer
 Select the activity tab to see a history of transfers, and their status. 
