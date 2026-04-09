@@ -1,10 +1,11 @@
 # Moving large files with Globus
 
 ## Installs
-[Download Globus personal connector](https://www.globus.org/globus-connect-personal).
+[Transfering files with Globus tutorial](https://docs.globus.org/guides/tutorials/manage-files/transfer-files/).
+[Download Globus personal connector (if you need to transfer files to your laptop).](https://www.globus.org/globus-connect-personal).
 
 ## Logging in to Globus
-Type `app.globus.org` in a browser or open the Globus application (globus.app) if you have it installed locally. 
+Open [app.globus.org](https://app.globus.org/dashboard) in a browser or open the Globus application (globus.app) if you have it installed locally. 
 
 If moving files from your laptop, you must first launch the personal connector (it will run in the background).
 
