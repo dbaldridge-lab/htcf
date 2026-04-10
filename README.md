@@ -12,7 +12,10 @@ This repository includes information about software, data organization, and comm
 
 [VSCode Setup](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)  
 
+[Moving large files with Globus](https://github.com/dbaldridge-lab/htcf/blob/main/globus.md)
+
 [git and Github](https://github.com/dbaldridge-lab/htcf/blob/main/version_control.md)
+
 
 # <a name="documentslist"></a>General Use
 
@@ -35,7 +38,6 @@ This repository includes information about software, data organization, and comm
 
 [Establishing data provenance](https://github.com/dbaldridge-lab/htcf/blob/main/data_provenance.md)
 
-[Moving large files with Globus](https://github.com/dbaldridge-lab/htcf/blob/main/globus.md)
 
 ![image](https://github.com/user-attachments/assets/3ade22b8-d160-41cc-873c-f76585c65635)
 
