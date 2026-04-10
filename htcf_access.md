@@ -58,7 +58,6 @@ After submission, check your the job progress.
 ```
 squeue -u $USER
 ```
-For more sophisticated parallelization, check out the [instructions on how to run a job array](https://htcf.wustl.edu/docs/runningjobs/).
 
 
 (Adapted from HTCF documentation by Emma Johnson and Yiming Kang)
