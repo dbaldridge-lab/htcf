@@ -42,11 +42,7 @@ Code and relevant flat files (.txt, .csv, etc.) should be added to git repositor
 ## Initialize a git repository locally and sync with GitHub
 
 ***Use one repository per project.***
-1. Connect a local repository (e.g. on HTCF or local machine) to a remote repository on GitHub.
-
-[Here's one approach.](https://docs.ris.wustl.edu/doc/compute/workshops/ris-software-development.html#creating-a-repository) 
-
-[And another.](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
+1. Connect a local repository (e.g. on HTCF or local machine) to a remote repository on GitHub. [Documentation](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
 
 2. Create a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) that lists filetypes and directories that you don't want version controlled:
     - At the head directory of a new repository, add this [.gitignore template](https://github.com/dbaldridge-lab/htcf/blob/main/.gitignore). Edit the file as needed.
