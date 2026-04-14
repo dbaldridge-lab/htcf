@@ -1,5 +1,12 @@
+## Why use Version Control?
 If you're new to version control and wondering why this is important, 
 [this is a nice overview](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668).
+
+## One (of many) online tutorials
+[Version Control with Git course](https://www.linkedin.com/learning/programming-foundations-version-control-with-git-21044342/configuring-git-settings?autoSkip=true&resume=false)
+It's less than 2 hours of content, and Section 3 is fine to skip, but do try the exercises throughout. 
+
+You will need to setup LinkedIn Learning first, if you haven't already. [Instructions for LinkedIn Learning access](https://it.wustl.edu/items/linkedin-learning/)
 
 ## Initial GitHub setup
 1. Create a GitHub account or add your wustl email to an existing account.
