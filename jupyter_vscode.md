@@ -7,6 +7,8 @@ VSCode was installed and configured according to [these instructions.](https://g
 1. Connect to HTCF using SSH
 
 2. Start an Interactive Session
+
+
 Type this into the integrated terminal if you previously set up your `~/.bashrc` with the suggested aliases.
 ```
 sml
