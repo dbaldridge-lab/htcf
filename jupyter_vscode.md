@@ -4,16 +4,19 @@ Adapted from [this page](https://kb.uconn.edu/space/SH/26626326576/Visual+Studio
 ## Prerequisites
 VSCode was installed and configured according to [these instructions.](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)
 
-Follow [these instructions](https://github.com/dbaldridge-lab/htcf/blob/main/tunneling.md)
-to start a tunnel.
-
 1. Connect to HTCF using SSH
 
 2. Start an Interactive Session
+Type this into the integrated terminal if you previously set up your `~/.bashrc` with the suggested aliases.
+```
+sml
+```
 
-3. Start a tunnel. Navigate to window or browser connected to the tunnel.
+4. Start a tunnel. Navigate to window or browser connected to the tunnel.
+Follow [these instructions](https://github.com/dbaldridge-lab/htcf/blob/main/tunneling.md)
+to start a tunnel.
 
-4. Activate Environment with Jupyter Software
+5. Activate Environment with Jupyter Software
 
 Activate a spack environment containing the software and python packages needed to run a Jupyter notebook. 
 
