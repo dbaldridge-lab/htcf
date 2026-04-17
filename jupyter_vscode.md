@@ -8,8 +8,7 @@ VSCode was installed and configured according to [these instructions.](https://g
 
 2. Start an Interactive Session
 
-
-Type this into the integrated terminal if you previously set up your `~/.bashrc` with the suggested aliases.
+Type this into the integrated terminal if you [previously set up](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md) your `~/.bashrc` with the suggested aliases.
 ```
 sml
 ```
