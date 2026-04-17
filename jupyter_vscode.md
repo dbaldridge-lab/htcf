@@ -25,7 +25,7 @@ Activate a spack environment containing the software and python packages needed 
 spack env activate -p jupyter
 ```
 
-This assumes you have already setup this environment and named it `jupyter` in your spack distribution. [TODO: list spack packages to add]
+This assumes you have already setup this environment and named it `jupyter` in your spack distribution (true for dblab, but other labs will need to do this themselves). [TODO: list spack packages to add]
 
 It also assumes you have sourced the spack bash helper file, which can be [added to your bashrc file](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md)).
 
