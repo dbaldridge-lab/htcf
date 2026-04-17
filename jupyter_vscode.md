@@ -4,7 +4,7 @@ Adapted from [this page](https://kb.uconn.edu/space/SH/26626326576/Visual+Studio
 ## Prerequisites
 VSCode was installed and configured according to [these instructions.](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)
 
-1. Connect to HTCF using SSH
+1. Connect to HTCF using SSH. Follow [these instructions](https://github.com/dbaldridge-lab/htcf/blob/main/tunneling.md#1-connect-to-htcf-using-ssh).
 
 2. Start an Interactive Session
 
