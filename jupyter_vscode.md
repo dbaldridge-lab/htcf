@@ -14,7 +14,7 @@ sml
 ```
 
 4. Start a tunnel. Navigate to window or browser connected to the tunnel.
-Follow [these instructions](https://github.com/dbaldridge-lab/htcf/blob/main/tunneling.md)
+Follow [these instructions](https://github.com/dbaldridge-lab/htcf/blob/main/tunneling.md#3-create-vscode-tunnel-to-the-node)
 to start a tunnel.
 
 5. Activate Environment with Jupyter Software
