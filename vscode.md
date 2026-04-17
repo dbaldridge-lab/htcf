@@ -76,7 +76,7 @@ d. Confirm that you are able to login after entering `ssh htcf` at the terminal 
 
 Note: Now to login you can select the "Open a remote window" button in the bottom-left corner of the window. ![image](https://github.com/user-attachments/assets/1cae2779-9992-4844-b5f0-4a0f8bcccee0) Select `Connect to a Host` and click `htcf`.
 
-### Configure SSH Keys
+### Configure SSH Keys (optional)
 By setting up SSH keys you won't have to enter your credentials every time you log on to HTCF.
 
 Enter the following at the prompt of a local terminal:
