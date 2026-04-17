@@ -4,6 +4,8 @@ Adapted from [this page](https://kb.uconn.edu/space/SH/26626326576/Visual+Studio
 ## Prerequisites
 VSCode was installed and configured according to [these instructions.](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)
 
+## Connecting to an interactive VSCode environment with required software
+
 1. Connect to HTCF using SSH. Follow [these instructions](https://github.com/dbaldridge-lab/htcf/blob/main/tunneling.md#1-connect-to-htcf-using-ssh).
 
 2. Start an Interactive Session
@@ -29,8 +31,8 @@ This assumes you have already setup this environment and named it `jupyter` in y
 
 It also assumes you have sourced the spack bash helper file, which can be [added to your bashrc file](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md).
 
-
-Setup Notebook to Execute Code
+## Configuring notebook
+Setting up a notebook to execute code requires you to provide a Jupyter kernel.
 - Open or create a Jupyter notebook .ipynb file.
 - Click the kernel selector icon:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
