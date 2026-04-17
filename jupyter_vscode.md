@@ -7,13 +7,13 @@ VSCode was installed and configured according to [these instructions.](https://g
 Follow [these instructions](https://github.com/dbaldridge-lab/htcf/blob/main/tunneling.md)
 to start a tunnel.
 
-## 1. Connect to HTCF using SSH
+1. Connect to HTCF using SSH
 
-## 2. Start an Interactive Session
+2. Start an Interactive Session
 
-## 3. Start a tunnel. Navigate to window or browser connected to the tunnel.
+3. Start a tunnel. Navigate to window or browser connected to the tunnel.
 
-## 4. Activate Environment with Jupyter Software
+4. Activate Environment with Jupyter Software
 
 Activate a spack environment containing the software and python packages needed to run a Jupyter notebook. 
 
@@ -26,7 +26,7 @@ This assumes you have already setup this environment and named it `jupyter` in y
 It also assumes you have sourced the spack bash helper file, which can be [added to your bashrc file](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md)).
 
 
-## 4. Setup Notebook to Execute Code
+Setup Notebook to Execute Code
 - Open or create a Jupyter notebook .ipynb file.
 - Click the kernel selector icon:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
