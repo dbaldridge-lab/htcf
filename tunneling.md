@@ -59,8 +59,12 @@ You should see the tunnel to the node you just created.
 
 ## Troubleshooting
 ### Error Connecting to tunnel
-Try unregistering any existing tunnel. 
+If you encounter tunnel connection or naming errors, try unregistering any existing tunnel and reconnecting:
 ```
 code tunnel unregister
 ```
-Then proceed by trying to 
+Then reconnect with:
+```
+code tunnel --name "$(hostname)-${USER//./-}"
+```
+This can resolve issues caused by stale or conflicting tunnel registrations.
