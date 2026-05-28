@@ -49,7 +49,8 @@ You can also add an option -r and provide the path to a file. This will open the
 ### Install Extension on HTCF
 A button will appear on some extensions giving you the option to also install on the remote machine. This will install the extension to your home folder on HTCF.
 
-**Please be mindful that VS Code extensions can consume significant resources and will run on the HTCF login node upon connecting. Only enable extensions that you will actively use during the session. In general, software development should be performed locally when possible.**
+[!WARNING]
+Please be mindful that VS Code extensions can consume significant resources and will run on the HTCF login node upon connecting. Only enable extensions that you will actively use during the session. In general, software development should be performed locally when possible.
 
 You can list all installed extensions with their versions by running `code --list-extensions --show-versions`.
 
