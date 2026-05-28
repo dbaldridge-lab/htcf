@@ -56,7 +56,9 @@ Alternatively, you can work in the VSCode desktop application. You may want to d
 You should see the tunnel to the node you just created.
 
 <img width="223" height="70" alt="image" src="https://github.com/user-attachments/assets/3cde65df-9617-4ff7-9d2b-2a67a4f993f2" />
-- Click on the arrow to open the tunnel in the current window.
+
+- Select the icon <img width="30" height="23" alt="image" src="https://github.com/user-attachments/assets/c9c87e29-d4db-439a-bf60-2a0304a959e2" /> to
+ open the tunnel in a new window.
 
 ## Troubleshooting
 ### Error Connecting to tunnel
