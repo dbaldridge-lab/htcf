@@ -49,7 +49,6 @@ You can open the link provided in the interactive terminal where the interactive
 
 ### VSCode Application
 Alternatively, you can work in the VSCode desktop application. You may want to do this if you use customized settings and local extensions.
-- Leaving the previous VSCode window open, open a new VSCode window using the shortcut `CMD + Shift + N`.
 - Click the icon for the Remote Explorer:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/02779d19-a100-43ad-8e23-26f15c17463a)
 
@@ -59,6 +58,7 @@ You should see the tunnel to the node you just created.
 
 - Hover over this connection and select the icon <img width="30" height="23" alt="image" src="https://github.com/user-attachments/assets/c9c87e29-d4db-439a-bf60-2a0304a959e2" /> to
  open the tunnel in a new window.
+* Note that it is important to keep the window where you connected via SSH and started the tunnel open, since the tunnel runs as part of the active interactive session.
 
 ## Troubleshooting
 ### Error Connecting to tunnel
