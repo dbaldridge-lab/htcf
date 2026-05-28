@@ -54,7 +54,8 @@ Alternatively, you can work in the VSCode desktop application. You may want to d
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/02779d19-a100-43ad-8e23-26f15c17463a)
 
 You should see the tunnel to the node you just created.
-![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/295da8d0-444b-4a12-8cfa-f5a0a784e3bb)
+
+<img width="223" height="70" alt="image" src="https://github.com/user-attachments/assets/3cde65df-9617-4ff7-9d2b-2a67a4f993f2" />
 - Click on the arrow to open the tunnel in the current window.
 
 ## Troubleshooting
