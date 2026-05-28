@@ -26,8 +26,9 @@ If you configured your bashrc file to update the prompt, you should see the prom
 
 In the same window, start a tunnel by entering this command in the integrated terminal, which can be viewed using the shortcut `CMD + J`:
 ```
-code tunnel
+code tunnel --name "$(hostname)-${USER//./-}"
 ```
+Using both the hostname and your username helps avoid naming conflicts with tunnels created by other users on shared HPC nodes.
 
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/030b9235-2420-4d48-ad5f-2ce31d95c252)
 
@@ -55,3 +56,11 @@ Alternatively, you can work in the VSCode desktop application. You may want to d
 You should see the tunnel to the node you just created.
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/295da8d0-444b-4a12-8cfa-f5a0a784e3bb)
 - Click on the arrow to open the tunnel in the current window.
+
+## Troubleshooting
+### Error Connecting to tunnel
+Try unregistering any existing tunnel. 
+```
+code tunnel unregister
+```
+Then proceed by trying to 
