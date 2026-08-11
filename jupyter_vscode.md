@@ -43,11 +43,11 @@ Setting up a notebook to execute code requires you to provide a Jupyter kernel.
 - Click the kernel selector icon:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
 - Select `Python 3.10 (Spack)` if configured as described above
-- Alternatively, paste in the path (edit as needed for your specific Spack instance and environment):
+- Alternatively, paste in the path to the interpreter (edit as needed for your specific Spack instance and environment). You can see your Python interpreter path by reading the kernelspec.json. The path to this kernel spec is listed after you run the ipykernel command.
 ```
 /ref/dblab/software/spack-0.21.0/var/spack/environments/jupyter/.spack-env/view/bin/python
 ```
-- Refresh under `Jupyter Kernels` if needed
+- Refresh if needed
 
 ## Logging off
 <img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
