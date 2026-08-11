@@ -11,6 +11,7 @@ Register this kernel for your user account so it is available within Jupyter:
 ```
 python3.10 -m ipykernel install --user --name spack-python310 --display-name "Python 3.10 (Spack)"
 ```
+Note that your Python version may vary. Using python3 will generally work in place of python3.10, but our lab has multiple Python versions in our Spack instance so this disambiguates the interpreter we are pointing to.
 
 
 ## Connecting to an interactive VSCode environment with required software
@@ -43,7 +44,10 @@ Setting up a notebook to execute code requires you to provide a Jupyter kernel.
 - Click the kernel selector icon:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
 - Select `Python 3.10 (Spack)` if configured as described above
-- Alternatively, paste in the path to the interpreter (edit as needed for your specific Spack instance and environment). You can see your Python interpreter path by reading the kernelspec.json. The path to this kernel spec is listed after you run the ipykernel command.
+- Alternatively, paste in the path to the interpreter (the path below is for our Spack environment).
+  - You can see your Python interpreter path by reading the kernelspec.json. The path to this kernel spec is listed after you run the ipykernel command.
+  - Select the Kernel Selector > Python Environments > Create Python Environment > Enter Interpreter Path
+  - (On Mac) If Finder is opened, you can use CMD + SHIFT + G and paste the path to the interpreter
 ```
 /ref/dblab/software/spack-0.21.0/var/spack/environments/jupyter/.spack-env/view/bin/python
 ```
