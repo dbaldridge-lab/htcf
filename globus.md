@@ -40,7 +40,7 @@ Check the following options:
 - (optional) Disable success notification - to avoid flooding your inbox
 - Set Repeat to every 1 days or however often you'd like to backup
 - end: never (note: user setting up the timer will need to re-authenticate at least every 30 days for the timer to remain active)
-- 
+
 **
 Note that if you move or rename files in a directory backed up using these options, both copies will be retained at the destination.**
 
