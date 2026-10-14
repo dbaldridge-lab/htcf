@@ -40,9 +40,7 @@ You can also add an option -r and provide the path to a file. This will open the
     - `ms-vscode.remote-explorer` - see remotes to connect to
     - `GitHub.remotehub` - navigate github repos without needing to clone
     - `ms-vscode.remote-repositories` - view and edit remote repositories
-    - `GitHub.copilot`
-    - `GitHub.copilot-chat`
-
+    - `GitHub.copilot` - inline code suggestions
  
 ## Remote Development
 
