@@ -1,10 +1,3 @@
-## Connect to the network
-First things first is to connect to WUSM-secure wifi or ethernet. While working off campus, you need to use a VPN to access any files stored on RIS. 
-Note: This is not required for logging into HTCF. 
-
-To connect to the VPN, download and install the Cisco AnyConnect app. 
-Connecting address is `msvpn.wusm.wustl.edu`. Use your wustl key and password for authentication.
-
 ## Logging in to the cluster (Mac or Linux)
 HTCF can be logged onto from your local computer on a mac or linux by using the pre-installed terminal application.
 1. To open a terminal window. You can either search for "terminal" in the search bar or can navigate to the application by opening a finder window and then navigating to Applications > Utilities > Terminal.
