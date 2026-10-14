@@ -23,7 +23,7 @@ This repository includes information about software, data organization, and comm
 
 [Tunneling to an interactive node to use the full set of VSCode features on the server](https://github.com/dbaldridge-lab/htcf/blob/main/tunneling.md)
 
-[Python virtual environments](https://github.com/dbaldridge-lab/htcf/blob/main/venv.md) 
+[Python virtual environments (This needs rework. Suggest Conda packages when available)](https://github.com/dbaldridge-lab/htcf/blob/main/venv.md)
 
 [Running Jupyter Notebooks on the server using VSCode](https://github.com/dbaldridge-lab/htcf/blob/main/jupyter_vscode.md)  
 
