@@ -1,7 +1,7 @@
 ### Documentation
 - [HTCF Storage](https://htcf.github.io/docs/storage/)
-- [RIS Storage](https://docs.ris.wustl.edu/doc/storage/03_storage.html#designing-a-storage-layout)
-
+- [RIS Storage](https://washu.atlassian.net/wiki/spaces/RUD/overview)
+  
 ### Raw Data
 - Backup raw data files to long-term storage.
 - Add README to raw data folder containing link to relevant Lab Archives pages.
