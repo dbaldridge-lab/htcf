@@ -2,8 +2,6 @@
 
 WashU employees can request GitHub Copilot Enterprise accounts for any users with a wustl email in your GitHub organization.
 
-There is no process to bill labs for this service, though that could change in the future. The full cost is $45/month/user.
-
 1. If you need to create a GitHub organization or move it under the WashU Enterprise GitHub umbrella, you will need to submit a ticket to RIS:
 [https://washu.atlassian.net/servicedesk/customer/portals](https://washu.atlassian.net/servicedesk/customer/portals)
 - select Research Infrastructure Services (RIS)
