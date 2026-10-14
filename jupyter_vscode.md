@@ -51,7 +51,7 @@ Setup options:
 /ref/dblab/software/spack-0.21.0/var/spack/environments/jupyter/.spack-env/view/bin/python
 ```
 3. Select the Kernel Selector > Python Environments > Create Python Environment > Enter Interpreter Path
-- 
+
 
 ## Logging off
 <img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
@@ -60,11 +60,11 @@ Setup options:
 ---
 ## Troubleshooting
 
-## I don't know the path to my kernel's interpreter
+### I don't know the path to my kernel's interpreter
 First, confirm you registered a Jupyter Kernel as described above.
   - You can see your Python interpreter path by reading the kernelspec.json. The path to this kernel spec is listed after you run the ipykernel command.
 
-## Don't see new packages I recently installed
+### Don't see new packages I recently installed
 Always restart the kernel after pip installing new packages.
 
 ### Kernel is crashing
