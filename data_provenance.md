@@ -30,4 +30,4 @@ Document:
 - what data --if any-- will be version controlled and how (Box or git)
 - policies for handling sensitive data
 - file naming conventions
-- estimation of project data quota
+- estimation of project data quota (This is not as important on HTCF, where you are billed in a straightforward way for what you use.)
