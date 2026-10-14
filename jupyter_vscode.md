@@ -4,17 +4,7 @@ Adapted from [this page](https://kb.uconn.edu/space/SH/26626326576/Visual+Studio
 ## Prerequisites
 VSCode was installed and configured according to [these instructions.](https://github.com/dbaldridge-lab/htcf/blob/main/vscode.md)
 
-## Register a Jupyter Kernel
-Our lab’s Spack instance includes an environment containing the software and Python packages needed to run Jupyter notebooks.
-
-Register this kernel for your user account so it is available within Jupyter:
-```
-python3.10 -m ipykernel install --user --name spack-python310 --display-name "Python 3.10 (Spack)"
-```
-Note that your Python version may vary. Using python3 will generally work in place of python3.10, but our lab has multiple Python versions in our Spack instance so this disambiguates the interpreter we are pointing to.
-
-
-## Connecting to an interactive VSCode environment with required software
+## Connect to an interactive VSCode environment with required software
 
 1. Connect to HTCF using SSH. Follow [these instructions](https://github.com/dbaldridge-lab/htcf/blob/main/tunneling.md#1-connect-to-htcf-using-ssh).
 
@@ -38,20 +28,30 @@ This assumes you have already setup this environment and named it `jupyter` in y
 
 It also assumes you have sourced the spack bash helper file, which can be [added to your bashrc file](https://github.com/dbaldridge-lab/htcf/blob/main/bashrc-howto.md). Otherwise, you will need to wrap spack commands in `eval $()`.
 
-## Configuring notebook kernel
+## Register a Jupyter Kernel
+Our lab’s Spack instance includes an environment containing the software and Python packages needed to run Jupyter notebooks.
+
+Register this kernel for your user account so it is available within Jupyter:
+```
+python3.10 -m ipykernel install --user --name spack-python310 --display-name "Python 3.10 (Spack)"
+```
+Note that your Python version may vary. Using python3 will generally work in place of python3.10, but our lab has multiple Python versions in our Spack instance so this disambiguates the interpreter we are pointing to.
+
+## Configuring a notebook kernel
 Setting up a notebook to execute code requires you to provide a Jupyter kernel.
 - Open or create a Jupyter notebook .ipynb file.
 - Click the kernel selector icon:
 ![image](https://github.com/dbaldridge-lab/htcf/assets/50468813/bf38db53-b56f-4107-907e-65aa8b159be4)
-- Select `Python 3.10 (Spack)` if configured as described above
-- Alternatively, paste in the path to the interpreter (the path below is for our Spack environment).
-  - You can see your Python interpreter path by reading the kernelspec.json. The path to this kernel spec is listed after you run the ipykernel command.
-  - Select the Kernel Selector > Python Environments > Create Python Environment > Enter Interpreter Path
-  - (On Mac) If Finder is opened, you can use CMD + SHIFT + G and paste the path to the interpreter
+
+Setup options:
+1. Select `Python 3.10 (Spack)` if configured as described above
+2. Open Settings, `CMD + ,` and type `python.defaultInterpreterPath`. Paste in the path to the interpreter:
 ```
+# Path below is for our Spack v21 Jupyter environment
 /ref/dblab/software/spack-0.21.0/var/spack/environments/jupyter/.spack-env/view/bin/python
 ```
-- Refresh if needed
+3. Select the Kernel Selector > Python Environments > Create Python Environment > Enter Interpreter Path
+- 
 
 ## Logging off
 <img width="830" alt="image" src="https://github.com/dbaldridge-lab/htcf/assets/50468813/35b5527f-93ba-4359-98ff-be02d37100e2">
@@ -59,6 +59,13 @@ Setting up a notebook to execute code requires you to provide a Jupyter kernel.
 
 ---
 ## Troubleshooting
+
+## I don't know the path to my kernel's interpreter
+First, confirm you registered a Jupyter Kernel as described above.
+  - You can see your Python interpreter path by reading the kernelspec.json. The path to this kernel spec is listed after you run the ipykernel command.
+
+## Don't see new packages I recently installed
+Always restart the kernel after pip installing new packages.
 
 ### Kernel is crashing
 - Try allocating more memory
